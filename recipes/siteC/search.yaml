@@ -1,0 +1,34 @@
+site: siteC
+intent: search
+inputs:
+  query:
+    type: string
+strategy:
+  type: http-json
+request:
+  method: GET
+  path: /api/query
+  query:
+    q: "{{query}}"
+    page: "1"
+output:
+  type: json
+  items:
+    path: $.results
+    fields:
+      id: $.id
+      title: $.title
+validation:
+  status: 200
+  required:
+    - id
+    - title
+  minItems: 1
+fingerprint:
+  endpoint: /api/query
+  hash: e5e8ca62afade7c3
+  responseFields:
+    - id
+    - title
+fallback:
+  type: browser

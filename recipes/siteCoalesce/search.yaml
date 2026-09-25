@@ -1,0 +1,35 @@
+site: siteCoalesce
+intent: search
+inputs:
+  query:
+    type: string
+strategy:
+  type: http-json
+request:
+  method: GET
+  path: /api/search
+  query:
+    q: "{{query}}"
+    page: "1"
+output:
+  type: json
+  items:
+    path: $.results
+    fields:
+      id: $.id
+      title: "{{title}} by {{editor ?? author}}"
+      url: /item/{{id}}
+validation:
+  status: 200
+  required:
+    - id
+    - title
+  minItems: 1
+fingerprint:
+  endpoint: /api/search
+  hash: 94c49fefa806a779
+  responseFields:
+    - id
+    - title
+fallback:
+  type: browser

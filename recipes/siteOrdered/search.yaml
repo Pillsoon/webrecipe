@@ -1,0 +1,33 @@
+site: siteOrdered
+intent: search
+inputs:
+  query:
+    type: string
+strategy:
+  type: http-html
+request:
+  method: GET
+  path: /search
+  query:
+    q: "{{query}}"
+output:
+  type: html
+  items:
+    selector: li.result
+    fields:
+      id: "@data-id"
+      title: a.title
+validation:
+  status: 200
+  required:
+    - id
+    - title
+  minItems: 1
+fingerprint:
+  endpoint: /search
+  hash: 6a9f89cef2299a47
+  responseFields:
+    - id
+    - title
+fallback:
+  type: browser
