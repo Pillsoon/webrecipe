@@ -42,6 +42,8 @@ export interface Trace {
   actions: RecordedAction[]
   requests: RecordedRequest[]
   finalHtml: string
+  /** The page's URL once settled, which relative links in finalHtml resolve against. */
+  finalUrl: string
   /** The size the page was rendered at. A DOM observation is only comparable
    *  against another taken at the same one, so it is read rather than assumed. */
   viewport?: { width: number; height: number }

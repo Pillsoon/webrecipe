@@ -10,7 +10,8 @@ import type { Item } from '../types.js'
  * reasoning with the thing it grades cannot report a false success — the wrong
  * answer and the grade agreeing is what a false success is.
  *
- * Identity is the item's url, which every fixture derives from the record id.
+ * Identity is the item's url path, which every fixture derives from the record
+ * id; the origin is left out because a fixture's port changes on every run.
  */
 
 export interface GroundTruth {
@@ -24,7 +25,10 @@ export interface GroundTruth {
   ephemeral?: RegExp
 }
 
-const identity = (item: Item): string => String(item.url ?? '')
+const identity = (item: Item): string => {
+  const url = String(item.url ?? '')
+  try { return new URL(url).pathname } catch { return url }
+}
 
 const KNOWN: ReadonlySet<string> = new Set(DATASET.map((r) => `/item/${r.id}`))
 

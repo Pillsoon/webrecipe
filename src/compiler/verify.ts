@@ -19,7 +19,7 @@ export interface Equivalence {
  */
 /** What the browser extracted from this visit, using the plan's own selectors. */
 export function browserItemsOf(trace: Trace, plan: BrowserPlan): Item[] {
-  return extractBySelector(trace.finalHtml, plan.itemSelector, plan.fields)
+  return extractBySelector(trace.finalHtml, plan.itemSelector, plan.fields, trace.finalUrl)
 }
 
 export function verifyAgainstBrowser(

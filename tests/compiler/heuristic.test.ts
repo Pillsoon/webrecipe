@@ -305,6 +305,6 @@ describe('deriving fields the API does not carry', () => {
       new StaticSiteResolver({ siteB: server.url }))
 
     const recipe = compiled(await new HeuristicCompiler(plan).compile(derivedTrace))
-    expect(recipe.output.items.fields.link).toBe('/item/{{id}}')
+    expect(recipe.output.items.fields.link).toBe(`${server.url}/item/{{id}}`)
   }, 60_000)
 })

@@ -114,7 +114,7 @@ function compileFrom(trace: Trace, plan: BrowserPlan, source: RecordedRequest): 
   const untemplated = required.find((name) => !templated.has(name))
   if (untemplated !== undefined) return { refused: `required input "${untemplated}" not templated` }
 
-  const items = extractHtmlItems(draft, body)
+  const items = extractHtmlItems(draft, body, source.url)
   if (!verifyAgainstBrowser(trace, plan, items).equivalent) {
     return { refused: equivalenceRefusal(items.length, browserItemsOf(trace, plan).length) }
   }

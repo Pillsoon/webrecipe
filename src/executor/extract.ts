@@ -34,9 +34,9 @@ export function extractJsonItems(recipe: Recipe, payload: unknown): Item[] {
   )
 }
 
-export function extractHtmlItems(recipe: Recipe, html: string): Item[] {
+export function extractHtmlItems(recipe: Recipe, html: string, pageUrl?: string): Item[] {
   if (recipe.output.type !== 'html') throw new Error('extractHtmlItems requires an html recipe')
-  return extractBySelector(html, recipe.output.items.selector, recipe.output.items.fields)
+  return extractBySelector(html, recipe.output.items.selector, recipe.output.items.fields, pageUrl)
 }
 
 /**
@@ -107,18 +107,24 @@ export function parseHtmlFragment(html: string): cheerio.CheerioAPI {
 
 export type FieldPlan =
   | { name: string; mode: 'own-text' }
-  | { name: string; mode: 'own-attr'; attribute: string }
-  | { name: string; mode: 'find-attr'; selector: string; attribute: string }
+  | { name: string; mode: 'own-attr'; attribute: string; url: boolean }
+  | { name: string; mode: 'find-attr'; selector: string; attribute: string; url: boolean }
   | { name: string; mode: 'find-text'; selector: string }
+
+/** Attributes holding a URL, reported absolute the way the browser's `a.href` reports them. */
+const URL_ATTRIBUTES = new Set(['href', 'src'])
 
 /** One interpretation of a field spec, shared by cheerio and the browser. */
 export function planFields(fields: Record<string, string>): FieldPlan[] {
   return Object.entries(fields).map(([name, spec]) => {
     if (spec === '') return { name, mode: 'own-text' as const }
-    if (spec.startsWith('@')) return { name, mode: 'own-attr' as const, attribute: spec.slice(1) }
+    if (spec.startsWith('@')) {
+      const attribute = spec.slice(1)
+      return { name, mode: 'own-attr' as const, attribute, url: URL_ATTRIBUTES.has(attribute) }
+    }
     const suffix = attributeSuffix(spec)
     return suffix
-      ? { name, mode: 'find-attr' as const, selector: suffix.selector, attribute: suffix.attribute }
+      ? { name, mode: 'find-attr' as const, ...suffix, url: URL_ATTRIBUTES.has(suffix.attribute) }
       : { name, mode: 'find-text' as const, selector: spec }
   })
 }
@@ -147,20 +153,40 @@ function attributeSuffix(spec: string): { selector: string; attribute: string } 
   return { selector, attribute: match[1]! }
 }
 
+/** Resolves a URL attribute as the browser does; an empty or unparsable value is left alone. */
+function absolute(value: string, base: string): string {
+  if (value.trim() === '') return value
+  try { return new URL(value, base).href } catch { return value }
+}
+
+/** Makes href and src fields absolute against the document's base URL, in place. */
+export function resolveUrlFields(items: Item[], plans: FieldPlan[], base: string): Item[] {
+  const urlFields = plans.filter((f) => (f.mode === 'own-attr' || f.mode === 'find-attr') && f.url).map((f) => f.name)
+  for (const item of items) {
+    for (const name of urlFields) {
+      const value = item[name]
+      if (typeof value === 'string') item[name] = absolute(value, base)
+    }
+  }
+  return items
+}
+
 /**
  * Extracts items from HTML with a bare selector and field map, independent of a
  * recipe. Used to reconstruct what the browser saw so a candidate recipe can be
- * checked against it.
+ * checked against it. Given the page's URL, href and src come back absolute;
+ * without it they come back as written.
  */
 export function extractBySelector(
   html: string,
   selector: string,
   fields: Record<string, string>,
+  pageUrl?: string,
 ): Item[] {
   const $ = parseHtmlFragment(html)
   const plans = planFields(fields)
 
-  return $(selector).toArray().map((element) => {
+  const items = $(selector).toArray().map((element) => {
     const item = $(element)
     const row: Item = {}
     // Field candidates ask for `a`, `a@href` and `a@id` of the same item; one find serves all three.
@@ -184,4 +210,8 @@ export function extractBySelector(
     }
     return row
   })
+
+  if (pageUrl === undefined) return items
+  const baseHref = $('base[href]').first().attr('href')
+  return resolveUrlFields(items, plans, baseHref === undefined ? pageUrl : absolute(baseHref, pageUrl))
 }

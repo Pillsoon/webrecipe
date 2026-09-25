@@ -44,7 +44,7 @@ export class HttpHtmlStrategy implements Strategy {
       return { items: [], meta, status: res.status, payload: undefined }
     }
 
-    const items = extractHtmlItems(recipe, res.body)
+    const items = extractHtmlItems(recipe, res.body, res.url)
     meta.llmTokens = countTokens(formatItems(items, 'tsv'))
 
     return { items, meta, payload: htmlSignature(recipe, items), status: res.status }

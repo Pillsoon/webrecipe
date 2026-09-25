@@ -4,6 +4,7 @@ import type { FixtureServer } from '../../fixtures/harness.js'
 import { PolitenessLayer } from '../../src/net/politeness.js'
 import { StaticSiteResolver } from '../../src/sites.js'
 import { HttpHtmlStrategy } from '../../src/executor/strategies/http-html.js'
+import { BrowserStrategy } from '../../src/executor/strategies/browser.js'
 import { extractHtmlItems, extractBySelector } from '../../src/executor/extract.js'
 import type { Recipe } from '../../src/recipes/schema.js'
 import type { Task } from '../../src/types.js'
@@ -106,5 +107,46 @@ describe('field specs whose selector contains @', () => {
   it('still reads an attribute off the item element itself', () => {
     expect(extractBySelector('<li data-id="7"></li>', 'li', { id: '@data-id' }))
       .toEqual([{ id: '7' }])
+  })
+})
+
+describe('URL attributes resolve against the page', () => {
+  const page = 'https://ex.com/news/newest'
+
+  it('makes href and src absolute, as the browser reports them', () => {
+    const html = '<li data-id="7"><a href="item?id=7">T</a><img src="/i/7.png"></li>'
+    expect(extractBySelector(html, 'li', { id: '@data-id', url: 'a@href', img: 'img@src' }, page))
+      .toEqual([{ id: '7', url: 'https://ex.com/news/item?id=7', img: 'https://ex.com/i/7.png' }])
+  })
+
+  it('leaves absolute links and an empty href as they are', () => {
+    const html = '<li><a href="https://other.org/x">T</a></li><li><a href="">U</a></li>'
+    expect(extractBySelector(html, 'li', { url: 'a@href' }, page))
+      .toEqual([{ url: 'https://other.org/x' }, { url: '' }])
+  })
+
+  it('honours a <base href> in the document', () => {
+    const html = '<html><head><base href="/archive/"></head><body><li><a href="p/1">T</a></li></body></html>'
+    expect(extractBySelector(html, 'li', { url: 'a@href' }, page))
+      .toEqual([{ url: 'https://ex.com/archive/p/1' }])
+  })
+
+  it('returns links from an http fetch absolute', async () => {
+    const result = await strategy.execute(recipe, task)
+    expect(result.items[0]!.url).toMatch(new RegExp(`^${server.url}/item/`))
+  })
+
+  it('agrees with the browser fallback on the same page', async () => {
+    const browser = new BrowserStrategy(new StaticSiteResolver({ siteA: server.url }), {
+      siteA: {
+        search: {
+          url: (origin, t) => `${origin}/search?q=${encodeURIComponent(String(t.input.query))}`,
+          itemSelector: recipe.output.type === 'html' ? recipe.output.items.selector : '',
+          fields: recipe.output.type === 'html' ? recipe.output.items.fields : {},
+        },
+      },
+    })
+    const [viaHttp, viaBrowser] = [await strategy.execute(recipe, task), await browser.execute(recipe, task)]
+    expect(viaBrowser.items).toEqual(viaHttp.items)
   })
 })

@@ -15,6 +15,8 @@ export interface PoliteResponse {
   headers: Record<string, string>
   body: string
   bytesDownloaded: number
+  /** The URL that answered, after redirects: relative links in the body resolve against it. */
+  url: string
   /** Time spent waiting on the rate limiter, so callers can report it separately. */
   waitedMs: number
 }
@@ -133,7 +135,7 @@ export class PolitenessLayer {
         continue
       }
       return {
-        status: res.status, headers: Object.fromEntries(res.headers.entries()),
+        status: res.status, headers: Object.fromEntries(res.headers.entries()), url: current,
         body: buffer.toString('utf8'), bytesDownloaded: buffer.byteLength, waitedMs: 0,
       }
     }

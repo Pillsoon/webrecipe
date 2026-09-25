@@ -3,7 +3,7 @@ import type { SiteResolver } from '../../sites.js'
 import type { Recipe } from '../../recipes/schema.js'
 import { BrowserPool } from '../../browser/pool.js'
 import { navigateAndSettle, guardPage, type NavigationGuard } from '../../browser/navigate.js'
-import { planFields, type FieldPlan } from '../extract.js'
+import { planFields, resolveUrlFields, type FieldPlan } from '../extract.js'
 import { countTokens } from '../tokens.js'
 import { BROWSER_PLANS, type BrowserPlan } from './browser.js'
 import { emptyMeta, type Intent, type Item, type Result, type Strategy, type Task } from '../../types.js'
@@ -50,6 +50,8 @@ export class WarmBrowserStrategy implements Strategy {
           ),
         planFields(plan.fields),
       )) as Item[]
+      // Resolved in node rather than in the page, by the same rule the http path uses.
+      resolveUrlFields(items, planFields(plan.fields), await warm.page.evaluate(() => document.baseURI))
 
       // Zero only when the pool already had a browser. The first call starts
       // Chromium like any cold run does, and reporting none said otherwise.
