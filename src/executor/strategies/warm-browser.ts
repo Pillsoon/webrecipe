@@ -2,7 +2,7 @@ import { measureResult } from '../../measurement.js'
 import type { SiteResolver } from '../../sites.js'
 import type { Recipe } from '../../recipes/schema.js'
 import { BrowserPool } from '../../browser/pool.js'
-import { navigateAndSettle } from '../../browser/navigate.js'
+import { navigateAndSettle, guardPage, type NavigationGuard } from '../../browser/navigate.js'
 import { planFields, type FieldPlan } from '../extract.js'
 import { countTokens } from '../tokens.js'
 import { BROWSER_PLANS, type BrowserPlan } from './browser.js'
@@ -16,6 +16,7 @@ export class WarmBrowserStrategy implements Strategy {
   constructor(
     private readonly sites: SiteResolver,
     private readonly plans: Record<string, Partial<Record<Intent, BrowserPlan>>> = BROWSER_PLANS,
+    private readonly guard?: NavigationGuard,
   ) {}
 
   async execute(recipe: Recipe, task: Task): Promise<Result> {
@@ -31,7 +32,8 @@ export class WarmBrowserStrategy implements Strategy {
     const warm = await this.pool.acquire()
 
     try {
-      await navigateAndSettle(warm.page, plan.url(this.sites.origin(task.site), task), plan.itemSelector)
+      const guard = this.guard ? await guardPage(warm.page, this.guard) : undefined
+      await navigateAndSettle(warm.page, plan.url(this.sites.origin(task.site), task), plan.itemSelector, guard)
 
       const items = (await warm.page.$$eval(
         plan.itemSelector,
@@ -61,6 +63,8 @@ export class WarmBrowserStrategy implements Strategy {
       const snapshot = await warm.page.locator('body').ariaSnapshot().catch(() => '')
       meta.llmTokens = countTokens(snapshot)
 
+      // After reading, so a page that moved somewhere disallowed while it was read is not answered from.
+      guard?.check()
       return { items, meta }
     } finally {
       await warm.release()

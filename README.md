@@ -197,6 +197,7 @@ A failure prints one object and exits 1:
 | --- | --- |
 | `NOT_TAUGHT` | nothing saved under that `site/intent` |
 | `INVALID_INPUT` | bad arguments, or an input the recipe does not take |
+| `ROBOTS_DISALLOWED` | robots.txt disallows the page or a redirect target; the disallowed URL was not requested |
 | `UNVERIFIED_RESULT` | zero rows, or a selected field missing from some rows |
 | `EXECUTION_FAILED` | network, browser or storage error |
 
@@ -226,8 +227,13 @@ Every `inspect`, `save`, `fetch` and `read` appends one line to a local log.
 timing and outcome, never page content, cookies or headers. Nothing is
 uploaded anywhere. `--no-log` skips logging for one command.
 
-Requests identify themselves with a `webrecipe/0.1` user agent, respect
-robots.txt, and wait between requests to the same host.
+HTTP requests identify themselves with a `webrecipe/0.1` user agent and wait
+between requests to the same host, honouring robots.txt `Crawl-delay`.
+`fetch` refuses a URL that robots.txt disallows before requesting it, and
+checks every redirect target the same way, over HTTP and in the browser.
+`read` refuses a disallowed URL before requesting it. `inspect` and `save` load the page in a
+browser without checking robots.txt. Check a site's terms before saving a
+recipe for it.
 
 ## Also: `read`
 

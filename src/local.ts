@@ -130,6 +130,14 @@ export class UserError extends Error {
   constructor(readonly code: string, message: string) { super(message) }
 }
 
+/** A robots.txt refusal ends the task: no fallback, no retry on another path, no relearn. */
+export function isRobotsRefusal(error: unknown): boolean {
+  for (let e: unknown = error; e instanceof Error; e = e.cause) {
+    if (e instanceof UserError && e.code === 'ROBOTS_DISALLOWED') return true
+  }
+  return false
+}
+
 export function siteName(value: string): string {
   if (!/^[a-zA-Z0-9][a-zA-Z0-9._-]*$/.test(value)) throw new UserError('INVALID_INPUT', 'site must be a name such as news.ycombinator.com, not a URL or path')
   return value

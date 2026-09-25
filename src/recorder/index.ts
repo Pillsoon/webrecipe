@@ -4,7 +4,7 @@ import type { SiteResolver } from '../sites.js'
 import type { Task } from '../types.js'
 import type { RecordedAction, RecordedRequest, Trace } from './types.js'
 import { BodyStore } from './body.js'
-import { navigateAndSettle } from '../browser/navigate.js'
+import { navigateAndSettle, guardPage, type NavigationGuard } from '../browser/navigate.js'
 
 /** A DOM mutation this soon after a response is treated as caused by it. */
 const DOM_SETTLE_MS = 800
@@ -96,7 +96,7 @@ export function attributeMutations(requests: RecordedRequest[], mutations: numbe
  * A trace owns the files its large bodies were spilled into, so a caller that
  * keeps the trace past the call must dispose of it.
  */
-export async function record(plan: BrowserPlan, task: Task, sites: SiteResolver): Promise<Trace> {
+export async function record(plan: BrowserPlan, task: Task, sites: SiteResolver, allowed?: NavigationGuard): Promise<Trace> {
   const origin = sites.origin(task.site)
   const session = await openSession()
   const actions: RecordedAction[] = []
@@ -142,7 +142,8 @@ export async function record(plan: BrowserPlan, task: Task, sites: SiteResolver)
 
     const target = plan.url(origin, task)
     actions.push({ index: 0, type: 'navigate', value: target, at: Date.now() })
-    await navigateAndSettle(session.page, target, plan.itemSelector)
+    const guard = allowed ? await guardPage(session.page, allowed) : undefined
+    await navigateAndSettle(session.page, target, plan.itemSelector, guard)
 
     const mutations = (await session.page.evaluate('window.__fwaMutations || []')) as number[]
     const completions = (await session.page.evaluate('window.__fwaCompletions || []')) as PageCompletion[]
@@ -153,6 +154,7 @@ export async function record(plan: BrowserPlan, task: Task, sites: SiteResolver)
 
     const finalHtml = await session.page.content()
     await Promise.all(bodyReads)
+    guard?.check()
 
     return {
       site: task.site,

@@ -1,5 +1,6 @@
 import { costSink } from '../measurement.js'
 import { parseRobots, isPathAllowed, type RobotsRules } from './robots.js'
+import { UserError } from '../local.js'
 
 export const DEFAULT_USER_AGENT = 'webrecipe/0.1 (+https://github.com/Pillsoon/webrecipe)'
 
@@ -26,6 +27,8 @@ export interface PolitenessOptions {
   now?: () => number
   sleep?: (ms: number) => Promise<void>
   fetchImpl?: typeof fetch
+  /** Refuse, before requesting it, any URL or redirect target robots.txt disallows. */
+  enforceRobots?: boolean
 }
 
 const LOOPBACK = /^(localhost|127\.0\.0\.1|\[::1\])(:\d+)?$/
@@ -46,6 +49,7 @@ export class PolitenessLayer {
   private readonly now: () => number
   private readonly sleep: (ms: number) => Promise<void>
   private readonly fetchImpl: typeof fetch
+  private readonly enforceRobots: boolean
   private readonly hosts = new Map<string, HostState>()
 
   constructor(opts: PolitenessOptions = {}) {
@@ -56,6 +60,7 @@ export class PolitenessLayer {
     this.now = opts.now ?? (() => Date.now())
     this.sleep = opts.sleep ?? ((ms) => new Promise((r) => setTimeout(r, ms)))
     this.fetchImpl = opts.fetchImpl ?? fetch
+    this.enforceRobots = opts.enforceRobots ?? false
   }
 
   private state(host: string): HostState {
@@ -90,14 +95,20 @@ export class PolitenessLayer {
     return this.state(u.host).intervalMs
   }
 
+  private async refuseDisallowed(url: string): Promise<void> {
+    if (!(await this.isAllowed(url))) throw new UserError('ROBOTS_DISALLOWED', `robots.txt disallows ${url}`)
+  }
+
   /** Bypasses the rate limiter; used only to fetch robots.txt itself. */
-  private async raw(url: string, opts: FetchOptions = {}): Promise<PoliteResponse> {
+  private async raw(url: string, opts: FetchOptions = {}, check?: (url: string) => Promise<void>): Promise<PoliteResponse> {
     const charge = costSink()
     let current = url
     let method = opts.method ?? 'GET'
     let requestBody = opts.body
     const headers = new Headers({ 'user-agent': this.userAgent, ...(opts.headers ?? {}) })
     for (let redirects = 0; ; redirects++) {
+      // Before every hop, not only the first: an allowed URL may redirect to a disallowed one.
+      await check?.(current)
       charge({ networkRequests: 1 })
       const res = await this.fetchImpl(current, {
         method, headers: Object.fromEntries(headers.entries()), body: requestBody, redirect: 'manual', signal: AbortSignal.timeout(this.timeoutMs),
@@ -157,7 +168,7 @@ export class PolitenessLayer {
       }
 
       s.lastRequestAt = this.now()
-      const res = await this.raw(u.toString(), opts)
+      const res = await this.raw(u.toString(), opts, this.enforceRobots ? (url) => this.refuseDisallowed(url) : undefined)
 
       if (res.status !== 429 || attempt >= this.maxRetries) return { ...res, waitedMs }
 

@@ -2,6 +2,7 @@ import { measureResult } from '../measurement.js'
 import type { RecipeRegistry } from '../recipes/registry.js'
 import type { Recipe } from '../recipes/schema.js'
 import { validate } from '../validator/index.js'
+import { isRobotsRefusal } from '../local.js'
 import { addMeta, type ExecutionMeta, type Item, type Result, type Strategy, type Task } from '../types.js'
 
 /** How long a site stays off the recipe path after it refused one. */
@@ -93,6 +94,7 @@ export class Executor {
         const result = await strategy.execute(recipe ?? ({} as Recipe), task)
         return { ...result, recipeUsed: false, fellBack: true, reasons }
       } catch (err) {
+        if (isRobotsRefusal(err)) throw err
         lastError = err
         reasons.push(err instanceof Error ? err.message : String(err))
       }
@@ -145,6 +147,8 @@ export class Executor {
           }
         }
       } catch (err) {
+        // Not a reason to try the browser: it would request the page robots.txt excluded.
+        if (isRobotsRefusal(err)) throw err
         reasons.push(err instanceof Error ? err.message : String(err))
       }
     } else if (!recipe) {

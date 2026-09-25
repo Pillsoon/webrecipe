@@ -1,3 +1,4 @@
+import type { NavigationGuard } from '../browser/navigate.js'
 import { record } from '../recorder/index.js'
 import { HeuristicCompiler } from '../compiler/heuristic.js'
 import { compileHtmlRecipe } from '../compiler/html.js'
@@ -63,6 +64,8 @@ export interface SelfHealerOptions {
   registry: RecipeRegistry
   sites: SiteResolver
   plans: Record<string, Partial<Record<Intent, BrowserPlan>>>
+  /** Checks the relearning visit against robots.txt, like the fetch it follows. */
+  guard?: NavigationGuard
   compiler?: Compiler
 }
 
@@ -100,7 +103,7 @@ export class SelfHealer {
     if (!plan) return { healed: false, recipe: null, changes: [], refused: null, meta: null }
 
     const started = performance.now()
-    const trace = await record(plan, event.task, this.opts.sites)
+    const trace = await record(plan, event.task, this.opts.sites, this.opts.guard)
     try {
       const meta = costOf(trace, Math.round(performance.now() - started))
 

@@ -2,7 +2,7 @@ import { measureResult } from '../../measurement.js'
 import type { SiteResolver } from '../../sites.js'
 import type { Recipe } from '../../recipes/schema.js'
 import { openSession } from '../../browser/session.js'
-import { navigateAndSettle } from '../../browser/navigate.js'
+import { navigateAndSettle, guardPage, type NavigationGuard } from '../../browser/navigate.js'
 import { planFields, type FieldPlan } from '../extract.js'
 import { countTokens } from '../tokens.js'
 import { emptyMeta, type Intent, type Item, type Result, type Strategy, type Task } from '../../types.js'
@@ -26,6 +26,7 @@ export class BrowserStrategy implements Strategy {
     private readonly plans: Record<string, Partial<Record<Intent, BrowserPlan>>> = BROWSER_PLANS,
     /** The token count costs a page read of its own; a timing benchmark can decline to pay it. */
     private readonly countAgentTokens = true,
+    private readonly guard?: NavigationGuard,
   ) {}
 
   async execute(recipe: Recipe, task: Task): Promise<Result> {
@@ -42,7 +43,8 @@ export class BrowserStrategy implements Strategy {
     meta.browserLaunches = 1
 
     try {
-      await navigateAndSettle(session.page, plan.url(this.sites.origin(task.site), task), plan.itemSelector)
+      const guard = this.guard ? await guardPage(session.page, this.guard) : undefined
+      await navigateAndSettle(session.page, plan.url(this.sites.origin(task.site), task), plan.itemSelector, guard)
 
       // The field specs are interpreted once, in node, so that the browser and
       // cheerio cannot drift apart on what a spec means.
@@ -77,6 +79,8 @@ export class BrowserStrategy implements Strategy {
       const snapshot = this.countAgentTokens ? await session.page.locator('body').ariaSnapshot().catch(() => '') : ''
       meta.llmTokens = countTokens(snapshot)
 
+      // After reading, so a page that moved somewhere disallowed while it was read is not answered from.
+      guard?.check()
       return { items, meta }
     } finally {
       await session.close()

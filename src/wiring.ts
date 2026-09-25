@@ -17,6 +17,8 @@ export interface EngineOptions {
   heal?: boolean
   /** Per-host request spacing. Fixtures pass 0; wild runs keep the 1s default. */
   minIntervalMs?: number
+  /** Refuse any URL or redirect target robots.txt disallows, over HTTP and in the browser. */
+  enforceRobots?: boolean
 }
 
 export interface Engine {
@@ -33,12 +35,14 @@ export function buildEngine(opts: EngineOptions): Engine {
   const net = new PolitenessLayer({
     userAgent: DEFAULT_USER_AGENT,
     minIntervalMs: opts.minIntervalMs,
+    enforceRobots: opts.enforceRobots,
   })
+  const guard = opts.enforceRobots ? (url: string) => net.isAllowed(url) : undefined
   const sites = new StaticSiteResolver({ ...WILD_ORIGINS, ...(opts.origins ?? {}) })
   const registry = new RecipeRegistry(opts.recipeDir)
-  const browser = new BrowserStrategy(sites, opts.plans)
-  const warm = new WarmBrowserStrategy(sites, opts.plans)
-  const healer = new SelfHealer({ registry, sites, plans: opts.plans })
+  const browser = new BrowserStrategy(sites, opts.plans, true, guard)
+  const warm = new WarmBrowserStrategy(sites, opts.plans, guard)
+  const healer = new SelfHealer({ registry, sites, plans: opts.plans, guard })
 
   const executor = new Executor({
     registry,
