@@ -1,0 +1,23 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm exec tsc --noEmit
+      - run: pnpm test
+      - run: npm pack --pack-destination /tmp
+      - run: npm install --prefix /tmp/webrecipe-installed --ignore-scripts /tmp/webrecipe-0.1.0.tgz
+      - run: pnpm exec vitest run tests/local-cli.test.ts
+        env:
+          WEBRECIPE_TEST_CLI: /tmp/webrecipe-installed/node_modules/webrecipe/dist/src/cli.js

@@ -1,0 +1,56 @@
+{
+  "name": "webrecipe",
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "webrecipe": "./dist/src/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "cli": "tsx src/cli.ts",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.1",
+    "cheerio": "^1.0.0",
+    "commander": "^12.1.0",
+    "js-tiktoken": "^1.0.21",
+    "playwright": "^1.63.0",
+    "yaml": "^2.5.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  },
+  "description": "Save how to read a public web page once, then fetch it over plain HTTP.",
+  "files": [
+    "dist/src",
+    "dist/benchmark",
+    "dist/fixtures",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pillsoon/webrecipe.git"
+  },
+  "keywords": [
+    "web",
+    "scraping",
+    "agent",
+    "mcp",
+    "cli",
+    "recipe",
+    "playwright",
+    "http"
+  ]
+}

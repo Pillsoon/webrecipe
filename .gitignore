@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.cache/
+.DS_Store
+
+# Goldens and recipes captured from live sites go stale within hours, and a
+# stale one committed is a measurement that describes a page nobody can see
+# again. Only the fixture artifacts are reproducible enough to keep.
+benchmark/goldens/*
+!benchmark/goldens/site*
+recipes/*
+!recipes/site*
+
+# A plan an agent taught is the same kind of artifact as a recipe: it describes
+# one live site on one day, and it is per-user state rather than repository
+# content. The fixture plans stay in benchmark/plans.ts, which is source.
+plans/*
