@@ -18,9 +18,8 @@ search results. Runs locally. No hosted account, no API key.
 ```
 $ webrecipe fetch hn/list
 title	url
-ECB to assess feasibility of interlinking with Brazil instant payment system Pix	https://www.ecb.europa.eu/...
-Special agents' blood and urine test results stolen in FBI hack	https://www.bbc.co.uk/news/...
-Show HN: Xyp RSS – hold to play, swipe to skip, highlight a word for graph	https://xyp.app
+Special agents' blood and urine test results…	https://www.bbc.co.uk/news/...
+Show HN: Xyp RSS – hold to play, swipe to skip…	https://xyp.app
 ...
 ```
 
@@ -55,7 +54,7 @@ webrecipe fetch hn/list            # TSV on stdout
 webrecipe fetch hn/list --json     # one JSON object on stdout
 ```
 
-Run it again tomorrow and you get tomorrow's front page.
+Run it again tomorrow and you get tomorrow's latest submissions.
 
 ## Use with an agent
 
@@ -128,10 +127,20 @@ How to choose:
 - Scores do not tell you meaning. Above, the vote link scores as well as the
   story link. Read the sample column to tell them apart.
 
-**2. Save** your choice under a name, `site/intent`, where intent is `list`,
+**2. Save** your choice. Replace `NAME` with the output field name you want,
+such as `title` or `url`.
+
+```sh
+webrecipe save hn/list --url https://news.ycombinator.com/newest \
+  --items 'tr.athing.submission' \
+  --field 'title=span.titleline > a' 'url=span.titleline > a@href'
+```
+
+The name is `site/intent`. `site` is any name you choose, not necessarily the
+domain, so `hn`, `hn-jobs` and `my-shop` are all fine. `intent` is `list`,
 `search` or `detail`. Saving the same name again replaces it.
 
-**3. Fetch** by that name.
+**3. Fetch** by that name: `webrecipe fetch hn/list`.
 
 ### Pages with a parameter
 
@@ -265,9 +274,11 @@ politeness waits and Node startup
 | Steam store page | 0.3 s | 2.9 s | 162 KB | 33.6 MB |
 
 **The first read is not free.** Inspect plus save took 5.4 s on Hacker News,
-52 s on Remote OK and 15 s on Steam, not counting the time to choose
-selectors. Counting that setup, repeat fetches overtook the browser at
-repetition 2, 18 and 6 respectively. If you will read a page once, use `read`.
+52 s on Remote OK and 15 s on Steam. Those figures exclude the time to choose
+selectors and any politeness wait; Hacker News added 27 s of waiting between
+inspect and save. Counting setup and waits in cumulative wall time, repeat fetches
+overtook the browser at repetition 2, 18 and 6 respectively. If you will read
+a page once, use `read`.
 
 Hacker News asks crawlers to wait 30 s between page loads. With that wait
 included, both approaches are dominated by it: a median 28.0 s per fetch for
@@ -281,10 +292,11 @@ hand. But of the 23 answers checked by hand, 12 had reached `verified` on the
 structural checks alone. That is where a wrong answer would hide, and one
 field there was ambiguous in exactly that way.
 
-**Sites drift.** One site that saved cleanly one day answered the next with a
-human-verification page ([notes](benchmark/results/drift/)). The recipe failed
-because its selectors matched nothing, which is the defence this tool relies
-on.
+**Sites drift.** A page that saved cleanly one day failed to save the next,
+because a required field was missing ([notes](benchmark/results/drift/)).
+Separate requests that day also got a human-verification page. The cause of
+the original failure was not established. The save failed loudly rather than
+storing a recipe with an empty field.
 
 ## Development
 
