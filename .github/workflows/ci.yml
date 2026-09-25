@@ -17,7 +17,7 @@ jobs:
       - run: pnpm exec tsc --noEmit
       - run: pnpm test
       - run: npm pack --pack-destination /tmp
-      - run: npm install --prefix /tmp/webrecipe-installed --ignore-scripts /tmp/webrecipe-0.1.0.tgz
+      - run: npm install --prefix /tmp/webrecipe-installed --ignore-scripts /tmp/webrecipe-*.tgz
       - run: pnpm exec vitest run tests/local-cli.test.ts
         env:
           WEBRECIPE_TEST_CLI: /tmp/webrecipe-installed/node_modules/webrecipe/dist/src/cli.js
