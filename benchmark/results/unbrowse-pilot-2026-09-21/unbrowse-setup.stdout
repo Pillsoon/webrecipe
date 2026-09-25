@@ -1,0 +1,48 @@
+{
+  "os": {
+    "platform": "darwin",
+    "release": "25.5.0",
+    "arch": "arm64"
+  },
+  "host_environment": "unknown",
+  "package_managers": {
+    "npm": true,
+    "npx": true,
+    "bun": true,
+    "brew": true
+  },
+  "browser_engine": {
+    "installed": true,
+    "action": "already-installed"
+  },
+  "opencode": {
+    "detected": false,
+    "action": "skipped",
+    "scope": "off"
+  },
+  "update_hints": [
+    {
+      "host": "codex",
+      "action": "failed",
+      "config_file": "/Users/pillsoonpark/.codex/config.toml",
+      "message": "EPERM: operation not permitted, open '/Users/pillsoonpark/.codex/config.toml'"
+    },
+    {
+      "host": "claude",
+      "action": "not-detected",
+      "config_file": "/Users/pillsoonpark/(internal)/settings.json"
+    }
+  ],
+  "wallet": {
+    "configured": true,
+    "provider": "unbrowse-local",
+    "lobster_installed": false,
+    "message": "Wallet configured (unbrowse-local). This address is the contributor truth: it is synced onto your agent profile, used for contributor payouts when your routes earn, and used for paid-route spending."
+  },
+  "server": {
+    "started": false,
+    "in_process": true,
+    "mode": "in-process",
+    "base_url": "in-process"
+  }
+}

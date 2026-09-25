@@ -1,0 +1,94 @@
+{
+  "fixture": "siteB",
+  "input": {
+    "query": "rust"
+  },
+  "rows": [
+    {
+      "phase": "first-learn",
+      "wallMs": 3838,
+      "actualRequests": 16,
+      "matchesFirst": true,
+      "items": 8,
+      "meta": {
+        "strategy": "warm-browser",
+        "latencyMs": 3641,
+        "browserLaunches": 2,
+        "pageNavigations": 2,
+        "networkRequests": 16,
+        "bytesDownloaded": 4230,
+        "llmTokens": 224,
+        "politenessWaitMs": 0,
+        "unreadResponseBodies": 0,
+        "elapsedMs": 3838
+      },
+      "reasons": [
+        "no recipe registered"
+      ]
+    },
+    {
+      "phase": "repeat-http",
+      "wallMs": 19,
+      "actualRequests": 1,
+      "matchesFirst": true,
+      "items": 8,
+      "meta": {
+        "strategy": "http-json",
+        "latencyMs": 9,
+        "browserLaunches": 0,
+        "pageNavigations": 0,
+        "networkRequests": 1,
+        "bytesDownloaded": 586,
+        "llmTokens": 107,
+        "politenessWaitMs": 0,
+        "unreadResponseBodies": 0,
+        "elapsedMs": 19
+      },
+      "reasons": []
+    },
+    {
+      "phase": "endpoint-drift",
+      "wallMs": 3114,
+      "actualRequests": 17,
+      "matchesFirst": true,
+      "items": 8,
+      "meta": {
+        "strategy": "warm-browser",
+        "latencyMs": 3097,
+        "browserLaunches": 1,
+        "pageNavigations": 2,
+        "networkRequests": 17,
+        "bytesDownloaded": 4257,
+        "llmTokens": 224,
+        "politenessWaitMs": 0,
+        "unreadResponseBodies": 0,
+        "elapsedMs": 3114
+      },
+      "reasons": [
+        "status 404 !== expected 200",
+        "item count 0 < minItems 1",
+        "fingerprint drift: expected 94c49fefa806a779, got 2ed3e42dded99f5d"
+      ]
+    },
+    {
+      "phase": "repeat-after-healing",
+      "wallMs": 6,
+      "actualRequests": 1,
+      "matchesFirst": true,
+      "items": 8,
+      "meta": {
+        "strategy": "http-json",
+        "latencyMs": 2,
+        "browserLaunches": 0,
+        "pageNavigations": 0,
+        "networkRequests": 1,
+        "bytesDownloaded": 586,
+        "llmTokens": 107,
+        "politenessWaitMs": 0,
+        "unreadResponseBodies": 0,
+        "elapsedMs": 6
+      },
+      "reasons": []
+    }
+  ]
+}

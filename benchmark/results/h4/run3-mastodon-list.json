@@ -1,0 +1,125 @@
+[
+ {
+  "taskId": "mastodon-list-1",
+  "site": "mastodon.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 3550,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 6071939,
+   "networkRequests": 207,
+   "agentTokens": 6811,
+   "threw": false,
+   "blocked": false,
+   "items": 2,
+   "reasons": [
+    "no recipe registered",
+    "2 golden item(s) missing from the result",
+    "2 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 4561,
+   "threw": false,
+   "bytesDownloaded": 6582292,
+   "networkRequests": 209,
+   "agentTokens": 6811,
+   "items": 2
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "mastodon-list-2",
+  "site": "mastodon.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 4444,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 10047901,
+   "networkRequests": 227,
+   "agentTokens": 6938,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": [
+    "no recipe registered",
+    "1 golden item(s) missing from the result",
+    "1 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2529,
+   "threw": false,
+   "bytesDownloaded": 10047901,
+   "networkRequests": 227,
+   "agentTokens": 6938,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "mastodon-list-3",
+  "site": "mastodon.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2242,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 8773529,
+   "networkRequests": 204,
+   "agentTokens": 5496,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": [
+    "no recipe registered",
+    "1 golden item(s) missing from the result",
+    "1 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 3832,
+   "threw": false,
+   "bytesDownloaded": 20441301,
+   "networkRequests": 224,
+   "agentTokens": 5496,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

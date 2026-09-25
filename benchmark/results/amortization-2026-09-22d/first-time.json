@@ -1,0 +1,92 @@
+[
+  {
+    "task": "hn",
+    "learnMs": 2695,
+    "teachMs": 2738,
+    "meta": {
+      "strategy": "browser",
+      "latencyMs": 0,
+      "browserLaunches": 2,
+      "pageNavigations": 1,
+      "networkRequests": 12,
+      "bytesDownloaded": 108000,
+      "llmTokens": 0,
+      "politenessWaitMs": 0,
+      "unreadResponseBodies": 0,
+      "elapsedMs": 5432
+    },
+    "recipe": "http-html",
+    "refused": null,
+    "learnPhases": {
+      "loadMs": 2417,
+      "candidatesMs": 71,
+      "fieldsMs": 206,
+      "htmlBytes": 41621
+    },
+    "gateWaitMs": {
+      "learn": 0,
+      "teach": 27231
+    },
+    "accessIntervalMs": 30000
+  },
+  {
+    "task": "remoteok",
+    "learnMs": 39615,
+    "teachMs": 12712,
+    "meta": {
+      "strategy": "browser",
+      "latencyMs": 0,
+      "browserLaunches": 3,
+      "pageNavigations": 2,
+      "networkRequests": 153,
+      "bytesDownloaded": 8902517,
+      "llmTokens": 0,
+      "politenessWaitMs": 1620,
+      "unreadResponseBodies": 19,
+      "elapsedMs": 52327
+    },
+    "recipe": "http-html",
+    "refused": null,
+    "learnPhases": {
+      "loadMs": 5995,
+      "candidatesMs": 7189,
+      "fieldsMs": 26430,
+      "htmlBytes": 1179197
+    },
+    "gateWaitMs": {
+      "learn": 0,
+      "teach": 0
+    },
+    "accessIntervalMs": 1000
+  },
+  {
+    "task": "steam",
+    "learnMs": 11998,
+    "teachMs": 2819,
+    "meta": {
+      "strategy": "browser",
+      "latencyMs": 0,
+      "browserLaunches": 2,
+      "pageNavigations": 1,
+      "networkRequests": 424,
+      "bytesDownloaded": 66840938,
+      "llmTokens": 0,
+      "politenessWaitMs": 0,
+      "unreadResponseBodies": 0,
+      "elapsedMs": 14817
+    },
+    "recipe": "http-html",
+    "refused": null,
+    "learnPhases": {
+      "loadMs": 3998,
+      "candidatesMs": 337,
+      "fieldsMs": 7662,
+      "htmlBytes": 323081
+    },
+    "gateWaitMs": {
+      "learn": 0,
+      "teach": 0
+    },
+    "accessIntervalMs": 1000
+  }
+]

@@ -1,0 +1,57 @@
+$ tsx src/cli.ts bench run --tasks benchmark/heldout4.json --only musicbrainz-detail --json benchmark/results/h4/run2-musicbrainz-detail.json
+Wild
+  Tasks:             5
+  Browser-free:      0%   (L0 + L1)
+  Full-browser avoidance: 60%   (L0 + L1 + L2)
+  Levels:            L0 0%  L1 0%  L2 60%  L3 40%
+  Blocked:           0 (site refused the recipe; ran on the browser)
+  Median latency:    7429ms (baseline 11621ms)
+  Median speedup:    1.6x
+  Median site speedup: 1.6x
+  Politeness wait:   0ms median (excluded from latency above)
+  Data fetched:      2672KB median (baseline 2692KB)  1.0x less
+  Requests:          27 median (baseline 27)
+  Agent reads:       14270 tokens median (baseline 15263)  1.1x less
+  Correctness
+    Baseline validity:  5/5 usable          (0 excluded)
+    No stored golden:   0 excluded
+    Entity equivalence: 0%
+    Query semantics:    not declared
+    Ordering:           not judgeable
+
+robots.txt status of wild sites
+  pkg.go.dev: disallowed for crawlers (user-agent posture, see spec section 6)
+  crates.io: allowed
+  hn.algolia.com: allowed
+  hex.pm: allowed
+  docs.rs: allowed
+  flathub.org: allowed
+  jsr.io: allowed
+  tildes.net: allowed
+  remoteok.com: allowed
+  itch.io: allowed
+  arbeitnow.com: allowed
+  archive.org: allowed
+  meta.discourse.org: allowed
+  loc.gov: allowed
+  bandcamp.com: allowed
+  lemmy.world: allowed
+  openlibrary.org: allowed
+  mastodon.social: allowed
+  pixelfed.social: allowed
+  musicbrainz.org: allowed
+  dev.to: allowed
+  npmjs.com: allowed
+
+failed tasks (5/5)
+  musicbrainz-detail-1: field "artist" absent from every item; item count 0 < minItems 1
+  musicbrainz-detail-2: field "artist" absent from every item; item count 0 < minItems 1
+  musicbrainz-detail-3: field "artist" absent from every item; item count 0 < minItems 1
+  musicbrainz-detail-4: page.goto: Timeout 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://musicbrainz.org/release-group/b8048f24-c026-3398-b23a-b5e50716cbc7", waiting until "domcontentloaded"[22m
+
+  musicbrainz-detail-5: page.goto: Timeout 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://musicbrainz.org/release-group/bca9280e-28b4-327f-8fe0-fd918579e486", waiting until "domcontentloaded"[22m
+

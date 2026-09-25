@@ -1,0 +1,197 @@
+[
+ {
+  "taskId": "musicbrainz-list-1",
+  "site": "musicbrainz.org",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 7270,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 2826250,
+   "networkRequests": 22,
+   "agentTokens": 24843,
+   "threw": false,
+   "blocked": false,
+   "items": 100,
+   "reasons": [
+    "item count 0 < minItems 1"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 6669,
+   "threw": false,
+   "bytesDownloaded": 2827646,
+   "networkRequests": 22,
+   "agentTokens": 24843,
+   "items": 100
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "musicbrainz-list-2",
+  "site": "musicbrainz.org",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 5507,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 2700113,
+   "networkRequests": 22,
+   "agentTokens": 8144,
+   "threw": false,
+   "blocked": false,
+   "items": 6,
+   "reasons": [
+    "item count 0 < minItems 1"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 5884,
+   "threw": false,
+   "bytesDownloaded": 2700113,
+   "networkRequests": 22,
+   "agentTokens": 8144,
+   "items": 6
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "musicbrainz-list-3",
+  "site": "musicbrainz.org",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 6398,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 2843412,
+   "networkRequests": 22,
+   "agentTokens": 28094,
+   "threw": false,
+   "blocked": false,
+   "items": 100,
+   "reasons": [
+    "item count 0 < minItems 1"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 5899,
+   "threw": false,
+   "bytesDownloaded": 2843412,
+   "networkRequests": 22,
+   "agentTokens": 28094,
+   "items": 100
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "musicbrainz-list-4",
+  "site": "musicbrainz.org",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 6398,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 2792924,
+   "networkRequests": 22,
+   "agentTokens": 21116,
+   "threw": false,
+   "blocked": false,
+   "items": 68,
+   "reasons": [
+    "item count 0 < minItems 1"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 6499,
+   "threw": false,
+   "bytesDownloaded": 2792924,
+   "networkRequests": 22,
+   "agentTokens": 21116,
+   "items": 68
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "musicbrainz-list-5",
+  "site": "musicbrainz.org",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 6270,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 2819070,
+   "networkRequests": 22,
+   "agentTokens": 23358,
+   "threw": false,
+   "blocked": false,
+   "items": 92,
+   "reasons": [
+    "item count 0 < minItems 1"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 6048,
+   "threw": false,
+   "bytesDownloaded": 2817674,
+   "networkRequests": 22,
+   "agentTokens": 23358,
+   "items": 92
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

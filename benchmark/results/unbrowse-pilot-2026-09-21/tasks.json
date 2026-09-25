@@ -1,0 +1,45 @@
+[
+  {
+    "id": "hn",
+    "url": "https://news.ycombinator.com/newest",
+    "intent": "Get the newest 10 Hacker News stories in displayed order. Return story ID, title and destination URL for each. Do not return top stories.",
+    "fields": [
+      "id",
+      "title",
+      "url"
+    ],
+    "limit": 10
+  },
+  {
+    "id": "remote-python",
+    "url": "https://remoteok.com/remote-python-jobs",
+    "intent": "Get the first 10 displayed Python job listings in page order. Return job title, company and job URL for each.",
+    "fields": [
+      "title",
+      "company",
+      "url"
+    ],
+    "limit": 10
+  },
+  {
+    "id": "remote-javascript",
+    "url": "https://remoteok.com/remote-javascript-jobs",
+    "intent": "Get the first 10 displayed JavaScript job listings in page order. Return job title, company and job URL for each.",
+    "fields": [
+      "title",
+      "company",
+      "url"
+    ],
+    "limit": 10
+  },
+  {
+    "id": "steam",
+    "url": "https://store.steampowered.com/app/427520/Factorio/?cc=us&l=english",
+    "intent": "Get the displayed US dollar purchase price and product name of the Factorio base game, US English logged-out store. Exclude demo, DLC and bundles.",
+    "fields": [
+      "product",
+      "displayedPrice"
+    ],
+    "limit": 1
+  }
+]

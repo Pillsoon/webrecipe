@@ -1,0 +1,29 @@
+{
+  "snapshot": "openlibrary-subject",
+  "url": "https://openlibrary.org/subjects/science_fiction",
+  "capturedAt": "2026-09-19T20:20:00Z",
+  "identifier": "text",
+  "note": "The 20 books in the Space Opera carousel, the first of the two the page renders. The second, Dystopian, holds 20 more of the same shape and is deliberately not part of this label: held-out 3 abandoned this surface because one selector caught both carousels, and a label that answers \"every book on the page\" would not measure that. The books carry no text of their own — each item is a cover image and the title is its alt — so these identifiers come from the alternative text the label dump reads.",
+  "items": [
+    "Per Anhalter Durch Die Galaxis",
+    "Die Zeitmachine / Time Machine",
+    "Yo, Robot",
+    "Enders Spiel",
+    "La guerre des mondes",
+    "Die Mars-Chroniken",
+    "2001",
+    "Meteor",
+    "El vuelo del dragón",
+    "Rendezvous with Rama",
+    "Charlie Und Der Grosse Glasernde Fahrstuhl",
+    "Das magische Messer",
+    "El hombre ilustrado",
+    "Mówca umarłych",
+    "Mars la Rouge",
+    "The Knife of Never Letting Go",
+    "Die nackte Sonne",
+    "Blindsight",
+    "Die Ketzer des Wüstenplaneten. Der Wüstenplanet. Fünfter Roman.",
+    "The First Men in the Moon"
+  ]
+}

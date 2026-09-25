@@ -1,0 +1,46 @@
+ M docs/superpowers/results/2026-09-16-state-of-the-engine.md
+ M docs/superpowers/results/2026-09-19-instrumentation.md
+ M package.json
+ M src/authoring/plans.ts
+ M src/authoring/teach.ts
+ M src/benchmark/report.ts
+ M src/benchmark/runner.ts
+ M src/browser/pool.ts
+ M src/browser/session.ts
+ M src/cli.ts
+ M src/executor/index.ts
+ M src/executor/strategies/browser.ts
+ M src/executor/strategies/http-html.ts
+ M src/executor/strategies/http-json.ts
+ M src/executor/strategies/warm-browser.ts
+ M src/healing/index.ts
+ M src/net/politeness.ts
+ M src/recipes/registry.ts
+ M src/recipes/template.ts
+ M src/recorder/index.ts
+ M src/recorder/types.ts
+ M src/types.ts
+ M tests/benchmark/levels.test.ts
+ M tests/benchmark/report.test.ts
+ M tests/net/politeness.test.ts
+?? .github/
+?? README.md
+?? benchmark/measure-task-cost.mjs
+?? benchmark/results/2026-09-20-task-cost-after.json
+?? benchmark/results/2026-09-20-task-cost-before.json
+?? benchmark/results/unbrowse-pilot-2026-09-21/
+?? docs/experiments/
+?? docs/local-trial.md
+?? docs/strategy-2026-09-21.md
+?? docs/superpowers/results/2026-09-20-local-alpha.md
+?? docs/superpowers/results/2026-09-20-task-cost.md
+?? src/local.ts
+?? src/measurement.ts
+?? src/usage.ts
+?? tests/local-cli.test.ts
+?? tests/local-durability.test.ts
+?? tests/local.test.ts
+?? tests/measurement-browser.test.ts
+?? tests/measurement.test.ts
+?? tests/usage.test.ts
+?? tsconfig.build.json

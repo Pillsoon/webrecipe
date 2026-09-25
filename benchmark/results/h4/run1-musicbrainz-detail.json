@@ -1,0 +1,207 @@
+[
+ {
+  "taskId": "musicbrainz-detail-1",
+  "site": "musicbrainz.org",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "browser",
+   "latencyMs": 0,
+   "browserLaunches": 1,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 0,
+   "networkRequests": 0,
+   "agentTokens": 0,
+   "threw": true,
+   "blocked": false,
+   "items": 0,
+   "reasons": [
+    "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://musicbrainz.org/release-group/b1392450-e666-3926-a536-22c65f834433\", waiting until \"domcontentloaded\"\u001b[22m\n"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 0,
+   "threw": true,
+   "bytesDownloaded": 0,
+   "networkRequests": 0,
+   "agentTokens": 0,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": false,
+   "query": null,
+   "ordering": null,
+   "reasons": [
+    "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://musicbrainz.org/release-group/b1392450-e666-3926-a536-22c65f834433\", waiting until \"domcontentloaded\"\u001b[22m\n"
+   ]
+  },
+  "aging": null
+ },
+ {
+  "taskId": "musicbrainz-detail-2",
+  "site": "musicbrainz.org",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "browser",
+   "latencyMs": 0,
+   "browserLaunches": 1,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 0,
+   "networkRequests": 0,
+   "agentTokens": 0,
+   "threw": true,
+   "blocked": false,
+   "items": 0,
+   "reasons": [
+    "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://musicbrainz.org/release-group/e75c0549-ad55-39e3-8025-c72c5d4a3c5d\", waiting until \"domcontentloaded\"\u001b[22m\n"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 0,
+   "threw": true,
+   "bytesDownloaded": 0,
+   "networkRequests": 0,
+   "agentTokens": 0,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": false,
+   "query": null,
+   "ordering": null,
+   "reasons": [
+    "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://musicbrainz.org/release-group/e75c0549-ad55-39e3-8025-c72c5d4a3c5d\", waiting until \"domcontentloaded\"\u001b[22m\n"
+   ]
+  },
+  "aging": null
+ },
+ {
+  "taskId": "musicbrainz-detail-3",
+  "site": "musicbrainz.org",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "browser",
+   "latencyMs": 0,
+   "browserLaunches": 1,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 0,
+   "networkRequests": 0,
+   "agentTokens": 0,
+   "threw": true,
+   "blocked": false,
+   "items": 0,
+   "reasons": [
+    "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://musicbrainz.org/release-group/6e335887-60ba-38f0-95af-fae7774336bf\", waiting until \"domcontentloaded\"\u001b[22m\n"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 0,
+   "threw": true,
+   "bytesDownloaded": 0,
+   "networkRequests": 0,
+   "agentTokens": 0,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": false,
+   "query": null,
+   "ordering": null,
+   "reasons": [
+    "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://musicbrainz.org/release-group/6e335887-60ba-38f0-95af-fae7774336bf\", waiting until \"domcontentloaded\"\u001b[22m\n"
+   ]
+  },
+  "aging": null
+ },
+ {
+  "taskId": "musicbrainz-detail-4",
+  "site": "musicbrainz.org",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "browser",
+   "latencyMs": 0,
+   "browserLaunches": 1,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 0,
+   "networkRequests": 0,
+   "agentTokens": 0,
+   "threw": true,
+   "blocked": false,
+   "items": 0,
+   "reasons": [
+    "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://musicbrainz.org/release-group/b8048f24-c026-3398-b23a-b5e50716cbc7\", waiting until \"domcontentloaded\"\u001b[22m\n"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 0,
+   "threw": true,
+   "bytesDownloaded": 0,
+   "networkRequests": 0,
+   "agentTokens": 0,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": false,
+   "query": null,
+   "ordering": null,
+   "reasons": [
+    "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://musicbrainz.org/release-group/b8048f24-c026-3398-b23a-b5e50716cbc7\", waiting until \"domcontentloaded\"\u001b[22m\n"
+   ]
+  },
+  "aging": null
+ },
+ {
+  "taskId": "musicbrainz-detail-5",
+  "site": "musicbrainz.org",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "browser",
+   "latencyMs": 0,
+   "browserLaunches": 1,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 0,
+   "networkRequests": 0,
+   "agentTokens": 0,
+   "threw": true,
+   "blocked": false,
+   "items": 0,
+   "reasons": [
+    "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://musicbrainz.org/release-group/bca9280e-28b4-327f-8fe0-fd918579e486\", waiting until \"domcontentloaded\"\u001b[22m\n"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 0,
+   "threw": true,
+   "bytesDownloaded": 0,
+   "networkRequests": 0,
+   "agentTokens": 0,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": false,
+   "query": null,
+   "ordering": null,
+   "reasons": [
+    "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://musicbrainz.org/release-group/bca9280e-28b4-327f-8fe0-fd918579e486\", waiting until \"domcontentloaded\"\u001b[22m\n"
+   ]
+  },
+  "aging": null
+ }
+]

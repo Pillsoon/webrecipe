@@ -1,0 +1,80 @@
+[
+ {
+  "taskId": "lemmy-search-1",
+  "site": "lemmy.world",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 1204,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 368327,
+   "networkRequests": 1,
+   "agentTokens": 1060,
+   "threw": false,
+   "items": 40,
+   "reasons": [
+    "18 golden item(s) missing from the result",
+    "18 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 13052,
+   "threw": false,
+   "bytesDownloaded": 2827664,
+   "networkRequests": 47,
+   "agentTokens": 8952,
+   "items": 40
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "lemmy-search-2",
+  "site": "lemmy.world",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 1279,
+   "browserLaunches": 0,
+   "politenessWaitMs": 58905,
+   "bytesDownloaded": 372069,
+   "networkRequests": 1,
+   "agentTokens": 900,
+   "threw": false,
+   "items": 40,
+   "reasons": [
+    "12 golden item(s) missing from the result",
+    "12 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 13368,
+   "threw": false,
+   "bytesDownloaded": 2738477,
+   "networkRequests": 27,
+   "agentTokens": 6762,
+   "items": 40
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

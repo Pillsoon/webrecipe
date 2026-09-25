@@ -1,0 +1,32 @@
+site: hn-newest
+intent: list
+inputs: {}
+strategy:
+  type: http-html
+request:
+  method: GET
+  path: /newest
+  query: {}
+output:
+  type: html
+  items:
+    selector: tr.athing
+    fields:
+      id: "@id"
+      title: span.titleline > a
+      url: span.titleline > a@href
+validation:
+  status: 200
+  required:
+    - id
+    - title
+  minItems: 1
+fingerprint:
+  endpoint: /newest
+  hash: 206f9f95b3925e40
+  responseFields:
+    - id
+    - title
+    - url
+fallback:
+  type: browser

@@ -1,0 +1,326 @@
+[
+ {
+  "taskId": "bandcamp-search-1",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2597,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 60,
+   "reasons": [
+    "no recipe registered"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2776,
+   "threw": false,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-2",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2517,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 60,
+   "reasons": [
+    "no recipe registered"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2712,
+   "threw": false,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-3",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2828,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 60,
+   "reasons": [
+    "no recipe registered"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2904,
+   "threw": false,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-4",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 3068,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 60,
+   "reasons": [
+    "no recipe registered",
+    "11 golden item(s) missing from the result",
+    "11 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2639,
+   "threw": false,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-5",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2397,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 60,
+   "reasons": [
+    "no recipe registered"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2562,
+   "threw": false,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-6",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2806,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 60,
+   "reasons": [
+    "no recipe registered"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 3017,
+   "threw": false,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-7",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2466,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 60,
+   "reasons": [
+    "no recipe registered"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2594,
+   "threw": false,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-8",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2418,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 60,
+   "reasons": [
+    "no recipe registered",
+    "6 golden item(s) missing from the result",
+    "6 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2588,
+   "threw": false,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-9",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2504,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 60,
+   "reasons": [
+    "no recipe registered"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2609,
+   "threw": false,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-10",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 11300,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 0,
+   "reasons": [
+    "no recipe registered"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 11507,
+   "threw": false,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

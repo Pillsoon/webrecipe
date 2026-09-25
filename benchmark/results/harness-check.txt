@@ -1,0 +1,50 @@
+$ tsx src/cli.ts bench run --tasks benchmark/harness-check.json
+Controlled
+  Tasks:             20
+  Browser-free:      70%   (L0 + L1)
+  Full-browser avoidance: 100%   (L0 + L1 + L2)
+  Levels:            L0 30%  L1 40%  L2 30%  L3 0%
+  Blocked:           4 (site refused the recipe; ran on the browser)
+  Median latency:    4ms (baseline 1603.5ms)
+  Median speedup:    400.9x
+  Median site speedup: 495.4x
+  Politeness wait:   0ms median (excluded from latency above)
+  Data fetched:      1KB median (baseline 2KB)  1.2x less
+  Requests:          1 median (baseline 1)
+  Agent reads:       139 tokens median (baseline 282)  2.0x less
+  Correctness
+    Baseline validity:  18/20 usable          (2 excluded)
+    No stored golden:   1 excluded
+    Entity equivalence: 100%
+    Query semantics:    not declared
+    Ordering:           100% where meaningful
+
+robots.txt status of wild sites
+  pkg.go.dev: disallowed for crawlers (user-agent posture, see spec section 6)
+  crates.io: allowed
+  hn.algolia.com: allowed
+  hex.pm: allowed
+  docs.rs: allowed
+  flathub.org: allowed
+  jsr.io: allowed
+  tildes.net: allowed
+  remoteok.com: allowed
+  itch.io: allowed
+  arbeitnow.com: allowed
+  archive.org: allowed
+  meta.discourse.org: allowed
+  loc.gov: allowed
+  bandcamp.com: allowed
+  lemmy.world: allowed
+  openlibrary.org: allowed
+  mastodon.social: allowed
+  pixelfed.social: allowed
+  musicbrainz.org: allowed
+  dev.to: allowed
+  npmjs.com: allowed
+
+excluded (baseline unusable): 2
+  broken-excluded-1: baseline returned no items
+  broken-excluded-2: baseline returned no items
+excluded (no stored golden): 1
+  siteA-nogolden-1: no stored golden for this task

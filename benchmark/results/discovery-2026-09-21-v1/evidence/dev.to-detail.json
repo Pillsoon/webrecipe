@@ -1,0 +1,38 @@
+{
+  "baseline": "7f51ca0",
+  "site": "dev.to",
+  "intent": "detail",
+  "taughtUrl": "https://dev.to/bengreenberg/jev-vs-claude-who-wins-4mln",
+  "plan": {
+    "origin": "https://dev.to",
+    "urlTemplate": "/{{id}}",
+    "itemSelector": "article.crayons-article",
+    "fields": {
+      "title": "h1",
+      "author": "a.crayons-link"
+    },
+    "verification": {
+      "contract": {
+        "required": [
+          "non_empty",
+          "required_fields"
+        ]
+      },
+      "evidence": {
+        "non_empty": {
+          "status": "passed"
+        },
+        "required_fields": {
+          "status": "passed"
+        }
+      }
+    }
+  },
+  "refused": null,
+  "sample": [
+    {
+      "title": "Jev vs Claude: Who Wins?",
+      "author": "Ben Greenberg"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "baseline": "7f51ca0",
+  "site": "lemmy.world",
+  "intent": "search",
+  "taughtUrl": "https://lemmy.world/c/technology?page=1",
+  "plan": {
+    "origin": "https://lemmy.world",
+    "urlTemplate": "/c/{{query}}?page={{page}}",
+    "itemSelector": "article.post-container",
+    "fields": {
+      "title": "a.link-dark",
+      "url": "a.link-dark@href"
+    },
+    "verification": {
+      "contract": {
+        "required": [
+          "non_empty",
+          "required_fields",
+          "query_honored",
+          "lexical_query_consistency",
+          "pagination_honored"
+        ]
+      },
+      "evidence": {
+        "non_empty": {
+          "status": "passed"
+        },
+        "required_fields": {
+          "status": "passed"
+        },
+        "query_honored": {
+          "status": "not_tested",
+          "at": "2026-09-22T02:32:34.246Z",
+          "method": "active-probe/v1",
+          "parameter": "query",
+          "probes": [
+            {
+              "role": "taught",
+              "value": "technology",
+              "items": 40
+            },
+            {
+              "role": "repeat",
+              "value": "technology",
+              "items": null,
+              "unavailable": "fetch failed"
+            },
+            {
+              "role": "nonce",
+              "value": "272fdd0b57a7",
+              "items": null,
+              "unavailable": "fetch failed"
+            },
+            {
+              "role": "contrast",
+              "value": "access",
+              "items": null,
+              "unavailable": "fetch failed"
+            }
+          ],
+          "signals": {},
+          "reason": "repeat probe unavailable: fetch failed"
+        },
+        "lexical_query_consistency": {
+          "status": "not_tested",
+          "at": "2026-09-22T02:32:34.247Z",
+          "method": "active-probe/lexical-consistency-v1",
+          "parameter": "query",
+          "shares": {
+            "taught": 0
+          },
+          "signals": {
+            "applicable": false
+          },
+          "reason": "only 0% of the taught result carries the query in a field this plan extracts, so this site does not match on text we can read"
+        },
+        "pagination_honored": {
+          "status": "not_tested",
+          "at": "2026-09-22T02:52:51.283Z",
+          "method": "active-probe/pagination-v1",
+          "parameter": "page",
+          "probes": [
+            {
+              "role": "taught",
+              "value": "1",
+              "items": 40
+            },
+            {
+              "role": "repeat",
+              "value": "1",
+              "items": null,
+              "unavailable": "fetch failed"
+            },
+            {
+              "role": "alternate",
+              "value": "2",
+              "items": null,
+              "unavailable": "fetch failed"
+            }
+          ],
+          "signals": {},
+          "reason": "repeat probe unavailable: fetch failed"
+        }
+      }
+    }
+  },
+  "refused": null,
+  "sample": [
+    {
+      "title": "Smart devices can testify against you: How home robot data is being used in court",
+      "url": "/post/52137071"
+    },
+    {
+      "title": "Smart devices can testify against you: How home robot data is being used in court",
+      "url": "/post/52137071"
+    },
+    {
+      "title": "Shopify CEO says employees' 'slop grenades' are making more work for everyone else",
+      "url": "/post/52207508"
+    }
+  ]
+}

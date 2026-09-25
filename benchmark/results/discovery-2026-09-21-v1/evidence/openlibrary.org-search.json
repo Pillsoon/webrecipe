@@ -1,0 +1,129 @@
+{
+  "baseline": "7f51ca0",
+  "site": "openlibrary.org",
+  "intent": "search",
+  "taughtUrl": "https://openlibrary.org/trending/now?page=1",
+  "plan": {
+    "origin": "https://openlibrary.org",
+    "urlTemplate": "/trending/{{query}}?page={{page}}",
+    "itemSelector": "li.searchResultItem",
+    "fields": {
+      "title": "h3.booktitle a.results",
+      "url": "h3.booktitle a.results@href",
+      "author": "span.bookauthor a"
+    },
+    "verification": {
+      "contract": {
+        "required": [
+          "non_empty",
+          "required_fields",
+          "query_honored",
+          "lexical_query_consistency",
+          "pagination_honored"
+        ]
+      },
+      "evidence": {
+        "non_empty": {
+          "status": "passed"
+        },
+        "required_fields": {
+          "status": "passed"
+        },
+        "query_honored": {
+          "status": "not_tested",
+          "at": "2026-09-21T22:53:24.507Z",
+          "method": "active-probe/v1",
+          "parameter": "query",
+          "probes": [
+            {
+              "role": "taught",
+              "value": "now",
+              "items": 20
+            },
+            {
+              "role": "repeat",
+              "value": "now",
+              "items": 20
+            },
+            {
+              "role": "nonce",
+              "value": "15c773899ca5",
+              "items": null,
+              "unavailable": "unexpected status 500"
+            },
+            {
+              "role": "contrast",
+              "value": "agent",
+              "items": null,
+              "unavailable": "unexpected status 500"
+            }
+          ],
+          "signals": {},
+          "reason": "nonce probe unavailable: unexpected status 500"
+        },
+        "lexical_query_consistency": {
+          "status": "not_tested",
+          "at": "2026-09-21T22:53:24.508Z",
+          "method": "active-probe/lexical-consistency-v1",
+          "parameter": "query",
+          "shares": {
+            "taught": 0
+          },
+          "signals": {
+            "applicable": false
+          },
+          "reason": "only 0% of the taught result carries the query in a field this plan extracts, so this site does not match on text we can read"
+        },
+        "pagination_honored": {
+          "status": "passed",
+          "at": "2026-09-21T22:53:29.035Z",
+          "method": "active-probe/pagination-v1",
+          "parameter": "page",
+          "probes": [
+            {
+              "role": "taught",
+              "value": "1",
+              "items": 20
+            },
+            {
+              "role": "repeat",
+              "value": "1",
+              "items": 20
+            },
+            {
+              "role": "alternate",
+              "value": "2",
+              "items": 20
+            }
+          ],
+          "signals": {
+            "stable": true,
+            "moved": true,
+            "agreed": true
+          },
+          "shares": {
+            "overlap": 0
+          }
+        }
+      }
+    }
+  },
+  "refused": null,
+  "sample": [
+    {
+      "title": "Las 48 leyes del poder",
+      "url": "/works/OL34756485W/Las_48_leyes_del_poder?edition=key%3A/books/OL47106143M",
+      "author": "Robert Greene / Joost Elffers"
+    },
+    {
+      "title": "Verity",
+      "url": "/works/OL35045319W/Verity?edition=key%3A/books/OL47415171M",
+      "author": "Jonathan C. Young"
+    },
+    {
+      "title": "West Side story: the novel",
+      "url": "/works/OL24149907W/West_Side_Story?edition=key%3A/books/OL39199212M",
+      "author": "Irving Shulman"
+    }
+  ]
+}

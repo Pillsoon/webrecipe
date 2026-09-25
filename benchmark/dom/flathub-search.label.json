@@ -1,0 +1,30 @@
+{
+  "snapshot": "flathub-search",
+  "url": "https://flathub.org/apps/search?q=editor",
+  "capturedAt": "2026-09-19T19:00:55.107Z",
+  "note": "The 21 app cards the search grid rendered, read off `bench label` output lines 32-73. The page says 78 results and renders 21 behind a Show More button; the label is what is on the page, not what the site claims. Each item is the app's summary line rather than its name: the names collide under substring matching (\"Text Editor\" is inside \"Micro Text Editor\") and the rendered markup puts no whitespace between a card's name and its summary, so a name-plus-summary identifier would not be contained in the card's text. The category counts, the filter sidebar and the footer link lists are not part of the listing.",
+  "identifier": "text",
+  "items": [
+    "Office productivity suite",
+    "Edit text files",
+    "An easy to use, quick to learn, and surprisingly powerful video editor",
+    "Master PDF Editor is a full solution for work with PDF documents",
+    "A graphical tool for editing the dconf database",
+    "A modern and intuitive terminal-based text editor",
+    "Edit PDF metadata",
+    "Create or edit XML dynamic wallpapers (\"background slideshows\") for the GNOME desktop",
+    "NTag is a cross platform-graphical tag editor focused on everyday life use cases.",
+    "Translate apps in your language",
+    "Create crossword puzzles",
+    "Hex editor",
+    "View and edit guitar tablature",
+    "Add or remove tracker from torrent files.",
+    "Classic point and click adventure game engine and editor",
+    "Edit and create torrent files",
+    "Satellite channel lists editor for Enigma2, Neutrino, dreambox",
+    "Realtime visual effects editor",
+    "Fast, lightweight 3D engine for the web",
+    "Edit and view UDF documents",
+    "Edit SSH hosts and aliases"
+  ]
+}

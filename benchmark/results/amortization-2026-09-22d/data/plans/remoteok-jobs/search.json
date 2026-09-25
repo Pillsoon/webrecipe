@@ -1,0 +1,76 @@
+{
+  "origin": "https://remoteok.com",
+  "urlTemplate": "/remote-{{query}}-jobs",
+  "itemSelector": "tr.job[data-url]",
+  "fields": {
+    "title": "h2",
+    "company": "h3",
+    "url": "@data-url"
+  },
+  "verification": {
+    "contract": {
+      "required": [
+        "non_empty",
+        "required_fields",
+        "query_honored",
+        "lexical_query_consistency"
+      ]
+    },
+    "evidence": {
+      "non_empty": {
+        "status": "passed"
+      },
+      "required_fields": {
+        "status": "passed"
+      },
+      "query_honored": {
+        "status": "not_tested",
+        "at": "2026-09-22T23:48:08.938Z",
+        "method": "active-probe/v1",
+        "parameter": "query",
+        "probes": [
+          {
+            "role": "taught",
+            "value": "python",
+            "items": 50
+          },
+          {
+            "role": "repeat",
+            "value": "python",
+            "items": 50
+          },
+          {
+            "role": "nonce",
+            "value": "41e0f1ad5224",
+            "items": 0
+          },
+          {
+            "role": "contrast",
+            "value": "abamedia",
+            "items": 0
+          }
+        ],
+        "signals": {
+          "stable": true,
+          "responsive": true,
+          "nonce_rejected": true,
+          "agreed": false
+        },
+        "reason": "on an input never taught (\"abamedia\") the recipe and the browser saw different items"
+      },
+      "lexical_query_consistency": {
+        "status": "not_tested",
+        "at": "2026-09-22T23:48:08.939Z",
+        "method": "active-probe/lexical-consistency-v1",
+        "parameter": "query",
+        "signals": {
+          "applicable": false
+        },
+        "shares": {
+          "taught": 0.06
+        },
+        "reason": "only 6% of the taught result carries the query in a field this plan extracts, so this site does not match on text we can read"
+      }
+    }
+  }
+}

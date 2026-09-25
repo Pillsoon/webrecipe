@@ -1,0 +1,379 @@
+[
+ {
+  "taskId": "npm-search-1",
+  "site": "npmjs.com",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 215,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 168538,
+   "networkRequests": 1,
+   "agentTokens": 223,
+   "threw": false,
+   "blocked": false,
+   "items": 20,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2813,
+   "threw": false,
+   "bytesDownloaded": 2521718,
+   "networkRequests": 16,
+   "agentTokens": 6317,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "npm-search-2",
+  "site": "npmjs.com",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 324,
+   "browserLaunches": 0,
+   "politenessWaitMs": 922,
+   "bytesDownloaded": 165722,
+   "networkRequests": 1,
+   "agentTokens": 198,
+   "threw": false,
+   "blocked": false,
+   "items": 20,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2250,
+   "threw": false,
+   "bytesDownloaded": 3337352,
+   "networkRequests": 24,
+   "agentTokens": 5219,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "npm-search-3",
+  "site": "npmjs.com",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 165,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 169252,
+   "networkRequests": 1,
+   "agentTokens": 267,
+   "threw": false,
+   "blocked": false,
+   "items": 20,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 12188,
+   "threw": false,
+   "bytesDownloaded": 1663792,
+   "networkRequests": 18,
+   "agentTokens": 171,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "npm-search-4",
+  "site": "npmjs.com",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 72,
+   "browserLaunches": 0,
+   "politenessWaitMs": 811,
+   "bytesDownloaded": 167811,
+   "networkRequests": 1,
+   "agentTokens": 268,
+   "threw": false,
+   "blocked": false,
+   "items": 21,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2180,
+   "threw": false,
+   "bytesDownloaded": 2525530,
+   "networkRequests": 20,
+   "agentTokens": 5835,
+   "items": 21
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "npm-search-5",
+  "site": "npmjs.com",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 138,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 161865,
+   "networkRequests": 1,
+   "agentTokens": 247,
+   "threw": false,
+   "blocked": false,
+   "items": 20,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 12552,
+   "threw": false,
+   "bytesDownloaded": 1650460,
+   "networkRequests": 18,
+   "agentTokens": 171,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "npm-search-6",
+  "site": "npmjs.com",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 48,
+   "browserLaunches": 0,
+   "politenessWaitMs": 824,
+   "bytesDownloaded": 169483,
+   "networkRequests": 1,
+   "agentTokens": 265,
+   "threw": false,
+   "blocked": false,
+   "items": 21,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2033,
+   "threw": false,
+   "bytesDownloaded": 2579215,
+   "networkRequests": 21,
+   "agentTokens": 6007,
+   "items": 21
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "npm-search-7",
+  "site": "npmjs.com",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 311,
+   "browserLaunches": 0,
+   "politenessWaitMs": 6000,
+   "bytesDownloaded": 161117,
+   "networkRequests": 1,
+   "agentTokens": 259,
+   "threw": false,
+   "blocked": false,
+   "items": 20,
+   "reasons": [
+    "same items, different order"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 1881,
+   "threw": false,
+   "bytesDownloaded": 2551274,
+   "networkRequests": 18,
+   "agentTokens": 5158,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": [
+    "same items, different order"
+   ]
+  },
+  "aging": null
+ },
+ {
+  "taskId": "npm-search-8",
+  "site": "npmjs.com",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 124,
+   "browserLaunches": 0,
+   "politenessWaitMs": 862,
+   "bytesDownloaded": 172719,
+   "networkRequests": 1,
+   "agentTokens": 401,
+   "threw": false,
+   "blocked": false,
+   "items": 25,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2427,
+   "threw": false,
+   "bytesDownloaded": 303049,
+   "networkRequests": 23,
+   "agentTokens": 7062,
+   "items": 25
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "npm-search-9",
+  "site": "npmjs.com",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 110,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 159380,
+   "networkRequests": 1,
+   "agentTokens": 230,
+   "threw": false,
+   "blocked": false,
+   "items": 20,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 1803,
+   "threw": false,
+   "bytesDownloaded": 247887,
+   "networkRequests": 24,
+   "agentTokens": 4826,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "npm-search-10",
+  "site": "npmjs.com",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 12396,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 1656110,
+   "networkRequests": 18,
+   "agentTokens": 169,
+   "threw": false,
+   "blocked": true,
+   "items": 0,
+   "reasons": [
+    "item count 0 < minItems 1",
+    "blocked: 200 with no items, browser also empty"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 12052,
+   "threw": false,
+   "bytesDownloaded": 3099982,
+   "networkRequests": 14,
+   "agentTokens": 778,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

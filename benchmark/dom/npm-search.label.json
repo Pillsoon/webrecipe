@@ -1,0 +1,29 @@
+{
+  "snapshot": "npm-search",
+  "url": "https://www.npmjs.com/search?q=markdown",
+  "capturedAt": "2026-09-19T20:20:00Z",
+  "note": "The 20 package results the search page rendered. The identifiers are the package descriptions, not the names: the package literally called `markdown` is a substring of `markdown-it`, `markdown-table` and others, and text matching is containment. npm renders the exact-match result differently from the other 19; the label counts it as a result, because a reader searching for a package sees 20 of them.",
+  "identifier": "text",
+  "items": [
+    "A sensible Markdown parser for javascript",
+    "Markdown-it - modern pluggable markdown parser.",
+    "Generate a markdown (GFM) table",
+    "React component to render markdown",
+    "mdast utility to parse markdown",
+    "ProseMirror Markdown integration",
+    "mdast utility to serialize markdown",
+    "List of Markdown file extensions",
+    "Convert markdown into Slack-specific markdown",
+    "TypeScript definitions for markdown-it",
+    "Footnotes for markdown-it markdown parser.",
+    "Emoji plugin for markdown-it markdown parser.",
+    "escape Markdown control characters",
+    "Header anchors for markdown-it.",
+    "<sup> tag for markdown-it markdown parser.",
+    "<ins> tag for markdown-it markdown parser.",
+    "<mark> tag for markdown-it markdown parser.",
+    "<sub> tag for markdown-it markdown parser.",
+    "<dl> tag for markdown-it markdown parser.",
+    "Markdown dictionary for cspell."
+  ]
+}

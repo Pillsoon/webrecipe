@@ -1,0 +1,50 @@
+unbrowse — route layer for web agents (in-process, stateless)
+
+Usage:
+  unbrowse "<task>" --url <url>    one-call front door (preferred)
+  unbrowse <command> [args]         flat top-level commands
+  unbrowse <command> --help         command-specific flags
+
+Exit codes: 0 success (incl. --help) · 1 runtime failure · 64 usage error · 70 not implemented
+
+Runtime: in-process — no localhost daemon to start or probe.
+  Optional: `unbrowse serve` is an explicit HTTP facade only.
+
+Agent path (three moves only):
+  1. Any read/search/list/get  → unbrowse "<task>" --url <url>
+  2. auth_required            → run next_step once (or unbrowse auth <login_url>), then retry #1 once
+  3. miss/empty/capture        → run next_step once (or unbrowse capture --url <url> --intent "<task>"), then retry #1 once
+
+Operator/debug commands (not ordinary reads):
+  fetch <url>                         raw URL contents
+  resolve / execute                   inspect or select a route
+  health / setup                      runtime administration
+
+DOM session (only when interaction is the task):
+  1. go <url>     open a tab
+  2. snap         a11y snapshot with @eN refs
+  3. click/fill/type/select/submit
+  4. sync         checkpoint (tab stays open)
+  5. close        final checkpoint + close
+
+Marketplace (after capture/review):
+  skills | skill <id> | publish --skill <id> --confirm-publish
+  settings | stats | dashboard | account --register
+
+Global flags:
+  --json     single-line JSON stdout
+  --pretty   pretty 2-space JSON stdout
+  --help     this help (or command help)
+
+Hit a bug? File it (agents: use the gh CLI):
+  gh issue create --repo unbrowse-ai/unbrowse --title "bug: <domain> - <summary>" --body "<repro + trace>"
+
+Legacy three-verb prefixes still parse as aliases; prefer flat commands above.
+
+Bee aliases: npm i -g @unbrowse/pollen-cli  (pollen, waggle, buzz, forage, swarm, nectar, hive)
+
+Learn more:
+  How it pays   https://unbrowse.ai/how-unbrowse-pays
+  Privacy       https://unbrowse.ai/privacy
+  Papers        https://unbrowse.ai/papers
+

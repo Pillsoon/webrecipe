@@ -1,0 +1,52 @@
+[unbrowse] Running setup checks
+[09:15:19] [setup] detected host environment: unknown
+[09:15:19] [setup] local identity wallet ready in ~/.unbrowse: 78kgeu1ZQuEV73vngiRs3iDpGAU25BPkQrgfH8Zkojb
+
+[unbrowse setup] Flex escrow funding (required for paid calls)
+  Pre-deposit USDC into a Flex escrow PDA so the platform can
+  settle creator payments off-chain in batches.
+  Fund it via the web flow:
+    open https://unbrowse.ai/account/escrow
+  Server-side priced calls will return 402 with
+  X-Flex-Onboarding-Required: 1 until this step is done.
+
+[unbrowse setup] Flex session key registration
+  Register an Ed25519 session key against your escrow so the
+  SDK can sign payment authorizations off-chain.
+  Register it via the web flow:
+    open https://unbrowse.ai/account/session-key
+
+[unbrowse setup] ✓ Ready — runtime + Agent Skill installed.
+  Wallet is optional (sponsored usage works without one).
+  Pair later to earn: npx @crossmint/lobster-cli setup
+  Dashboard:         unbrowse dashboard
+[unbrowse] Wallet configured (unbrowse-local): linked
+[unbrowse] Email provider: Gmail (via GWS) — autonomous login enabled
+[unbrowse] Skill install skipped (--no-skill).
+[unbrowse] MCP host registration skipped — setup installs the Agent Skill/CLI only.
+[unbrowse] ToS check skipped (non-interactive/server mode)
+[unbrowse] Trying a quick first resolve (jsonplaceholder)...
+[unbrowse] ToS check skipped (non-interactive/server mode)
+[09:15:23] [auth] direct-document: browser cookie import disabled — sending no cookies for jsonplaceholder.typicode.com
+
+[unbrowse] Client attestation mismatch (client_verification_failed). Local paths still run.
+[unbrowse] To refresh the shipped binary: npm install -g unbrowse@latest
+[unbrowse] (set UNBROWSE_AUTO_UPDATE=1 to auto-apply once; source checkouts often hit this)
+[direct-document] https://jsonplaceholder.typicode.com probe-winner HTML fast path — direct document over exa (ct=text/html; charset=utf-8)
+[bg-api-capture] https://jsonplaceholder.typicode.com queued — discovering API routes in background
+[perf] direct-document: 580ms (time_saved=97% tokens_saved=95% [estimated])
+[lifecycle] discover=580ms
+[unbrowse] Resolve succeeded on https://jsonplaceholder.typicode.com
+[unbrowse] 
+[unbrowse] Setup complete. Try it now (one call — resolve + execute):
+[unbrowse]   unbrowse "top stories with point counts" --url https://news.ycombinator.com
+[unbrowse] 
+[unbrowse] Or any site:
+[unbrowse]   unbrowse "<what you want>" --url "https://example.com"
+[unbrowse] 
+[unbrowse] Check health anytime:
+[unbrowse]   unbrowse health
+[unbrowse] 
+[unbrowse] Optional — pair a dashboard account later:
+[unbrowse]   unbrowse register --email you@example.com
+[unbrowse]   unbrowse dashboard

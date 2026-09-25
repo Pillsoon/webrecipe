@@ -1,0 +1,78 @@
+{
+  "baseline": "7f51ca0",
+  "site": "meta.discourse.org",
+  "intent": "list",
+  "taughtUrl": "https://meta.discourse.org/tag/ux?page=1",
+  "plan": {
+    "origin": "https://meta.discourse.org",
+    "urlTemplate": "/tag/{{query}}?page={{page}}",
+    "itemSelector": "tr.topic-list-item",
+    "fields": {
+      "title": "a.title",
+      "url": "a.title@href"
+    },
+    "verification": {
+      "contract": {
+        "required": [
+          "non_empty",
+          "required_fields",
+          "pagination_honored"
+        ]
+      },
+      "evidence": {
+        "non_empty": {
+          "status": "passed"
+        },
+        "required_fields": {
+          "status": "passed"
+        },
+        "pagination_honored": {
+          "status": "passed",
+          "at": "2026-09-21T22:53:56.180Z",
+          "method": "active-probe/pagination-v1",
+          "parameter": "page",
+          "probes": [
+            {
+              "role": "taught",
+              "value": "1",
+              "items": 30
+            },
+            {
+              "role": "repeat",
+              "value": "1",
+              "items": 30
+            },
+            {
+              "role": "alternate",
+              "value": "2",
+              "items": 24
+            }
+          ],
+          "signals": {
+            "stable": true,
+            "moved": true,
+            "agreed": true
+          },
+          "shares": {
+            "overlap": 0
+          }
+        }
+      }
+    }
+  },
+  "refused": null,
+  "sample": [
+    {
+      "title": "“Move to existing topic” search silently fails while site search still works",
+      "url": "https://meta.discourse.org/t/move-to-existing-topic-search-silently-fails-while-site-search-still-works/392872"
+    },
+    {
+      "title": "Difficult contrast of tags and categories when the text colour is white",
+      "url": "https://meta.discourse.org/t/difficult-contrast-of-tags-and-categories-when-the-text-colour-is-white/380610"
+    },
+    {
+      "title": "The web page continuously loads previous posts and automatically scrolls up quickly",
+      "url": "https://meta.discourse.org/t/the-web-page-continuously-loads-previous-posts-and-automatically-scrolls-up-quickly/391192"
+    }
+  ]
+}

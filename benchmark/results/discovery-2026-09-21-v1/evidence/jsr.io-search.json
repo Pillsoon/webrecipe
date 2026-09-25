@@ -1,0 +1,97 @@
+{
+  "baseline": "7f51ca0",
+  "site": "jsr.io",
+  "intent": "search",
+  "taughtUrl": "https://jsr.io/packages?search=oak",
+  "plan": {
+    "origin": "https://jsr.io",
+    "urlTemplate": "/packages?search={{query}}",
+    "itemSelector": "li:has(a[href^=\"/@\"])",
+    "fields": {
+      "title": "a[href^=\"/@\"]",
+      "url": "a[href^=\"/@\"]@href"
+    },
+    "verification": {
+      "contract": {
+        "required": [
+          "non_empty",
+          "required_fields",
+          "query_honored",
+          "lexical_query_consistency"
+        ]
+      },
+      "evidence": {
+        "non_empty": {
+          "status": "passed"
+        },
+        "required_fields": {
+          "status": "passed"
+        },
+        "query_honored": {
+          "status": "passed",
+          "at": "2026-09-21T22:35:56.983Z",
+          "method": "active-probe/v1",
+          "parameter": "query",
+          "probes": [
+            {
+              "role": "taught",
+              "value": "oak",
+              "items": 20
+            },
+            {
+              "role": "repeat",
+              "value": "oak",
+              "items": 20
+            },
+            {
+              "role": "nonce",
+              "value": "ebf64d502beb",
+              "items": 0
+            },
+            {
+              "role": "contrast",
+              "value": "acorn",
+              "items": 4
+            }
+          ],
+          "signals": {
+            "stable": true,
+            "nonce_rejected": true,
+            "responsive": true,
+            "agreed": true
+          }
+        },
+        "lexical_query_consistency": {
+          "status": "not_tested",
+          "at": "2026-09-21T22:35:56.983Z",
+          "method": "active-probe/lexical-consistency-v1",
+          "parameter": "query",
+          "shares": {
+            "taught": 1,
+            "contrast": 0.5
+          },
+          "signals": {
+            "applicable": true,
+            "consistent": false
+          },
+          "reason": "the taught query is visible in its result but \"acorn\" is in only 50% of its own, which one site matching on two different fields would also look like"
+        }
+      }
+    }
+  },
+  "refused": null,
+  "sample": [
+    {
+      "title": "@oak/commonsA set of APIs for handling HTTP and HTTPS requests 🐿️This package works with Browsers, Deno, Node.js, Cloudflare Workers, Bun100",
+      "url": "/@oak/commons"
+    },
+    {
+      "title": "@oak/acornA focused RESTful server framework 🌰This package works with Cloudflare Workers, Node.js, Deno, Bun100",
+      "url": "/@oak/acorn"
+    },
+    {
+      "title": "@oak/oakA middleware framework for handling HTTP with Deno, Node.js, Bun and Cloudflare Workers 🐿️🦕🥟⚙️This package works with Cloudflare Workers, Node.js, Deno, Bun94",
+      "url": "/@oak/oak"
+    }
+  ]
+}

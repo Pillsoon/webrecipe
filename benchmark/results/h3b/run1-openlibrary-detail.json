@@ -1,0 +1,182 @@
+[
+ {
+  "taskId": "openlibrary-detail-1",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 4844,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 140684,
+   "networkRequests": 1,
+   "agentTokens": 34,
+   "threw": false,
+   "items": 1,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 5982,
+   "threw": false,
+   "bytesDownloaded": 1979402,
+   "networkRequests": 87,
+   "agentTokens": 7412,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-detail-2",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 804,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 103467,
+   "networkRequests": 1,
+   "agentTokens": 33,
+   "threw": false,
+   "items": 1,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 4550,
+   "threw": false,
+   "bytesDownloaded": 1904868,
+   "networkRequests": 88,
+   "agentTokens": 4590,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-detail-3",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 4645,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 115953,
+   "networkRequests": 1,
+   "agentTokens": 36,
+   "threw": false,
+   "items": 1,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 5630,
+   "threw": false,
+   "bytesDownloaded": 1915683,
+   "networkRequests": 83,
+   "agentTokens": 5194,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-detail-4",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 1535,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 129474,
+   "networkRequests": 1,
+   "agentTokens": 45,
+   "threw": false,
+   "items": 1,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 5095,
+   "threw": false,
+   "bytesDownloaded": 1959125,
+   "networkRequests": 94,
+   "agentTokens": 6050,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-detail-5",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 3069,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 143237,
+   "networkRequests": 1,
+   "agentTokens": 45,
+   "threw": false,
+   "items": 1,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 7068,
+   "threw": false,
+   "bytesDownloaded": 1962934,
+   "networkRequests": 106,
+   "agentTokens": 8310,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

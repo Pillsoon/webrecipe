@@ -1,0 +1,89 @@
+{
+  "baseline": "7f51ca0",
+  "site": "meta.discourse.org",
+  "intent": "search",
+  "taughtUrl": "https://meta.discourse.org/tag/ux",
+  "plan": {
+    "origin": "https://meta.discourse.org",
+    "urlTemplate": "/tag/{{query}}",
+    "itemSelector": "tr.topic-list-item",
+    "fields": {
+      "title": "a.title",
+      "url": "a.title@href"
+    },
+    "verification": {
+      "contract": {
+        "required": [
+          "non_empty",
+          "required_fields",
+          "query_honored",
+          "lexical_query_consistency"
+        ]
+      },
+      "evidence": {
+        "non_empty": {
+          "status": "passed"
+        },
+        "required_fields": {
+          "status": "passed"
+        },
+        "query_honored": {
+          "status": "not_tested",
+          "at": "2026-09-22T00:51:20.936Z",
+          "method": "active-probe/v1",
+          "parameter": "query",
+          "probes": [
+            {
+              "role": "taught",
+              "value": "ux",
+              "items": 30
+            },
+            {
+              "role": "repeat",
+              "value": "ux",
+              "items": 30
+            },
+            {
+              "role": "nonce",
+              "value": "f48c1e8cbae8",
+              "items": null,
+              "unavailable": "unexpected status 404"
+            },
+            {
+              "role": "contrast",
+              "value": "above",
+              "items": null,
+              "unavailable": "unexpected status 404"
+            }
+          ],
+          "signals": {},
+          "reason": "nonce probe unavailable: unexpected status 404"
+        },
+        "lexical_query_consistency": {
+          "status": "not_tested",
+          "at": "2026-09-22T00:51:20.949Z",
+          "method": "active-probe/lexical-consistency-v1",
+          "parameter": "query",
+          "shares": {},
+          "signals": {},
+          "reason": "the taught query has no usable token, or returned nothing"
+        }
+      }
+    }
+  },
+  "refused": null,
+  "sample": [
+    {
+      "title": "Ask username after validating e-mail",
+      "url": "https://meta.discourse.org/t/ask-username-after-validating-e-mail/327484"
+    },
+    {
+      "title": "Search icon covers search input",
+      "url": "https://meta.discourse.org/t/search-icon-covers-search-input/411039"
+    },
+    {
+      "title": "LibreTranslate language detection issue",
+      "url": "https://meta.discourse.org/t/libretranslate-language-detection-issue/411017"
+    }
+  ]
+}

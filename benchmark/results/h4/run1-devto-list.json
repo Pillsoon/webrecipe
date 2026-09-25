@@ -1,0 +1,199 @@
+[
+ {
+  "taskId": "devto-list-1",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2750,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 3082429,
+   "networkRequests": 44,
+   "agentTokens": 8869,
+   "threw": false,
+   "blocked": false,
+   "items": 15,
+   "reasons": [
+    "no recipe registered"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2812,
+   "threw": false,
+   "bytesDownloaded": 3082429,
+   "networkRequests": 44,
+   "agentTokens": 8869,
+   "items": 15
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "devto-list-2",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2396,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 3051602,
+   "networkRequests": 40,
+   "agentTokens": 7389,
+   "threw": false,
+   "blocked": false,
+   "items": 15,
+   "reasons": [
+    "no recipe registered"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2416,
+   "threw": false,
+   "bytesDownloaded": 3051602,
+   "networkRequests": 40,
+   "agentTokens": 7389,
+   "items": 15
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "devto-list-3",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2193,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 7531147,
+   "networkRequests": 60,
+   "agentTokens": 7521,
+   "threw": false,
+   "blocked": false,
+   "items": 15,
+   "reasons": [
+    "no recipe registered"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2437,
+   "threw": false,
+   "bytesDownloaded": 7530053,
+   "networkRequests": 60,
+   "agentTokens": 7521,
+   "items": 15
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "devto-list-4",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2164,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 3078167,
+   "networkRequests": 44,
+   "agentTokens": 8347,
+   "threw": false,
+   "blocked": false,
+   "items": 15,
+   "reasons": [
+    "no recipe registered"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2317,
+   "threw": false,
+   "bytesDownloaded": 3078167,
+   "networkRequests": 44,
+   "agentTokens": 8347,
+   "items": 15
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "devto-list-5",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2105,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 3115323,
+   "networkRequests": 48,
+   "agentTokens": 9182,
+   "threw": false,
+   "blocked": false,
+   "items": 15,
+   "reasons": [
+    "no recipe registered",
+    "2 golden item(s) missing from the result",
+    "2 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2691,
+   "threw": false,
+   "bytesDownloaded": 3115323,
+   "networkRequests": 53,
+   "agentTokens": 9182,
+   "items": 15
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

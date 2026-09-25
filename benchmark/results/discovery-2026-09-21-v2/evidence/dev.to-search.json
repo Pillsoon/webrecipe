@@ -1,0 +1,92 @@
+{
+  "baseline": "7f51ca0",
+  "site": "dev.to",
+  "intent": "search",
+  "taughtUrl": "https://dev.to/t/typescript",
+  "plan": {
+    "origin": "https://dev.to",
+    "urlTemplate": "/t/{{query}}",
+    "itemSelector": "div.crayons-story",
+    "fields": {
+      "title": "h2.crayons-story__title a",
+      "url": "h2.crayons-story__title a@href"
+    },
+    "verification": {
+      "contract": {
+        "required": [
+          "non_empty",
+          "required_fields",
+          "query_honored",
+          "lexical_query_consistency"
+        ]
+      },
+      "evidence": {
+        "non_empty": {
+          "status": "passed"
+        },
+        "required_fields": {
+          "status": "passed"
+        },
+        "query_honored": {
+          "status": "not_tested",
+          "at": "2026-09-22T14:45:50.415Z",
+          "method": "active-probe/v1",
+          "parameter": "query",
+          "probes": [
+            {
+              "role": "taught",
+              "value": "typescript",
+              "items": 15
+            },
+            {
+              "role": "repeat",
+              "value": "typescript",
+              "items": 15
+            },
+            {
+              "role": "nonce",
+              "value": "fcf43c51aed6",
+              "items": null,
+              "unavailable": "unexpected status 404"
+            },
+            {
+              "role": "contrast",
+              "value": "action",
+              "items": 0
+            }
+          ],
+          "signals": {},
+          "reason": "nonce probe unavailable: unexpected status 404"
+        },
+        "lexical_query_consistency": {
+          "status": "not_tested",
+          "at": "2026-09-22T14:45:50.416Z",
+          "method": "active-probe/lexical-consistency-v1",
+          "parameter": "query",
+          "shares": {
+            "taught": 0.06666666666666667
+          },
+          "signals": {
+            "applicable": false
+          },
+          "reason": "only 7% of the taught result carries the query in a field this plan extracts, so this site does not match on text we can read"
+        }
+      }
+    }
+  },
+  "refused": null,
+  "sample": [
+    {
+      "title": "What If Your AI Agent Never Had to Leave the Browser? (Demo 🚀)",
+      "url": "https://dev.to/sylwia-lask/what-if-your-ai-agent-never-had-to-leave-the-browser-demo--5g"
+    },
+    {
+      "title": "Your AI eval is green because it never called the model",
+      "url": "https://dev.to/marc_kumiko/your-ai-eval-is-green-because-it-never-called-the-model-13k8"
+    },
+    {
+      "title": "Idempotency Isn't Enough — What I Got Wrong About M-Pesa Reconciliation",
+      "url": "https://dev.to/cal-me_j/idempotency-isnt-enough-what-i-got-wrong-about-m-pesa-reconciliation-1cad"
+    }
+  ]
+}

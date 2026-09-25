@@ -1,0 +1,11 @@
+[unbrowse] ToS check skipped (non-interactive/server mode)
+[09:14:37] [probe] HEAD https://news.ycombinator.com/newest failed: fetch failed; trying ranged GET
+[marketplace] search: 0 domain + 0 global results (643ms)
+[marketplace] viable=0/0 candidates (threshold=0.3), top=n/a skill=n/a
+[direct-fetch] https://news.ycombinator.com/newest skipped: fetch failed
+[marketplace] timeout after 800ms — returning cache miss
+[09:14:38] [curl-impersonate] TLS-impersonation rung unavailable: no python interpreter with curl_cffi (tried UNBROWSE_PYTHON, a local venv, python3, python). Anti-bot hosts that need a Chrome TLS fingerprint will fall through to the browser ladder. Fix: pip install curl_cffi (or set UNBROWSE_PYTHON to an interpreter that has it).
+[ddg] $0 fallback failed: ddg failed: 502 
+[unbrowse] obscura not installed; falling through to CDP (kuri).
+[09:14:39] [auth] no vault cookies for news.ycombinator.com — auto-extracting from browser
+[unbrowse] Still working. Searching cached routes...

@@ -1,0 +1,24 @@
+$ tsx src/cli.ts bench run
+Controlled
+  Tasks:             30
+  Browser avoidance: 100%
+  Median latency:    1ms (baseline 795.5ms)
+  Median speedup:    795.5x
+  Politeness wait:   0ms median (excluded from latency above)
+  Success:           100% (baseline 100%)
+
+Wild
+  Tasks:             30
+  Browser avoidance: 100%
+  Median latency:    149ms (baseline 1528.5ms)
+  Median speedup:    10.3x
+  Politeness wait:   815.5ms median (excluded from latency above)
+  Success:           97% (baseline 100%)
+
+robots.txt status of wild sites
+  pkg.go.dev: disallowed for crawlers (user-agent posture, see spec section 6)
+  crates.io: allowed
+  hn.algolia.com: allowed
+
+failed tasks (1/60)
+  godev-search-2: item 15: "title" "yaml\n              (github.com/open-policy-agent/conftest/parser/yaml)" !== "yaml\n              (github.com/an-repository/config/parsers/yaml)"; item 15: "url" "/github.com/open-policy-agent/conftest/parser/yaml" !== "/github.com/an-repository/config/parsers/yaml"; item 16: "title" "yaml\n              (github.com/an-repository/config/parsers/yaml)" !== "yaml\n              (github.com/open-policy-agent/conftest/parser/yaml)"; item 16: "url" "/github.com/an-repository/config/parsers/yaml" !== "/github.com/open-policy-agent/conftest/parser/yaml"; item 21: "title" "yaml\n              (github.com/erh/go-gypsy/yaml)" !== "yaml\n              (github.com/scottkiss/go-gypsy/yaml)"; item 21: "url" "/github.com/erh/go-gypsy/yaml" !== "/github.com/scottkiss/go-gypsy/yaml"; item 22: "title" "yaml\n              (github.com/pjdufour/go-gypsy/yaml)" !== "yaml\n              (github.com/jtaekema/go-gypsy/yaml)"; item 22: "url" "/github.com/pjdufour/go-gypsy/yaml" !== "/github.com/jtaekema/go-gypsy/yaml"; item 23: "title" "yaml\n              (github.com/pingdomserver/go-gypsy/yaml)" !== "yaml\n              (github.com/erh/go-gypsy/yaml)"; item 23: "url" "/github.com/pingdomserver/go-gypsy/yaml" !== "/github.com/erh/go-gypsy/yaml"; item 24: "title" "yaml\n              (github.com/scottkiss/go-gypsy/yaml)" !== "yaml\n              (github.com/pjdufour/go-gypsy/yaml)"; item 24: "url" "/github.com/scottkiss/go-gypsy/yaml" !== "/github.com/pjdufour/go-gypsy/yaml"

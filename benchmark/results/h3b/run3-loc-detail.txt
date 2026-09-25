@@ -1,0 +1,46 @@
+$ tsx src/cli.ts bench run --tasks benchmark/heldout3.json --only loc-detail --json benchmark/results/h3b/run3-loc-detail.json
+Wild
+  Tasks:             5
+  Browser-free:      0%   (L0 + L1)
+  Full-browser avoidance: 100%   (L0 + L1 + L2)
+  Levels:            L0 0%  L1 0%  L2 100%  L3 0%
+  Blocked:           5 (site refused the recipe; ran on the browser)
+  Median latency:    11868ms (baseline 12015ms)
+  Median speedup:    1.0x
+  Median site speedup: 1.0x
+  Politeness wait:   0ms median (excluded from latency above)
+  Data fetched:      1608KB median (baseline 1615KB)  1.0x less
+  Requests:          18 median (baseline 18)
+  Agent reads:       178 tokens median (baseline 179)  1.0x less
+  Correctness
+    Baseline validity:  5/5 usable          (0 excluded)
+    No stored golden:   0 excluded
+    Entity equivalence: 0%
+    Query semantics:    not declared
+    Ordering:           not judgeable
+
+robots.txt status of wild sites
+  pkg.go.dev: disallowed for crawlers (user-agent posture, see spec section 6)
+  crates.io: allowed
+  hn.algolia.com: allowed
+  hex.pm: allowed
+  docs.rs: allowed
+  flathub.org: allowed
+  jsr.io: allowed
+  tildes.net: allowed
+  remoteok.com: allowed
+  itch.io: allowed
+  arbeitnow.com: allowed
+  archive.org: allowed
+  meta.discourse.org: allowed
+  loc.gov: allowed
+  bandcamp.com: allowed
+  lemmy.world: allowed
+  openlibrary.org: allowed
+
+failed tasks (5/5)
+  loc-detail-1: 1 golden item(s) missing from the result; status 403 !== expected 200; item count 0 < minItems 1; fingerprint drift: expected 0dbe430eadc7f2f0, got 57b452042505ecd9; blocked: status 403
+  loc-detail-2: 1 golden item(s) missing from the result; blocked: cooling down for loc.gov
+  loc-detail-3: 1 golden item(s) missing from the result; blocked: cooling down for loc.gov
+  loc-detail-4: 1 golden item(s) missing from the result; blocked: cooling down for loc.gov
+  loc-detail-5: 1 golden item(s) missing from the result; blocked: cooling down for loc.gov

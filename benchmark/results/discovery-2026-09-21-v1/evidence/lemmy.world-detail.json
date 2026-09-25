@@ -1,0 +1,40 @@
+{
+  "baseline": "7f51ca0",
+  "site": "lemmy.world",
+  "intent": "detail",
+  "taughtUrl": "https://lemmy.world/post/51987178",
+  "plan": {
+    "origin": "https://lemmy.world",
+    "urlTemplate": "/post/{{id}}",
+    "itemSelector": ".post-listing",
+    "fields": {
+      "title": "a.link-dark",
+      "url": "a.link-dark@href",
+      "community": "a.community-link"
+    },
+    "verification": {
+      "contract": {
+        "required": [
+          "non_empty",
+          "required_fields"
+        ]
+      },
+      "evidence": {
+        "non_empty": {
+          "status": "passed"
+        },
+        "required_fields": {
+          "status": "passed"
+        }
+      }
+    }
+  },
+  "refused": null,
+  "sample": [
+    {
+      "title": "Why Personal Websites Are Coming Back",
+      "url": "https://deadparrotbbs.com/why-personal-websites-are-coming-back/",
+      "community": "Technology"
+    }
+  ]
+}

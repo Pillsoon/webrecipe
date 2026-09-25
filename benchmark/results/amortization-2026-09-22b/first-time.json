@@ -1,0 +1,59 @@
+[
+  {
+    "task": "hn",
+    "learnMs": 2843,
+    "teachMs": 1992,
+    "meta": {
+      "strategy": "browser",
+      "latencyMs": 0,
+      "browserLaunches": 2,
+      "pageNavigations": 1,
+      "networkRequests": 12,
+      "bytesDownloaded": 108002,
+      "llmTokens": 0,
+      "politenessWaitMs": 0,
+      "unreadResponseBodies": 0,
+      "elapsedMs": 4835
+    },
+    "recipe": "http-html",
+    "refused": null
+  },
+  {
+    "task": "remoteok",
+    "learnMs": 76091,
+    "teachMs": 12676,
+    "meta": {
+      "strategy": "browser",
+      "latencyMs": 0,
+      "browserLaunches": 3,
+      "pageNavigations": 2,
+      "networkRequests": 153,
+      "bytesDownloaded": 10623144,
+      "llmTokens": 0,
+      "politenessWaitMs": 1764,
+      "unreadResponseBodies": 19,
+      "elapsedMs": 88767
+    },
+    "recipe": "http-html",
+    "refused": null
+  },
+  {
+    "task": "steam",
+    "learnMs": 17163,
+    "teachMs": 3941,
+    "meta": {
+      "strategy": "browser",
+      "latencyMs": 0,
+      "browserLaunches": 2,
+      "pageNavigations": 1,
+      "networkRequests": 415,
+      "bytesDownloaded": 56230002,
+      "llmTokens": 0,
+      "politenessWaitMs": 0,
+      "unreadResponseBodies": 2,
+      "elapsedMs": 21104
+    },
+    "recipe": "http-html",
+    "refused": null
+  }
+]

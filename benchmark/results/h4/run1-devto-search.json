@@ -1,0 +1,388 @@
+[
+ {
+  "taskId": "devto-search-1",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 268,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 150486,
+   "networkRequests": 1,
+   "agentTokens": 652,
+   "threw": false,
+   "blocked": false,
+   "items": 15,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2466,
+   "threw": false,
+   "bytesDownloaded": 3082429,
+   "networkRequests": 44,
+   "agentTokens": 8869,
+   "items": 15
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "devto-search-2",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 150,
+   "browserLaunches": 0,
+   "politenessWaitMs": 926,
+   "bytesDownloaded": 149550,
+   "networkRequests": 1,
+   "agentTokens": 668,
+   "threw": false,
+   "blocked": false,
+   "items": 15,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2400,
+   "threw": false,
+   "bytesDownloaded": 3070769,
+   "networkRequests": 45,
+   "agentTokens": 8782,
+   "items": 15
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "devto-search-3",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 152,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 150210,
+   "networkRequests": 1,
+   "agentTokens": 653,
+   "threw": false,
+   "blocked": false,
+   "items": 15,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2283,
+   "threw": false,
+   "bytesDownloaded": 3123471,
+   "networkRequests": 44,
+   "agentTokens": 9296,
+   "items": 15
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "devto-search-4",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 85,
+   "browserLaunches": 0,
+   "politenessWaitMs": 822,
+   "bytesDownloaded": 159924,
+   "networkRequests": 1,
+   "agentTokens": 622,
+   "threw": false,
+   "blocked": false,
+   "items": 15,
+   "reasons": [
+    "4 golden item(s) missing from the result",
+    "4 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2372,
+   "threw": false,
+   "bytesDownloaded": 3115321,
+   "networkRequests": 48,
+   "agentTokens": 9182,
+   "items": 15
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "devto-search-5",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 130,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 157470,
+   "networkRequests": 1,
+   "agentTokens": 657,
+   "threw": false,
+   "blocked": false,
+   "items": 15,
+   "reasons": [
+    "4 golden item(s) missing from the result",
+    "4 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2282,
+   "threw": false,
+   "bytesDownloaded": 3091565,
+   "networkRequests": 45,
+   "agentTokens": 9918,
+   "items": 15
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "devto-search-6",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 112,
+   "browserLaunches": 0,
+   "politenessWaitMs": 852,
+   "bytesDownloaded": 152572,
+   "networkRequests": 1,
+   "agentTokens": 690,
+   "threw": false,
+   "blocked": false,
+   "items": 15,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2448,
+   "threw": false,
+   "bytesDownloaded": 3090251,
+   "networkRequests": 45,
+   "agentTokens": 9231,
+   "items": 15
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "devto-search-7",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 153,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 155538,
+   "networkRequests": 1,
+   "agentTokens": 686,
+   "threw": false,
+   "blocked": false,
+   "items": 15,
+   "reasons": [
+    "6 golden item(s) missing from the result",
+    "6 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2452,
+   "threw": false,
+   "bytesDownloaded": 7542764,
+   "networkRequests": 62,
+   "agentTokens": 9228,
+   "items": 15
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "devto-search-8",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 132,
+   "browserLaunches": 0,
+   "politenessWaitMs": 831,
+   "bytesDownloaded": 152940,
+   "networkRequests": 1,
+   "agentTokens": 635,
+   "threw": false,
+   "blocked": false,
+   "items": 15,
+   "reasons": [
+    "1 golden item(s) missing from the result",
+    "1 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2424,
+   "threw": false,
+   "bytesDownloaded": 3098397,
+   "networkRequests": 46,
+   "agentTokens": 8697,
+   "items": 15
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "devto-search-9",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 157,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 150243,
+   "networkRequests": 1,
+   "agentTokens": 668,
+   "threw": false,
+   "blocked": false,
+   "items": 15,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2346,
+   "threw": false,
+   "bytesDownloaded": 3075258,
+   "networkRequests": 44,
+   "agentTokens": 9165,
+   "items": 15
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "devto-search-10",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 11286,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 5077,
+   "networkRequests": 1,
+   "agentTokens": 147,
+   "threw": false,
+   "blocked": false,
+   "items": 0,
+   "reasons": [
+    "status 404 !== expected 200",
+    "item count 0 < minItems 1",
+    "fingerprint drift: expected b49ec89cf731fceb, got ec2753c4b590f686"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 11285,
+   "threw": false,
+   "bytesDownloaded": 5077,
+   "networkRequests": 1,
+   "agentTokens": 147,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

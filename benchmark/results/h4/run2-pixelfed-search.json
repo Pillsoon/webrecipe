@@ -1,0 +1,413 @@
+[
+ {
+  "taskId": "pixelfed-search-1",
+  "site": "pixelfed.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 12620,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 4746085,
+   "networkRequests": 13,
+   "agentTokens": 236,
+   "threw": false,
+   "blocked": false,
+   "items": 0,
+   "reasons": [
+    "no recipe registered",
+    "9 golden item(s) missing from the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 12832,
+   "threw": false,
+   "bytesDownloaded": 4746899,
+   "networkRequests": 13,
+   "agentTokens": 236,
+   "items": 0
+  },
+  "grade": {
+   "usable": false,
+   "validityReason": "baseline returned no items",
+   "excludeReason": "baseline",
+   "entities": null,
+   "query": null,
+   "ordering": null,
+   "reasons": [
+    "baseline returned no items"
+   ]
+  },
+  "aging": "possible plan aging: item count changed 9 -> 0"
+ },
+ {
+  "taskId": "pixelfed-search-2",
+  "site": "pixelfed.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 12745,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 4746897,
+   "networkRequests": 13,
+   "agentTokens": 236,
+   "threw": false,
+   "blocked": false,
+   "items": 0,
+   "reasons": [
+    "no recipe registered",
+    "7 golden item(s) missing from the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 11104,
+   "threw": false,
+   "bytesDownloaded": 10141227,
+   "networkRequests": 22,
+   "agentTokens": 548,
+   "items": 8
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": false,
+   "query": null,
+   "ordering": null,
+   "reasons": [
+    "8 baseline item(s) missing from the result"
+   ]
+  },
+  "aging": null
+ },
+ {
+  "taskId": "pixelfed-search-3",
+  "site": "pixelfed.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 13386,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 4744910,
+   "networkRequests": 13,
+   "agentTokens": 236,
+   "threw": false,
+   "blocked": false,
+   "items": 0,
+   "reasons": [
+    "no recipe registered",
+    "8 golden item(s) missing from the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 12521,
+   "threw": false,
+   "bytesDownloaded": 4747497,
+   "networkRequests": 13,
+   "agentTokens": 236,
+   "items": 0
+  },
+  "grade": {
+   "usable": false,
+   "validityReason": "baseline returned no items",
+   "excludeReason": "baseline",
+   "entities": null,
+   "query": null,
+   "ordering": null,
+   "reasons": [
+    "baseline returned no items"
+   ]
+  },
+  "aging": "possible plan aging: item count changed 8 -> 0"
+ },
+ {
+  "taskId": "pixelfed-search-4",
+  "site": "pixelfed.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 12953,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 6385134,
+   "networkRequests": 22,
+   "agentTokens": 543,
+   "threw": false,
+   "blocked": false,
+   "items": 9,
+   "reasons": [
+    "no recipe registered",
+    "5 golden item(s) missing from the result",
+    "5 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 7078,
+   "threw": false,
+   "bytesDownloaded": 6875941,
+   "networkRequests": 22,
+   "agentTokens": 559,
+   "items": 9
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "pixelfed-search-5",
+  "site": "pixelfed.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 7359,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 8565465,
+   "networkRequests": 21,
+   "agentTokens": 528,
+   "threw": false,
+   "blocked": false,
+   "items": 8,
+   "reasons": [
+    "no recipe registered",
+    "7 golden item(s) missing from the result",
+    "7 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 12480,
+   "threw": false,
+   "bytesDownloaded": 8407365,
+   "networkRequests": 21,
+   "agentTokens": 524,
+   "items": 8
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "pixelfed-search-6",
+  "site": "pixelfed.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 12611,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 4746177,
+   "networkRequests": 13,
+   "agentTokens": 236,
+   "threw": false,
+   "blocked": false,
+   "items": 0,
+   "reasons": [
+    "no recipe registered",
+    "9 golden item(s) missing from the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 13210,
+   "threw": false,
+   "bytesDownloaded": 4746060,
+   "networkRequests": 13,
+   "agentTokens": 236,
+   "items": 0
+  },
+  "grade": {
+   "usable": false,
+   "validityReason": "baseline returned no items",
+   "excludeReason": "baseline",
+   "entities": null,
+   "query": null,
+   "ordering": null,
+   "reasons": [
+    "baseline returned no items"
+   ]
+  },
+  "aging": "possible plan aging: item count changed 9 -> 0"
+ },
+ {
+  "taskId": "pixelfed-search-7",
+  "site": "pixelfed.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 7172,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 6744399,
+   "networkRequests": 20,
+   "agentTokens": 481,
+   "threw": false,
+   "blocked": false,
+   "items": 6,
+   "reasons": [
+    "no recipe registered",
+    "2 golden item(s) missing from the result",
+    "1 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 10082,
+   "threw": false,
+   "bytesDownloaded": 6556435,
+   "networkRequests": 20,
+   "agentTokens": 477,
+   "items": 6
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "pixelfed-search-8",
+  "site": "pixelfed.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 7830,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 6149451,
+   "networkRequests": 23,
+   "agentTokens": 541,
+   "threw": false,
+   "blocked": false,
+   "items": 8,
+   "reasons": [
+    "no recipe registered",
+    "6 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 5008,
+   "threw": false,
+   "bytesDownloaded": 6149361,
+   "networkRequests": 23,
+   "agentTokens": 541,
+   "items": 8
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "pixelfed-search-9",
+  "site": "pixelfed.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 4027,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 10181278,
+   "networkRequests": 21,
+   "agentTokens": 519,
+   "threw": false,
+   "blocked": false,
+   "items": 8,
+   "reasons": [
+    "no recipe registered",
+    "2 golden item(s) missing from the result",
+    "4 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 8174,
+   "threw": false,
+   "bytesDownloaded": 10181821,
+   "networkRequests": 21,
+   "agentTokens": 519,
+   "items": 8
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "pixelfed-search-10",
+  "site": "pixelfed.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 11725,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 4659146,
+   "networkRequests": 10,
+   "agentTokens": 289,
+   "threw": false,
+   "blocked": false,
+   "items": 0,
+   "reasons": [
+    "no recipe registered"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 11952,
+   "threw": false,
+   "bytesDownloaded": 4659279,
+   "networkRequests": 10,
+   "agentTokens": 289,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

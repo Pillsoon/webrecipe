@@ -1,0 +1,135 @@
+########## RUN 1
+$ tsx src/cli.ts bench run --tasks benchmark/heldout2.json
+Wild
+  Tasks:             40
+  Browser-free:      93%   (L0 + L1)
+  Full-browser avoidance: 100%   (L0 + L1 + L2)
+  Levels:            L0 93%  L1 0%  L2 8%  L3 0%
+  Median latency:    413.5ms (baseline 2666ms)
+  Median speedup:    6.4x
+  Median site speedup: 5.6x
+  Politeness wait:   0ms median (excluded from latency above)
+  Correctness
+    Baseline validity:  40/40 usable          (0 excluded)
+    No stored golden:   0 excluded
+    Entity equivalence: 95%
+    Query semantics:    0% of 10 judgeable
+    Ordering:           not judgeable
+
+robots.txt status of wild sites
+  pkg.go.dev: disallowed for crawlers (user-agent posture, see spec section 6)
+  crates.io: allowed
+  hn.algolia.com: allowed
+  hex.pm: allowed
+  docs.rs: allowed
+  flathub.org: allowed
+  jsr.io: allowed
+  tildes.net: allowed
+  remoteok.com: allowed
+  itch.io: allowed
+  arbeitnow.com: allowed
+  archive.org: allowed
+
+failed tasks (12/40)
+  remoteok-search-9: 50 baseline item(s) missing from the result; 50 unexpected item(s) in the result; 50 golden item(s) missing from the result
+  remoteok-search-10: 50 baseline item(s) missing from the result; 50 unexpected item(s) in the result; 50 golden item(s) missing from the result
+  arbeitnow-search-1: no token of "python" in 50/50 items
+  arbeitnow-search-2: no token of "rust developer" in 49/50 items
+  arbeitnow-search-3: no token of "data engineer" in 38/50 items
+  arbeitnow-search-4: no token of "devops" in 50/50 items
+  arbeitnow-search-5: no token of "frontend" in 49/50 items
+  arbeitnow-search-6: no token of "machine learning" in 49/50 items
+  arbeitnow-search-7: no token of "golang" in 50/50 items
+  arbeitnow-search-8: no token of "security engineer" in 42/50 items
+  arbeitnow-search-9: no token of "kubernetes" in 50/50 items
+  arbeitnow-search-10: no token of "zzqqxxnotarealjob" in 50/50 items
+########## RUN 2
+$ tsx src/cli.ts bench run --tasks benchmark/heldout2.json
+Wild
+  Tasks:             40
+  Browser-free:      93%   (L0 + L1)
+  Full-browser avoidance: 100%   (L0 + L1 + L2)
+  Levels:            L0 93%  L1 0%  L2 8%  L3 0%
+  Median latency:    517.5ms (baseline 2755ms)
+  Median speedup:    5.3x
+  Median site speedup: 5.2x
+  Politeness wait:   0ms median (excluded from latency above)
+  Correctness
+    Baseline validity:  40/40 usable          (0 excluded)
+    No stored golden:   0 excluded
+    Entity equivalence: 95%
+    Query semantics:    0% of 10 judgeable
+    Ordering:           not judgeable
+
+robots.txt status of wild sites
+  pkg.go.dev: disallowed for crawlers (user-agent posture, see spec section 6)
+  crates.io: allowed
+  hn.algolia.com: allowed
+  hex.pm: allowed
+  docs.rs: allowed
+  flathub.org: allowed
+  jsr.io: allowed
+  tildes.net: allowed
+  remoteok.com: allowed
+  itch.io: allowed
+  arbeitnow.com: allowed
+  archive.org: allowed
+
+failed tasks (12/40)
+  remoteok-search-9: 50 baseline item(s) missing from the result; 50 unexpected item(s) in the result; 50 golden item(s) missing from the result
+  remoteok-search-10: 50 baseline item(s) missing from the result; 50 unexpected item(s) in the result; 50 golden item(s) missing from the result
+  arbeitnow-search-1: no token of "python" in 50/50 items
+  arbeitnow-search-2: no token of "rust developer" in 49/50 items
+  arbeitnow-search-3: no token of "data engineer" in 38/50 items
+  arbeitnow-search-4: no token of "devops" in 50/50 items
+  arbeitnow-search-5: no token of "frontend" in 49/50 items
+  arbeitnow-search-6: no token of "machine learning" in 49/50 items
+  arbeitnow-search-7: no token of "golang" in 50/50 items
+  arbeitnow-search-8: no token of "security engineer" in 42/50 items
+  arbeitnow-search-9: no token of "kubernetes" in 50/50 items
+  arbeitnow-search-10: no token of "zzqqxxnotarealjob" in 50/50 items
+########## RUN 3
+$ tsx src/cli.ts bench run --tasks benchmark/heldout2.json
+Wild
+  Tasks:             40
+  Browser-free:      93%   (L0 + L1)
+  Full-browser avoidance: 100%   (L0 + L1 + L2)
+  Levels:            L0 93%  L1 0%  L2 8%  L3 0%
+  Median latency:    493.5ms (baseline 2668.5ms)
+  Median speedup:    5.4x
+  Median site speedup: 5.1x
+  Politeness wait:   0ms median (excluded from latency above)
+  Correctness
+    Baseline validity:  40/40 usable          (0 excluded)
+    No stored golden:   0 excluded
+    Entity equivalence: 95%
+    Query semantics:    0% of 10 judgeable
+    Ordering:           not judgeable
+
+robots.txt status of wild sites
+  pkg.go.dev: disallowed for crawlers (user-agent posture, see spec section 6)
+  crates.io: allowed
+  hn.algolia.com: allowed
+  hex.pm: allowed
+  docs.rs: allowed
+  flathub.org: allowed
+  jsr.io: allowed
+  tildes.net: allowed
+  remoteok.com: allowed
+  itch.io: allowed
+  arbeitnow.com: allowed
+  archive.org: allowed
+
+failed tasks (12/40)
+  remoteok-search-9: 50 baseline item(s) missing from the result; 50 unexpected item(s) in the result; 50 golden item(s) missing from the result
+  remoteok-search-10: 50 baseline item(s) missing from the result; 50 unexpected item(s) in the result; 50 golden item(s) missing from the result
+  arbeitnow-search-1: no token of "python" in 50/50 items
+  arbeitnow-search-2: no token of "rust developer" in 49/50 items
+  arbeitnow-search-3: no token of "data engineer" in 38/50 items
+  arbeitnow-search-4: no token of "devops" in 50/50 items
+  arbeitnow-search-5: no token of "frontend" in 49/50 items
+  arbeitnow-search-6: no token of "machine learning" in 49/50 items
+  arbeitnow-search-7: no token of "golang" in 50/50 items
+  arbeitnow-search-8: no token of "security engineer" in 42/50 items
+  arbeitnow-search-9: no token of "kubernetes" in 50/50 items
+  arbeitnow-search-10: no token of "zzqqxxnotarealjob" in 50/50 items

@@ -1,0 +1,591 @@
+[
+  {
+    "id": "siteA-search-1",
+    "set": "controlled",
+    "site": "siteA",
+    "intent": "search",
+    "input": {
+      "query": "rust"
+    }
+  },
+  {
+    "id": "siteA-search-2",
+    "set": "controlled",
+    "site": "siteA",
+    "intent": "search",
+    "input": {
+      "query": "engineer"
+    }
+  },
+  {
+    "id": "siteA-search-3",
+    "set": "controlled",
+    "site": "siteA",
+    "intent": "search",
+    "input": {
+      "query": "typescript"
+    }
+  },
+  {
+    "id": "siteA-search-4",
+    "set": "controlled",
+    "site": "siteA",
+    "intent": "search",
+    "input": {
+      "query": "designer"
+    }
+  },
+  {
+    "id": "siteA-list-1",
+    "set": "controlled",
+    "site": "siteA",
+    "intent": "list",
+    "input": {
+      "query": "",
+      "page": 1
+    }
+  },
+  {
+    "id": "siteA-list-2",
+    "set": "controlled",
+    "site": "siteA",
+    "intent": "list",
+    "input": {
+      "query": "",
+      "page": 2
+    }
+  },
+  {
+    "id": "siteA-list-3",
+    "set": "controlled",
+    "site": "siteA",
+    "intent": "list",
+    "input": {
+      "query": "",
+      "page": 3
+    }
+  },
+  {
+    "id": "siteA-detail-1",
+    "set": "controlled",
+    "site": "siteA",
+    "intent": "detail",
+    "input": {
+      "id": "100"
+    }
+  },
+  {
+    "id": "siteA-detail-2",
+    "set": "controlled",
+    "site": "siteA",
+    "intent": "detail",
+    "input": {
+      "id": "115"
+    }
+  },
+  {
+    "id": "siteA-detail-3",
+    "set": "controlled",
+    "site": "siteA",
+    "intent": "detail",
+    "input": {
+      "id": "139"
+    }
+  },
+  {
+    "id": "siteB-search-1",
+    "set": "controlled",
+    "site": "siteB",
+    "intent": "search",
+    "input": {
+      "query": "rust"
+    }
+  },
+  {
+    "id": "siteB-search-2",
+    "set": "controlled",
+    "site": "siteB",
+    "intent": "search",
+    "input": {
+      "query": "engineer"
+    }
+  },
+  {
+    "id": "siteB-search-3",
+    "set": "controlled",
+    "site": "siteB",
+    "intent": "search",
+    "input": {
+      "query": "typescript"
+    }
+  },
+  {
+    "id": "siteB-search-4",
+    "set": "controlled",
+    "site": "siteB",
+    "intent": "search",
+    "input": {
+      "query": "designer"
+    }
+  },
+  {
+    "id": "siteB-list-1",
+    "set": "controlled",
+    "site": "siteB",
+    "intent": "list",
+    "input": {
+      "query": "",
+      "page": 1
+    }
+  },
+  {
+    "id": "siteB-list-2",
+    "set": "controlled",
+    "site": "siteB",
+    "intent": "list",
+    "input": {
+      "query": "",
+      "page": 2
+    }
+  },
+  {
+    "id": "siteB-list-3",
+    "set": "controlled",
+    "site": "siteB",
+    "intent": "list",
+    "input": {
+      "query": "",
+      "page": 3
+    }
+  },
+  {
+    "id": "siteB-detail-1",
+    "set": "controlled",
+    "site": "siteB",
+    "intent": "detail",
+    "input": {
+      "id": "100"
+    }
+  },
+  {
+    "id": "siteB-detail-2",
+    "set": "controlled",
+    "site": "siteB",
+    "intent": "detail",
+    "input": {
+      "id": "115"
+    }
+  },
+  {
+    "id": "siteB-detail-3",
+    "set": "controlled",
+    "site": "siteB",
+    "intent": "detail",
+    "input": {
+      "id": "139"
+    }
+  },
+  {
+    "id": "siteC-search-1",
+    "set": "controlled",
+    "site": "siteC",
+    "intent": "search",
+    "input": {
+      "query": "rust"
+    }
+  },
+  {
+    "id": "siteC-search-2",
+    "set": "controlled",
+    "site": "siteC",
+    "intent": "search",
+    "input": {
+      "query": "engineer"
+    }
+  },
+  {
+    "id": "siteC-search-3",
+    "set": "controlled",
+    "site": "siteC",
+    "intent": "search",
+    "input": {
+      "query": "typescript"
+    }
+  },
+  {
+    "id": "siteC-search-4",
+    "set": "controlled",
+    "site": "siteC",
+    "intent": "search",
+    "input": {
+      "query": "designer"
+    }
+  },
+  {
+    "id": "siteC-list-1",
+    "set": "controlled",
+    "site": "siteC",
+    "intent": "list",
+    "input": {
+      "query": "",
+      "page": 1
+    }
+  },
+  {
+    "id": "siteC-list-2",
+    "set": "controlled",
+    "site": "siteC",
+    "intent": "list",
+    "input": {
+      "query": "",
+      "page": 2
+    }
+  },
+  {
+    "id": "siteC-list-3",
+    "set": "controlled",
+    "site": "siteC",
+    "intent": "list",
+    "input": {
+      "query": "",
+      "page": 3
+    }
+  },
+  {
+    "id": "siteC-detail-1",
+    "set": "controlled",
+    "site": "siteC",
+    "intent": "detail",
+    "input": {
+      "id": "100"
+    }
+  },
+  {
+    "id": "siteC-detail-2",
+    "set": "controlled",
+    "site": "siteC",
+    "intent": "detail",
+    "input": {
+      "id": "115"
+    }
+  },
+  {
+    "id": "siteC-detail-3",
+    "set": "controlled",
+    "site": "siteC",
+    "intent": "detail",
+    "input": {
+      "id": "139"
+    }
+  },
+  {
+    "id": "crates-search-1",
+    "set": "wild",
+    "site": "crates.io",
+    "intent": "search",
+    "input": {
+      "query": "serde"
+    }
+  },
+  {
+    "id": "crates-search-2",
+    "set": "wild",
+    "site": "crates.io",
+    "intent": "search",
+    "input": {
+      "query": "tokio"
+    }
+  },
+  {
+    "id": "crates-search-3",
+    "set": "wild",
+    "site": "crates.io",
+    "intent": "search",
+    "input": {
+      "query": "clap"
+    }
+  },
+  {
+    "id": "crates-search-4",
+    "set": "wild",
+    "site": "crates.io",
+    "intent": "search",
+    "input": {
+      "query": "rand"
+    }
+  },
+  {
+    "id": "crates-search-5",
+    "set": "wild",
+    "site": "crates.io",
+    "intent": "search",
+    "input": {
+      "query": "regex"
+    }
+  },
+  {
+    "id": "crates-search-6",
+    "set": "wild",
+    "site": "crates.io",
+    "intent": "search",
+    "input": {
+      "query": "reqwest"
+    }
+  },
+  {
+    "id": "crates-detail-1",
+    "set": "wild",
+    "site": "crates.io",
+    "intent": "detail",
+    "input": {
+      "id": "serde"
+    }
+  },
+  {
+    "id": "crates-detail-2",
+    "set": "wild",
+    "site": "crates.io",
+    "intent": "detail",
+    "input": {
+      "id": "tokio"
+    }
+  },
+  {
+    "id": "crates-detail-3",
+    "set": "wild",
+    "site": "crates.io",
+    "intent": "detail",
+    "input": {
+      "id": "clap"
+    }
+  },
+  {
+    "id": "crates-detail-4",
+    "set": "wild",
+    "site": "crates.io",
+    "intent": "detail",
+    "input": {
+      "id": "rand"
+    }
+  },
+  {
+    "id": "godev-search-1",
+    "set": "wild",
+    "site": "pkg.go.dev",
+    "intent": "search",
+    "input": {
+      "query": "http router"
+    }
+  },
+  {
+    "id": "godev-search-2",
+    "set": "wild",
+    "site": "pkg.go.dev",
+    "intent": "search",
+    "input": {
+      "query": "yaml parser"
+    }
+  },
+  {
+    "id": "godev-search-3",
+    "set": "wild",
+    "site": "pkg.go.dev",
+    "intent": "search",
+    "input": {
+      "query": "cli flags"
+    }
+  },
+  {
+    "id": "godev-search-4",
+    "set": "wild",
+    "site": "pkg.go.dev",
+    "intent": "search",
+    "input": {
+      "query": "sql driver"
+    }
+  },
+  {
+    "id": "godev-search-5",
+    "set": "wild",
+    "site": "pkg.go.dev",
+    "intent": "search",
+    "input": {
+      "query": "uuid"
+    }
+  },
+  {
+    "id": "godev-search-6",
+    "set": "wild",
+    "site": "pkg.go.dev",
+    "intent": "search",
+    "input": {
+      "query": "websocket"
+    }
+  },
+  {
+    "id": "godev-detail-1",
+    "set": "wild",
+    "site": "pkg.go.dev",
+    "intent": "detail",
+    "input": {
+      "id": "github.com/gorilla/mux"
+    }
+  },
+  {
+    "id": "godev-detail-2",
+    "set": "wild",
+    "site": "pkg.go.dev",
+    "intent": "detail",
+    "input": {
+      "id": "github.com/spf13/cobra"
+    }
+  },
+  {
+    "id": "godev-detail-3",
+    "set": "wild",
+    "site": "pkg.go.dev",
+    "intent": "detail",
+    "input": {
+      "id": "github.com/google/uuid"
+    }
+  },
+  {
+    "id": "godev-detail-4",
+    "set": "wild",
+    "site": "pkg.go.dev",
+    "intent": "detail",
+    "input": {
+      "id": "gopkg.in/yaml.v3"
+    }
+  },
+  {
+    "id": "hnalgolia-search-1",
+    "set": "wild",
+    "site": "hn.algolia.com",
+    "intent": "search",
+    "input": {
+      "query": "rust"
+    },
+    "volatile": [
+      "points",
+      "comments"
+    ]
+  },
+  {
+    "id": "hnalgolia-search-2",
+    "set": "wild",
+    "site": "hn.algolia.com",
+    "intent": "search",
+    "input": {
+      "query": "postgres"
+    },
+    "volatile": [
+      "points",
+      "comments"
+    ]
+  },
+  {
+    "id": "hnalgolia-search-3",
+    "set": "wild",
+    "site": "hn.algolia.com",
+    "intent": "search",
+    "input": {
+      "query": "kubernetes"
+    },
+    "volatile": [
+      "points",
+      "comments"
+    ]
+  },
+  {
+    "id": "hnalgolia-search-4",
+    "set": "wild",
+    "site": "hn.algolia.com",
+    "intent": "search",
+    "input": {
+      "query": "webassembly"
+    },
+    "volatile": [
+      "points",
+      "comments"
+    ]
+  },
+  {
+    "id": "hnalgolia-search-5",
+    "set": "wild",
+    "site": "hn.algolia.com",
+    "intent": "search",
+    "input": {
+      "query": "sqlite"
+    },
+    "volatile": [
+      "points",
+      "comments"
+    ]
+  },
+  {
+    "id": "hnalgolia-search-6",
+    "set": "wild",
+    "site": "hn.algolia.com",
+    "intent": "search",
+    "input": {
+      "query": "typescript"
+    },
+    "volatile": [
+      "points",
+      "comments"
+    ]
+  },
+  {
+    "id": "hnalgolia-search-7",
+    "set": "wild",
+    "site": "hn.algolia.com",
+    "intent": "search",
+    "input": {
+      "query": "compiler"
+    },
+    "volatile": [
+      "points",
+      "comments"
+    ]
+  },
+  {
+    "id": "hnalgolia-search-8",
+    "set": "wild",
+    "site": "hn.algolia.com",
+    "intent": "search",
+    "input": {
+      "query": "database"
+    },
+    "volatile": [
+      "points",
+      "comments"
+    ]
+  },
+  {
+    "id": "hnalgolia-search-9",
+    "set": "wild",
+    "site": "hn.algolia.com",
+    "intent": "search",
+    "input": {
+      "query": "browser"
+    },
+    "volatile": [
+      "points",
+      "comments"
+    ]
+  },
+  {
+    "id": "hnalgolia-search-10",
+    "set": "wild",
+    "site": "hn.algolia.com",
+    "intent": "search",
+    "input": {
+      "query": "latency"
+    },
+    "volatile": [
+      "points",
+      "comments"
+    ]
+  }
+]

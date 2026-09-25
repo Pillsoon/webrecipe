@@ -1,0 +1,319 @@
+[
+ {
+  "taskId": "openlibrary-search-1",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 1084,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 20,
+   "reasons": [
+    "20 golden item(s) missing from the result",
+    "20 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 3173,
+   "threw": false,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-2",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 397,
+   "browserLaunches": 0,
+   "politenessWaitMs": 570,
+   "threw": false,
+   "items": 20,
+   "reasons": [
+    "1 golden item(s) missing from the result",
+    "1 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 3026,
+   "threw": false,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-3",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 571,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 20,
+   "reasons": [
+    "same items, different order"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 3255,
+   "threw": false,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-4",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 364,
+   "browserLaunches": 0,
+   "politenessWaitMs": 402,
+   "threw": false,
+   "items": 20,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 3342,
+   "threw": false,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-5",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 2494,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 20,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 3278,
+   "threw": false,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-6",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 393,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 20,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 4506,
+   "threw": false,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-7",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 913,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 20,
+   "reasons": [
+    "2 golden item(s) missing from the result",
+    "2 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 3962,
+   "threw": false,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-8",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 595,
+   "browserLaunches": 0,
+   "politenessWaitMs": 62,
+   "threw": false,
+   "items": 20,
+   "reasons": [
+    "3 golden item(s) missing from the result",
+    "3 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 3333,
+   "threw": false,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-9",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 475,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 20,
+   "reasons": [
+    "1 golden item(s) missing from the result",
+    "1 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 3945,
+   "threw": false,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-10",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 1380,
+   "browserLaunches": 0,
+   "politenessWaitMs": 485,
+   "threw": false,
+   "items": 20,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 3454,
+   "threw": false,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

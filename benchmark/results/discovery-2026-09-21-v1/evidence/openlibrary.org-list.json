@@ -1,0 +1,82 @@
+{
+  "baseline": "7f51ca0",
+  "site": "openlibrary.org",
+  "intent": "list",
+  "taughtUrl": "https://openlibrary.org/trending/now?page=1",
+  "plan": {
+    "origin": "https://openlibrary.org",
+    "urlTemplate": "/trending/{{query}}?page={{page}}",
+    "itemSelector": "li.searchResultItem",
+    "fields": {
+      "title": "h3.booktitle a.results",
+      "url": "h3.booktitle a.results@href",
+      "author": "span.bookauthor a"
+    },
+    "verification": {
+      "contract": {
+        "required": [
+          "non_empty",
+          "required_fields",
+          "pagination_honored"
+        ]
+      },
+      "evidence": {
+        "non_empty": {
+          "status": "passed"
+        },
+        "required_fields": {
+          "status": "passed"
+        },
+        "pagination_honored": {
+          "status": "passed",
+          "at": "2026-09-21T23:10:51.038Z",
+          "method": "active-probe/pagination-v1",
+          "parameter": "page",
+          "probes": [
+            {
+              "role": "taught",
+              "value": "1",
+              "items": 20
+            },
+            {
+              "role": "repeat",
+              "value": "1",
+              "items": 20
+            },
+            {
+              "role": "alternate",
+              "value": "2",
+              "items": 20
+            }
+          ],
+          "signals": {
+            "stable": true,
+            "moved": true,
+            "agreed": true
+          },
+          "shares": {
+            "overlap": 0.05
+          }
+        }
+      }
+    }
+  },
+  "refused": null,
+  "sample": [
+    {
+      "title": "Valley of the Gentians",
+      "url": "/works/OL4787967W/Valley_of_the_Gentians?edition=key%3A/books/OL10691297M",
+      "author": "Margaret Rome"
+    },
+    {
+      "title": "Bride of Zarco",
+      "url": "/works/OL18027245W/Bride_of_Zarco?edition=key%3A/books/OL10690904M",
+      "author": "Margaret Rome"
+    },
+    {
+      "title": "Unlikely Cupid",
+      "url": "/works/OL8268347W/Unlikely_Cupid?edition=key%3A/books/OL10691813M",
+      "author": "Catherine George"
+    }
+  ]
+}

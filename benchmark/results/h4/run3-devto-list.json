@@ -1,0 +1,201 @@
+[
+ {
+  "taskId": "devto-list-1",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2361,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 3082429,
+   "networkRequests": 44,
+   "agentTokens": 8869,
+   "threw": false,
+   "blocked": false,
+   "items": 15,
+   "reasons": [
+    "no recipe registered"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2599,
+   "threw": false,
+   "bytesDownloaded": 3082429,
+   "networkRequests": 44,
+   "agentTokens": 8869,
+   "items": 15
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "devto-list-2",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2419,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 3051602,
+   "networkRequests": 40,
+   "agentTokens": 7389,
+   "threw": false,
+   "blocked": false,
+   "items": 15,
+   "reasons": [
+    "no recipe registered"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2609,
+   "threw": false,
+   "bytesDownloaded": 3051602,
+   "networkRequests": 40,
+   "agentTokens": 7389,
+   "items": 15
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "devto-list-3",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2183,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 3056509,
+   "networkRequests": 44,
+   "agentTokens": 7289,
+   "threw": false,
+   "blocked": false,
+   "items": 15,
+   "reasons": [
+    "no recipe registered",
+    "8 golden item(s) missing from the result",
+    "8 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2670,
+   "threw": false,
+   "bytesDownloaded": 3056509,
+   "networkRequests": 44,
+   "agentTokens": 7289,
+   "items": 15
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "devto-list-4",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2172,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 3078167,
+   "networkRequests": 44,
+   "agentTokens": 8347,
+   "threw": false,
+   "blocked": false,
+   "items": 15,
+   "reasons": [
+    "no recipe registered"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2582,
+   "threw": false,
+   "bytesDownloaded": 3078167,
+   "networkRequests": 44,
+   "agentTokens": 8347,
+   "items": 15
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "devto-list-5",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2726,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 3126875,
+   "networkRequests": 48,
+   "agentTokens": 9115,
+   "threw": false,
+   "blocked": false,
+   "items": 15,
+   "reasons": [
+    "no recipe registered",
+    "4 golden item(s) missing from the result",
+    "4 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2704,
+   "threw": false,
+   "bytesDownloaded": 3126875,
+   "networkRequests": 48,
+   "agentTokens": 9115,
+   "items": 15
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

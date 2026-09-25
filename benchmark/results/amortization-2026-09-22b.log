@@ -1,0 +1,128 @@
+2026-09-22T22:14:08.237Z hn learn 2843ms (10 candidates)
+2026-09-22T22:14:10.229Z hn teach 1992ms recipe=http-html
+2026-09-22T22:14:10.989Z hn A k=1 739ms items=30 browser=0 tokens=1050
+2026-09-22T22:14:15.085Z hn B k=1 3087ms items=30 browser=1 tokens=0
+2026-09-22T22:14:18.443Z hn B k=2 2353ms items=30 browser=1 tokens=0
+2026-09-22T22:14:40.974Z hn A k=2 21515ms items=30 browser=0 tokens=1050
+2026-09-22T22:15:10.811Z hn A k=3 28831ms items=30 browser=0 tokens=1063
+2026-09-22T22:15:14.729Z hn B k=3 2910ms items=30 browser=1 tokens=0
+2026-09-22T22:15:17.674Z hn B k=4 1943ms items=30 browser=1 tokens=0
+2026-09-22T22:15:41.366Z hn A k=4 22669ms items=30 browser=0 tokens=1063
+2026-09-22T22:16:10.778Z hn A k=5 28404ms items=30 browser=0 tokens=1063
+2026-09-22T22:16:14.218Z hn B k=5 2428ms items=30 browser=1 tokens=0
+2026-09-22T22:16:17.187Z hn B k=6 1965ms items=30 browser=1 tokens=0
+2026-09-22T22:16:40.795Z hn A k=6 22588ms items=30 browser=0 tokens=1063
+2026-09-22T22:17:10.777Z hn A k=7 28977ms items=30 browser=0 tokens=1046
+2026-09-22T22:17:14.132Z hn B k=7 2345ms items=30 browser=1 tokens=0
+2026-09-22T22:17:17.057Z hn B k=8 1921ms items=30 browser=1 tokens=0
+2026-09-22T22:17:40.788Z hn A k=8 22712ms items=30 browser=0 tokens=1046
+2026-09-22T22:18:10.992Z hn A k=9 29199ms items=30 browser=0 tokens=1046
+2026-09-22T22:18:14.552Z hn B k=9 2537ms items=30 browser=1 tokens=0
+2026-09-22T22:18:17.738Z hn B k=10 2183ms items=30 browser=1 tokens=0
+2026-09-22T22:18:40.788Z hn A k=10 22009ms items=30 browser=0 tokens=1046
+2026-09-22T22:19:10.779Z hn A k=11 28987ms items=30 browser=0 tokens=1048
+2026-09-22T22:19:13.988Z hn B k=11 2193ms items=30 browser=1 tokens=0
+2026-09-22T22:19:16.927Z hn B k=12 1926ms items=30 browser=1 tokens=0
+2026-09-22T22:19:40.835Z hn A k=12 22879ms items=30 browser=0 tokens=1048
+2026-09-22T22:20:10.980Z hn A k=13 29132ms items=30 browser=0 tokens=1048
+2026-09-22T22:20:14.599Z hn B k=13 2588ms items=30 browser=1 tokens=0
+2026-09-22T22:20:17.639Z hn B k=14 2038ms items=30 browser=1 tokens=0
+2026-09-22T22:20:40.891Z hn A k=14 22203ms items=30 browser=0 tokens=1048
+2026-09-22T22:21:10.809Z hn A k=15 28912ms items=30 browser=0 tokens=1045
+2026-09-22T22:21:14.217Z hn B k=15 2393ms items=30 browser=1 tokens=0
+2026-09-22T22:21:17.585Z hn B k=16 2366ms items=30 browser=1 tokens=0
+2026-09-22T22:21:40.816Z hn A k=16 22206ms items=30 browser=0 tokens=1045
+2026-09-22T22:22:11.022Z hn A k=17 29198ms items=30 browser=0 tokens=1045
+2026-09-22T22:22:15.529Z hn B k=17 3494ms items=30 browser=1 tokens=0
+2026-09-22T22:22:18.499Z hn B k=18 1964ms items=30 browser=1 tokens=0
+2026-09-22T22:22:40.880Z hn A k=18 21355ms items=30 browser=0 tokens=1045
+2026-09-22T22:23:10.877Z hn A k=19 28993ms items=30 browser=0 tokens=1045
+2026-09-22T22:23:14.320Z hn B k=19 2415ms items=30 browser=1 tokens=0
+2026-09-22T22:23:17.991Z hn B k=20 2661ms items=30 browser=1 tokens=0
+2026-09-22T22:23:40.801Z hn A k=20 21795ms items=30 browser=0 tokens=1045
+2026-09-22T22:24:57.895Z remoteok learn 76091ms (10 candidates)
+2026-09-22T22:25:10.571Z remoteok teach 12676ms recipe=http-html
+2026-09-22T22:25:11.216Z remoteok A k=1 637ms items=50 browser=0 tokens=1626
+2026-09-22T22:25:15.785Z remoteok B k=1 3542ms items=50 browser=1 tokens=0
+2026-09-22T22:25:20.160Z remoteok B k=2 3373ms items=50 browser=1 tokens=0
+2026-09-22T22:25:21.795Z remoteok A k=2 594ms items=50 browser=0 tokens=1626
+2026-09-22T22:25:23.251Z remoteok A k=3 450ms items=50 browser=0 tokens=1626
+2026-09-22T22:25:28.013Z remoteok B k=3 3721ms items=50 browser=1 tokens=0
+2026-09-22T22:25:32.501Z remoteok B k=4 3485ms items=50 browser=1 tokens=0
+2026-09-22T22:25:34.415Z remoteok A k=4 872ms items=50 browser=0 tokens=1626
+2026-09-22T22:25:35.853Z remoteok A k=5 434ms items=50 browser=0 tokens=1626
+2026-09-22T22:25:40.669Z remoteok B k=5 3793ms items=50 browser=1 tokens=0
+2026-09-22T22:25:45.248Z remoteok B k=6 3576ms items=50 browser=1 tokens=0
+2026-09-22T22:25:46.961Z remoteok A k=6 687ms items=50 browser=0 tokens=1626
+2026-09-22T22:25:48.453Z remoteok A k=7 486ms items=50 browser=0 tokens=1626
+2026-09-22T22:25:52.988Z remoteok B k=7 3506ms items=50 browser=1 tokens=0
+2026-09-22T22:25:57.527Z remoteok B k=8 3536ms items=50 browser=1 tokens=0
+2026-09-22T22:25:59.254Z remoteok A k=8 693ms items=50 browser=0 tokens=1626
+2026-09-22T22:26:00.705Z remoteok A k=9 442ms items=50 browser=0 tokens=1626
+2026-09-22T22:26:05.243Z remoteok B k=9 3488ms items=50 browser=1 tokens=0
+2026-09-22T22:26:10.054Z remoteok B k=10 3808ms items=50 browser=1 tokens=0
+2026-09-22T22:26:11.751Z remoteok A k=10 625ms items=50 browser=0 tokens=1626
+2026-09-22T22:26:13.175Z remoteok A k=11 421ms items=50 browser=0 tokens=1626
+2026-09-22T22:26:17.786Z remoteok B k=11 3585ms items=50 browser=1 tokens=0
+2026-09-22T22:26:22.197Z remoteok B k=12 3410ms items=50 browser=1 tokens=0
+2026-09-22T22:26:23.836Z remoteok A k=12 590ms items=50 browser=0 tokens=1626
+2026-09-22T22:26:25.278Z remoteok A k=13 434ms items=50 browser=0 tokens=1626
+2026-09-22T22:26:29.815Z remoteok B k=13 3493ms items=50 browser=1 tokens=0
+2026-09-22T22:26:34.273Z remoteok B k=14 3456ms items=50 browser=1 tokens=0
+2026-09-22T22:26:35.906Z remoteok A k=14 576ms items=50 browser=0 tokens=1626
+2026-09-22T22:26:37.381Z remoteok A k=15 472ms items=50 browser=0 tokens=1626
+2026-09-22T22:26:42.203Z remoteok B k=15 3792ms items=50 browser=1 tokens=0
+2026-09-22T22:26:46.695Z remoteok B k=16 3490ms items=50 browser=1 tokens=0
+2026-09-22T22:26:48.363Z remoteok A k=16 626ms items=50 browser=0 tokens=1626
+2026-09-22T22:26:49.790Z remoteok A k=17 423ms items=50 browser=0 tokens=1626
+2026-09-22T22:26:54.376Z remoteok B k=17 3551ms items=50 browser=1 tokens=0
+2026-09-22T22:26:58.952Z remoteok B k=18 3572ms items=50 browser=1 tokens=0
+2026-09-22T22:27:00.672Z remoteok A k=18 611ms items=50 browser=0 tokens=1626
+2026-09-22T22:27:02.144Z remoteok A k=19 467ms items=50 browser=0 tokens=1626
+2026-09-22T22:27:06.871Z remoteok B k=19 3656ms items=50 browser=1 tokens=0
+2026-09-22T22:27:11.415Z remoteok B k=20 3542ms items=50 browser=1 tokens=0
+2026-09-22T22:27:13.200Z remoteok A k=20 710ms items=50 browser=0 tokens=1626
+2026-09-22T22:27:31.368Z steam learn 17163ms (10 candidates)
+2026-09-22T22:27:35.309Z steam teach 3941ms recipe=http-html
+2026-09-22T22:27:35.864Z steam A k=1 531ms items=1 browser=0 tokens=13
+2026-09-22T22:27:40.184Z steam B k=1 3284ms items=1 browser=1 tokens=0
+2026-09-22T22:27:45.156Z steam B k=2 3970ms items=1 browser=1 tokens=0
+2026-09-22T22:27:46.594Z steam A k=2 394ms items=1 browser=0 tokens=13
+2026-09-22T22:27:47.807Z steam A k=3 208ms items=1 browser=0 tokens=13
+2026-09-22T22:27:52.069Z steam B k=3 3228ms items=1 browser=1 tokens=0
+2026-09-22T22:27:56.315Z steam B k=4 3233ms items=1 browser=1 tokens=0
+2026-09-22T22:27:57.953Z steam A k=4 552ms items=1 browser=0 tokens=13
+2026-09-22T22:27:59.257Z steam A k=5 273ms items=1 browser=0 tokens=13
+2026-09-22T22:28:03.632Z steam B k=5 3346ms items=1 browser=1 tokens=0
+2026-09-22T22:28:07.820Z steam B k=6 3186ms items=1 browser=1 tokens=0
+2026-09-22T22:28:09.335Z steam A k=6 448ms items=1 browser=0 tokens=13
+2026-09-22T22:28:10.967Z steam A k=7 628ms items=1 browser=0 tokens=13
+2026-09-22T22:28:15.475Z steam B k=7 3468ms items=1 browser=1 tokens=0
+2026-09-22T22:28:20.559Z steam B k=8 4076ms items=1 browser=1 tokens=0
+2026-09-22T22:28:22.088Z steam A k=8 467ms items=1 browser=0 tokens=13
+2026-09-22T22:28:23.269Z steam A k=9 159ms items=1 browser=0 tokens=13
+2026-09-22T22:28:28.088Z steam B k=9 3779ms items=1 browser=1 tokens=0
+2026-09-22T22:28:33.395Z steam B k=10 4302ms items=1 browser=1 tokens=0
+2026-09-22T22:28:35.020Z steam A k=10 580ms items=1 browser=0 tokens=13
+2026-09-22T22:28:36.678Z steam A k=11 642ms items=1 browser=0 tokens=13
+2026-09-22T22:28:41.028Z steam B k=11 3317ms items=1 browser=1 tokens=0
+2026-09-22T22:28:45.622Z steam B k=12 3591ms items=1 browser=1 tokens=0
+2026-09-22T22:28:47.221Z steam A k=12 560ms items=1 browser=0 tokens=13
+2026-09-22T22:28:48.897Z steam A k=13 670ms items=1 browser=0 tokens=13
+2026-09-22T22:28:53.896Z steam B k=13 3969ms items=1 browser=1 tokens=0
+2026-09-22T22:29:00.942Z steam B k=14 6043ms items=1 browser=1 tokens=0
+2026-09-22T22:29:06.685Z steam A k=14 4709ms items=1 browser=0 tokens=13
+2026-09-22T22:29:08.132Z steam A k=15 445ms items=1 browser=0 tokens=13
+2026-09-22T22:29:12.862Z steam B k=15 3701ms items=1 browser=1 tokens=0
+2026-09-22T22:29:18.088Z steam B k=16 4210ms items=1 browser=1 tokens=0
+2026-09-22T22:29:49.601Z steam A k=16 30484ms items=0 browser=2 tokens=0 FELL_BACK
+2026-09-22T22:30:09.426Z steam A k=17 18820ms items=0 browser=0 tokens=0 FELL_BACK
+2026-09-22T22:30:22.200Z steam B k=17 11733ms items=0 browser=1 tokens=0
+2026-09-22T22:30:34.919Z steam B k=18 11715ms items=0 browser=1 tokens=0
+2026-09-22T22:30:49.983Z steam A k=18 14025ms items=0 browser=0 tokens=0 FELL_BACK
+2026-09-22T22:31:05.196Z steam A k=19 14209ms items=0 browser=0 tokens=0 FELL_BACK
+2026-09-22T22:31:18.625Z steam B k=19 11810ms items=0 browser=1 tokens=0
+2026-09-22T22:31:31.411Z steam B k=20 11724ms items=0 browser=1 tokens=0
+2026-09-22T22:31:48.004Z steam A k=20 15555ms items=0 browser=0 tokens=0 FELL_BACK
+/Users/pillsoonpark/dev/fast-web-agent/benchmark/results/amortization-2026-09-22b/REPORT.md
+exit 0

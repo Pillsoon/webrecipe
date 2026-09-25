@@ -1,0 +1,892 @@
+[
+  {
+    "id": "mastodon-search-1",
+    "set": "wild",
+    "site": "mastodon.social",
+    "intent": "search",
+    "input": {
+      "query": "linux"
+    }
+  },
+  {
+    "id": "mastodon-search-2",
+    "set": "wild",
+    "site": "mastodon.social",
+    "intent": "search",
+    "input": {
+      "query": "photography"
+    }
+  },
+  {
+    "id": "mastodon-search-3",
+    "set": "wild",
+    "site": "mastodon.social",
+    "intent": "search",
+    "input": {
+      "query": "art"
+    }
+  },
+  {
+    "id": "mastodon-search-4",
+    "set": "wild",
+    "site": "mastodon.social",
+    "intent": "search",
+    "input": {
+      "query": "music"
+    }
+  },
+  {
+    "id": "mastodon-search-5",
+    "set": "wild",
+    "site": "mastodon.social",
+    "intent": "search",
+    "input": {
+      "query": "opensource"
+    }
+  },
+  {
+    "id": "mastodon-search-6",
+    "set": "wild",
+    "site": "mastodon.social",
+    "intent": "search",
+    "input": {
+      "query": "retrocomputing"
+    }
+  },
+  {
+    "id": "mastodon-search-7",
+    "set": "wild",
+    "site": "mastodon.social",
+    "intent": "search",
+    "input": {
+      "query": "fediverse"
+    }
+  },
+  {
+    "id": "mastodon-search-8",
+    "set": "wild",
+    "site": "mastodon.social",
+    "intent": "search",
+    "input": {
+      "query": "caturday"
+    }
+  },
+  {
+    "id": "mastodon-search-9",
+    "set": "wild",
+    "site": "mastodon.social",
+    "intent": "search",
+    "input": {
+      "query": "mastodon"
+    }
+  },
+  {
+    "id": "mastodon-search-10",
+    "set": "wild",
+    "site": "mastodon.social",
+    "intent": "search",
+    "input": {
+      "query": "zzqqnosuchtag"
+    },
+    "expectEmpty": true
+  },
+  {
+    "id": "mastodon-list-1",
+    "set": "wild",
+    "site": "mastodon.social",
+    "intent": "list",
+    "input": {
+      "query": "linux",
+      "page": 1
+    }
+  },
+  {
+    "id": "mastodon-list-2",
+    "set": "wild",
+    "site": "mastodon.social",
+    "intent": "list",
+    "input": {
+      "query": "photography",
+      "page": 1
+    }
+  },
+  {
+    "id": "mastodon-list-3",
+    "set": "wild",
+    "site": "mastodon.social",
+    "intent": "list",
+    "input": {
+      "query": "art",
+      "page": 1
+    }
+  },
+  {
+    "id": "pixelfed-search-1",
+    "set": "wild",
+    "site": "pixelfed.social",
+    "intent": "search",
+    "input": {
+      "query": "photography"
+    }
+  },
+  {
+    "id": "pixelfed-search-2",
+    "set": "wild",
+    "site": "pixelfed.social",
+    "intent": "search",
+    "input": {
+      "query": "travel"
+    }
+  },
+  {
+    "id": "pixelfed-search-3",
+    "set": "wild",
+    "site": "pixelfed.social",
+    "intent": "search",
+    "input": {
+      "query": "nature"
+    }
+  },
+  {
+    "id": "pixelfed-search-4",
+    "set": "wild",
+    "site": "pixelfed.social",
+    "intent": "search",
+    "input": {
+      "query": "streetphotography"
+    }
+  },
+  {
+    "id": "pixelfed-search-5",
+    "set": "wild",
+    "site": "pixelfed.social",
+    "intent": "search",
+    "input": {
+      "query": "blackandwhite"
+    }
+  },
+  {
+    "id": "pixelfed-search-6",
+    "set": "wild",
+    "site": "pixelfed.social",
+    "intent": "search",
+    "input": {
+      "query": "art"
+    }
+  },
+  {
+    "id": "pixelfed-search-7",
+    "set": "wild",
+    "site": "pixelfed.social",
+    "intent": "search",
+    "input": {
+      "query": "cat"
+    }
+  },
+  {
+    "id": "pixelfed-search-8",
+    "set": "wild",
+    "site": "pixelfed.social",
+    "intent": "search",
+    "input": {
+      "query": "landscape"
+    }
+  },
+  {
+    "id": "pixelfed-search-9",
+    "set": "wild",
+    "site": "pixelfed.social",
+    "intent": "search",
+    "input": {
+      "query": "film"
+    }
+  },
+  {
+    "id": "pixelfed-search-10",
+    "set": "wild",
+    "site": "pixelfed.social",
+    "intent": "search",
+    "input": {
+      "query": "zzqqnosuchtag"
+    },
+    "expectEmpty": true
+  },
+  {
+    "id": "pixelfed-list-1",
+    "set": "wild",
+    "site": "pixelfed.social",
+    "intent": "list",
+    "input": {
+      "query": "photography",
+      "page": 1
+    }
+  },
+  {
+    "id": "pixelfed-list-2",
+    "set": "wild",
+    "site": "pixelfed.social",
+    "intent": "list",
+    "input": {
+      "query": "travel",
+      "page": 1
+    }
+  },
+  {
+    "id": "pixelfed-list-3",
+    "set": "wild",
+    "site": "pixelfed.social",
+    "intent": "list",
+    "input": {
+      "query": "nature",
+      "page": 1
+    }
+  },
+  {
+    "id": "musicbrainz-search-1",
+    "set": "wild",
+    "site": "musicbrainz.org",
+    "intent": "search",
+    "input": {
+      "query": "a74b1b7f-71a5-4011-9441-d0b5e4122711"
+    }
+  },
+  {
+    "id": "musicbrainz-search-2",
+    "set": "wild",
+    "site": "musicbrainz.org",
+    "intent": "search",
+    "input": {
+      "query": "8ed2e0b3-aa4c-4e13-bec3-dc7393ed4d6b"
+    }
+  },
+  {
+    "id": "musicbrainz-search-3",
+    "set": "wild",
+    "site": "musicbrainz.org",
+    "intent": "search",
+    "input": {
+      "query": "efa2c11a-1a35-4b60-bc1b-66d37de88511"
+    }
+  },
+  {
+    "id": "musicbrainz-search-4",
+    "set": "wild",
+    "site": "musicbrainz.org",
+    "intent": "search",
+    "input": {
+      "query": "e6de1f3b-6484-491c-88dd-6d619f142abc"
+    }
+  },
+  {
+    "id": "musicbrainz-search-5",
+    "set": "wild",
+    "site": "musicbrainz.org",
+    "intent": "search",
+    "input": {
+      "query": "dfeba5ea-c967-4ad2-9cdd-3cffb4320143"
+    }
+  },
+  {
+    "id": "musicbrainz-search-6",
+    "set": "wild",
+    "site": "musicbrainz.org",
+    "intent": "search",
+    "input": {
+      "query": "8f985a30-7eb1-4d40-8969-ac31e2c98a4e"
+    }
+  },
+  {
+    "id": "musicbrainz-search-7",
+    "set": "wild",
+    "site": "musicbrainz.org",
+    "intent": "search",
+    "input": {
+      "query": "c1a1088a-6906-49fd-b924-049f88298bcb"
+    }
+  },
+  {
+    "id": "musicbrainz-search-8",
+    "set": "wild",
+    "site": "musicbrainz.org",
+    "intent": "search",
+    "input": {
+      "query": "c74f4726-2671-4011-81b6-f70da905c05a"
+    }
+  },
+  {
+    "id": "musicbrainz-search-9",
+    "set": "wild",
+    "site": "musicbrainz.org",
+    "intent": "search",
+    "input": {
+      "query": "bec9c3ab-7428-4d65-909d-2e024fbcb924"
+    }
+  },
+  {
+    "id": "musicbrainz-search-10",
+    "set": "wild",
+    "site": "musicbrainz.org",
+    "intent": "search",
+    "input": {
+      "query": "00000000-0000-0000-0000-000000000000"
+    },
+    "expectEmpty": true
+  },
+  {
+    "id": "musicbrainz-list-1",
+    "set": "wild",
+    "site": "musicbrainz.org",
+    "intent": "list",
+    "input": {
+      "query": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+      "page": 1
+    }
+  },
+  {
+    "id": "musicbrainz-list-2",
+    "set": "wild",
+    "site": "musicbrainz.org",
+    "intent": "list",
+    "input": {
+      "query": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+      "page": 2
+    }
+  },
+  {
+    "id": "musicbrainz-list-3",
+    "set": "wild",
+    "site": "musicbrainz.org",
+    "intent": "list",
+    "input": {
+      "query": "e6de1f3b-6484-491c-88dd-6d619f142abc",
+      "page": 2
+    }
+  },
+  {
+    "id": "musicbrainz-list-4",
+    "set": "wild",
+    "site": "musicbrainz.org",
+    "intent": "list",
+    "input": {
+      "query": "e6de1f3b-6484-491c-88dd-6d619f142abc",
+      "page": 3
+    }
+  },
+  {
+    "id": "musicbrainz-list-5",
+    "set": "wild",
+    "site": "musicbrainz.org",
+    "intent": "list",
+    "input": {
+      "query": "efa2c11a-1a35-4b60-bc1b-66d37de88511",
+      "page": 1
+    }
+  },
+  {
+    "id": "musicbrainz-detail-1",
+    "set": "wild",
+    "site": "musicbrainz.org",
+    "intent": "detail",
+    "input": {
+      "id": "b1392450-e666-3926-a536-22c65f834433"
+    },
+    "oracle": {
+      "mode": "golden",
+      "volatility": "low"
+    }
+  },
+  {
+    "id": "musicbrainz-detail-2",
+    "set": "wild",
+    "site": "musicbrainz.org",
+    "intent": "detail",
+    "input": {
+      "id": "e75c0549-ad55-39e3-8025-c72c5d4a3c5d"
+    },
+    "oracle": {
+      "mode": "golden",
+      "volatility": "low"
+    }
+  },
+  {
+    "id": "musicbrainz-detail-3",
+    "set": "wild",
+    "site": "musicbrainz.org",
+    "intent": "detail",
+    "input": {
+      "id": "6e335887-60ba-38f0-95af-fae7774336bf"
+    },
+    "oracle": {
+      "mode": "golden",
+      "volatility": "low"
+    }
+  },
+  {
+    "id": "musicbrainz-detail-4",
+    "set": "wild",
+    "site": "musicbrainz.org",
+    "intent": "detail",
+    "input": {
+      "id": "b8048f24-c026-3398-b23a-b5e50716cbc7"
+    },
+    "oracle": {
+      "mode": "golden",
+      "volatility": "low"
+    }
+  },
+  {
+    "id": "musicbrainz-detail-5",
+    "set": "wild",
+    "site": "musicbrainz.org",
+    "intent": "detail",
+    "input": {
+      "id": "bca9280e-28b4-327f-8fe0-fd918579e486"
+    },
+    "oracle": {
+      "mode": "golden",
+      "volatility": "low"
+    }
+  },
+  {
+    "id": "devto-search-1",
+    "set": "wild",
+    "site": "dev.to",
+    "intent": "search",
+    "input": {
+      "query": "typescript"
+    }
+  },
+  {
+    "id": "devto-search-2",
+    "set": "wild",
+    "site": "dev.to",
+    "intent": "search",
+    "input": {
+      "query": "javascript"
+    }
+  },
+  {
+    "id": "devto-search-3",
+    "set": "wild",
+    "site": "dev.to",
+    "intent": "search",
+    "input": {
+      "query": "react"
+    }
+  },
+  {
+    "id": "devto-search-4",
+    "set": "wild",
+    "site": "dev.to",
+    "intent": "search",
+    "input": {
+      "query": "webdev"
+    }
+  },
+  {
+    "id": "devto-search-5",
+    "set": "wild",
+    "site": "dev.to",
+    "intent": "search",
+    "input": {
+      "query": "opensource"
+    }
+  },
+  {
+    "id": "devto-search-6",
+    "set": "wild",
+    "site": "dev.to",
+    "intent": "search",
+    "input": {
+      "query": "machinelearning"
+    }
+  },
+  {
+    "id": "devto-search-7",
+    "set": "wild",
+    "site": "dev.to",
+    "intent": "search",
+    "input": {
+      "query": "devops"
+    }
+  },
+  {
+    "id": "devto-search-8",
+    "set": "wild",
+    "site": "dev.to",
+    "intent": "search",
+    "input": {
+      "query": "testing"
+    }
+  },
+  {
+    "id": "devto-search-9",
+    "set": "wild",
+    "site": "dev.to",
+    "intent": "search",
+    "input": {
+      "query": "nextjs"
+    }
+  },
+  {
+    "id": "devto-search-10",
+    "set": "wild",
+    "site": "dev.to",
+    "intent": "search",
+    "input": {
+      "query": "zzqqnosuchtag"
+    },
+    "expectEmpty": true
+  },
+  {
+    "id": "devto-list-1",
+    "set": "wild",
+    "site": "dev.to",
+    "intent": "list",
+    "input": {
+      "query": "typescript",
+      "page": 1
+    }
+  },
+  {
+    "id": "devto-list-2",
+    "set": "wild",
+    "site": "dev.to",
+    "intent": "list",
+    "input": {
+      "query": "typescript",
+      "page": 2
+    }
+  },
+  {
+    "id": "devto-list-3",
+    "set": "wild",
+    "site": "dev.to",
+    "intent": "list",
+    "input": {
+      "query": "javascript",
+      "page": 2
+    }
+  },
+  {
+    "id": "devto-list-4",
+    "set": "wild",
+    "site": "dev.to",
+    "intent": "list",
+    "input": {
+      "query": "react",
+      "page": 3
+    }
+  },
+  {
+    "id": "devto-list-5",
+    "set": "wild",
+    "site": "dev.to",
+    "intent": "list",
+    "input": {
+      "query": "webdev",
+      "page": 1
+    }
+  },
+  {
+    "id": "devto-detail-1",
+    "set": "wild",
+    "site": "dev.to",
+    "intent": "detail",
+    "input": {
+      "id": "bengreenberg/jev-vs-claude-who-wins-4mln"
+    },
+    "oracle": {
+      "mode": "golden",
+      "volatility": "low",
+      "compare": {
+        "fields": [
+          "title",
+          "author"
+        ]
+      }
+    }
+  },
+  {
+    "id": "devto-detail-2",
+    "set": "wild",
+    "site": "dev.to",
+    "intent": "detail",
+    "input": {
+      "id": "ankitpatel_qa/your-ci-runs-tests-in-parallel-your-test-data-doesnt-know-that-2oh"
+    },
+    "oracle": {
+      "mode": "golden",
+      "volatility": "low",
+      "compare": {
+        "fields": [
+          "title",
+          "author"
+        ]
+      }
+    }
+  },
+  {
+    "id": "devto-detail-3",
+    "set": "wild",
+    "site": "dev.to",
+    "intent": "detail",
+    "input": {
+      "id": "parsajiravand/nestjs-testing-module-provider-overrides-with-cheat-sheet-1o79"
+    },
+    "oracle": {
+      "mode": "golden",
+      "volatility": "low",
+      "compare": {
+        "fields": [
+          "title",
+          "author"
+        ]
+      }
+    }
+  },
+  {
+    "id": "devto-detail-4",
+    "set": "wild",
+    "site": "dev.to",
+    "intent": "detail",
+    "input": {
+      "id": "acegikmo135/jsonparse-throws-on-every-token-your-llm-streams-heres-a-425-byte-fix-1cne"
+    },
+    "oracle": {
+      "mode": "golden",
+      "volatility": "low",
+      "compare": {
+        "fields": [
+          "title",
+          "author"
+        ]
+      }
+    }
+  },
+  {
+    "id": "devto-detail-5",
+    "set": "wild",
+    "site": "dev.to",
+    "intent": "detail",
+    "input": {
+      "id": "kostakurta/three-ways-i-miscounted-my-own-ai-agents-and-what-the-transcripts-actually-say-4kjg"
+    },
+    "oracle": {
+      "mode": "golden",
+      "volatility": "low",
+      "compare": {
+        "fields": [
+          "title",
+          "author"
+        ]
+      }
+    }
+  },
+  {
+    "id": "npm-search-1",
+    "set": "wild",
+    "site": "npmjs.com",
+    "intent": "search",
+    "input": {
+      "query": "markdown"
+    }
+  },
+  {
+    "id": "npm-search-2",
+    "set": "wild",
+    "site": "npmjs.com",
+    "intent": "search",
+    "input": {
+      "query": "react"
+    }
+  },
+  {
+    "id": "npm-search-3",
+    "set": "wild",
+    "site": "npmjs.com",
+    "intent": "search",
+    "input": {
+      "query": "typescript"
+    }
+  },
+  {
+    "id": "npm-search-4",
+    "set": "wild",
+    "site": "npmjs.com",
+    "intent": "search",
+    "input": {
+      "query": "express"
+    }
+  },
+  {
+    "id": "npm-search-5",
+    "set": "wild",
+    "site": "npmjs.com",
+    "intent": "search",
+    "input": {
+      "query": "date parser"
+    }
+  },
+  {
+    "id": "npm-search-6",
+    "set": "wild",
+    "site": "npmjs.com",
+    "intent": "search",
+    "input": {
+      "query": "http client"
+    }
+  },
+  {
+    "id": "npm-search-7",
+    "set": "wild",
+    "site": "npmjs.com",
+    "intent": "search",
+    "input": {
+      "query": "yaml"
+    }
+  },
+  {
+    "id": "npm-search-8",
+    "set": "wild",
+    "site": "npmjs.com",
+    "intent": "search",
+    "input": {
+      "query": "levenshtein"
+    }
+  },
+  {
+    "id": "npm-search-9",
+    "set": "wild",
+    "site": "npmjs.com",
+    "intent": "search",
+    "input": {
+      "query": "tiny-invariant"
+    }
+  },
+  {
+    "id": "npm-search-10",
+    "set": "wild",
+    "site": "npmjs.com",
+    "intent": "search",
+    "input": {
+      "query": "zzqqnosuchpackagename"
+    },
+    "expectEmpty": true
+  },
+  {
+    "id": "npm-list-1",
+    "set": "wild",
+    "site": "npmjs.com",
+    "intent": "list",
+    "input": {
+      "query": "markdown",
+      "page": 0
+    }
+  },
+  {
+    "id": "npm-list-2",
+    "set": "wild",
+    "site": "npmjs.com",
+    "intent": "list",
+    "input": {
+      "query": "markdown",
+      "page": 1
+    }
+  },
+  {
+    "id": "npm-list-3",
+    "set": "wild",
+    "site": "npmjs.com",
+    "intent": "list",
+    "input": {
+      "query": "react",
+      "page": 2
+    }
+  },
+  {
+    "id": "npm-list-4",
+    "set": "wild",
+    "site": "npmjs.com",
+    "intent": "list",
+    "input": {
+      "query": "typescript",
+      "page": 1
+    }
+  },
+  {
+    "id": "npm-list-5",
+    "set": "wild",
+    "site": "npmjs.com",
+    "intent": "list",
+    "input": {
+      "query": "express",
+      "page": 0
+    }
+  },
+  {
+    "id": "npm-detail-1",
+    "set": "wild",
+    "site": "npmjs.com",
+    "intent": "detail",
+    "input": {
+      "id": "markdown-it"
+    },
+    "oracle": {
+      "mode": "golden",
+      "volatility": "low"
+    }
+  },
+  {
+    "id": "npm-detail-2",
+    "set": "wild",
+    "site": "npmjs.com",
+    "intent": "detail",
+    "input": {
+      "id": "markdown-table"
+    },
+    "oracle": {
+      "mode": "golden",
+      "volatility": "low"
+    }
+  },
+  {
+    "id": "npm-detail-3",
+    "set": "wild",
+    "site": "npmjs.com",
+    "intent": "detail",
+    "input": {
+      "id": "react-markdown"
+    },
+    "oracle": {
+      "mode": "golden",
+      "volatility": "low"
+    }
+  },
+  {
+    "id": "npm-detail-4",
+    "set": "wild",
+    "site": "npmjs.com",
+    "intent": "detail",
+    "input": {
+      "id": "markdown-to-jsx"
+    },
+    "oracle": {
+      "mode": "golden",
+      "volatility": "low"
+    }
+  },
+  {
+    "id": "npm-detail-5",
+    "set": "wild",
+    "site": "npmjs.com",
+    "intent": "detail",
+    "input": {
+      "id": "remove-markdown"
+    },
+    "oracle": {
+      "mode": "golden",
+      "volatility": "low"
+    }
+  }
+]

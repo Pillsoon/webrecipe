@@ -1,0 +1,19 @@
+$ tsx src/cli.ts bench run --only site
+Controlled
+  Tasks:             30
+  Browser avoidance: 100%
+  Median latency:    997ms (baseline 763ms)
+  Median speedup:    0.8x
+  Success:           83% (baseline 100%)
+
+robots.txt status of wild sites
+  pkg.go.dev: disallowed for crawlers (user-agent posture, see spec section 6)
+  crates.io: allowed
+  hn.algolia.com: allowed
+
+failed tasks (5/30)
+  siteA-detail-2: item 0: "id" "100" !== "115"; item 0: "title" "Senior rust engineer #0" !== "Senior rust manager #15"; item 0: "author" "author-0" !== "author-1"
+  siteA-detail-3: item 0: "id" "100" !== "139"; item 0: "title" "Senior rust engineer #0" !== "Senior elixir manager #39"; item 0: "author" "author-0" !== "author-4"
+  siteB-detail-1: item 0: "author" undefined !== "author-0"
+  siteB-detail-2: item 0: "author" undefined !== "author-1"
+  siteB-detail-3: item 0: "author" undefined !== "author-4"

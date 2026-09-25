@@ -1,0 +1,79 @@
+[
+ {
+  "taskId": "lemmy-search-9",
+  "site": "lemmy.world",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 1373,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 325951,
+   "networkRequests": 1,
+   "agentTokens": 900,
+   "threw": false,
+   "items": 40,
+   "reasons": [
+    "18 golden item(s) missing from the result",
+    "18 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 13033,
+   "threw": false,
+   "bytesDownloaded": 2739578,
+   "networkRequests": 32,
+   "agentTokens": 7757,
+   "items": 40
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "lemmy-search-10",
+  "site": "lemmy.world",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 11838,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 2216587,
+   "networkRequests": 9,
+   "agentTokens": 634,
+   "threw": false,
+   "items": 0,
+   "reasons": [
+    "http-html: expected status 200, got 500"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 11819,
+   "threw": false,
+   "bytesDownloaded": 2216587,
+   "networkRequests": 9,
+   "agentTokens": 634,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

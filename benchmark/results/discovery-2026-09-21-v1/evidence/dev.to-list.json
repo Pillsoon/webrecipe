@@ -1,0 +1,78 @@
+{
+  "baseline": "7f51ca0",
+  "site": "dev.to",
+  "intent": "list",
+  "taughtUrl": "https://dev.to/t/typescript/page/1",
+  "plan": {
+    "origin": "https://dev.to",
+    "urlTemplate": "/t/{{query}}/page/{{page}}",
+    "itemSelector": "div.crayons-story",
+    "fields": {
+      "title": "h2.crayons-story__title a",
+      "url": "h2.crayons-story__title a@href"
+    },
+    "verification": {
+      "contract": {
+        "required": [
+          "non_empty",
+          "required_fields",
+          "pagination_honored"
+        ]
+      },
+      "evidence": {
+        "non_empty": {
+          "status": "passed"
+        },
+        "required_fields": {
+          "status": "passed"
+        },
+        "pagination_honored": {
+          "status": "passed",
+          "at": "2026-09-21T23:16:18.922Z",
+          "method": "active-probe/pagination-v1",
+          "parameter": "page",
+          "probes": [
+            {
+              "role": "taught",
+              "value": "1",
+              "items": 15
+            },
+            {
+              "role": "repeat",
+              "value": "1",
+              "items": 15
+            },
+            {
+              "role": "alternate",
+              "value": "2",
+              "items": 15
+            }
+          ],
+          "signals": {
+            "stable": true,
+            "moved": true,
+            "agreed": true
+          },
+          "shares": {
+            "overlap": 0
+          }
+        }
+      }
+    }
+  },
+  "refused": null,
+  "sample": [
+    {
+      "title": "What If Your AI Agent Never Had to Leave the Browser? (Demo 🚀)",
+      "url": "https://dev.to/sylwia-lask/what-if-your-ai-agent-never-had-to-leave-the-browser-demo--5g"
+    },
+    {
+      "title": "I stopped rewriting the same Electron boilerplate — so I packaged it",
+      "url": "https://dev.to/hubert_larosesurprenant_/i-stopped-rewriting-the-same-electron-boilerplate-so-i-packaged-it-3i8n"
+    },
+    {
+      "title": "Aprendendo Angular através de um diálogo",
+      "url": "https://dev.to/freitasmp/aprendendo-angular-atraves-de-um-dialogo-11i0"
+    }
+  ]
+}

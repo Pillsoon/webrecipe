@@ -1,0 +1,64 @@
+[
+ {
+  "taskId": "lemmy-search-9",
+  "site": "lemmy.world",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 1235,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 40,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 13129,
+   "threw": false,
+   "items": 40
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "lemmy-search-10",
+  "site": "lemmy.world",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 11883,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 0,
+   "reasons": [
+    "http-html: expected status 200, got 500"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 11844,
+   "threw": false,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

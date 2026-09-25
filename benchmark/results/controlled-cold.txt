@@ -1,0 +1,13 @@
+$ tsx src/cli.ts bench run --only site
+Controlled
+  Tasks:             30
+  Browser avoidance: 33%
+  Median latency:    784ms (baseline 794.5ms)
+  Median speedup:    1.0x
+  Success:           100% (baseline 100%)
+
+robots.txt status of wild sites
+  pkg.go.dev: disallowed for crawlers (user-agent posture, see spec section 6)
+  crates.io: allowed
+  hn.algolia.com: allowed
+

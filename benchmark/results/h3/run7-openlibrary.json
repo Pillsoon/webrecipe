@@ -1,0 +1,386 @@
+[
+ {
+  "taskId": "openlibrary-search-1",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 457,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 172623,
+   "networkRequests": 1,
+   "agentTokens": 930,
+   "threw": false,
+   "items": 20,
+   "reasons": [
+    "20 golden item(s) missing from the result",
+    "20 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 3095,
+   "threw": false,
+   "bytesDownloaded": 2447181,
+   "networkRequests": 83,
+   "agentTokens": 10104,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-2",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 396,
+   "browserLaunches": 0,
+   "politenessWaitMs": 663,
+   "bytesDownloaded": 194214,
+   "networkRequests": 1,
+   "agentTokens": 913,
+   "threw": false,
+   "items": 20,
+   "reasons": [
+    "2 golden item(s) missing from the result",
+    "2 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2734,
+   "threw": false,
+   "bytesDownloaded": 3263927,
+   "networkRequests": 132,
+   "agentTokens": 14783,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-3",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 922,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 192077,
+   "networkRequests": 1,
+   "agentTokens": 852,
+   "threw": false,
+   "items": 20,
+   "reasons": [
+    "1 golden item(s) missing from the result",
+    "1 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 3649,
+   "threw": false,
+   "bytesDownloaded": 2031860,
+   "networkRequests": 116,
+   "agentTokens": 14403,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-4",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 864,
+   "browserLaunches": 0,
+   "politenessWaitMs": 54,
+   "bytesDownloaded": 193186,
+   "networkRequests": 1,
+   "agentTokens": 868,
+   "threw": false,
+   "items": 20,
+   "reasons": [
+    "2 golden item(s) missing from the result",
+    "2 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2969,
+   "threw": false,
+   "bytesDownloaded": 1660017,
+   "networkRequests": 110,
+   "agentTokens": 14706,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-5",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 503,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 183329,
+   "networkRequests": 1,
+   "agentTokens": 877,
+   "threw": false,
+   "items": 20,
+   "reasons": [
+    "1 golden item(s) missing from the result",
+    "1 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 6451,
+   "threw": false,
+   "bytesDownloaded": 1645327,
+   "networkRequests": 98,
+   "agentTokens": 13413,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-6",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 13034,
+   "browserLaunches": 0,
+   "politenessWaitMs": 470,
+   "bytesDownloaded": 177974,
+   "networkRequests": 1,
+   "agentTokens": 874,
+   "threw": false,
+   "items": 20,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 3160,
+   "threw": false,
+   "bytesDownloaded": 3252283,
+   "networkRequests": 113,
+   "agentTokens": 12332,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-7",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 378,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 194654,
+   "networkRequests": 1,
+   "agentTokens": 844,
+   "threw": false,
+   "items": 20,
+   "reasons": [
+    "10 golden item(s) missing from the result",
+    "10 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2703,
+   "threw": false,
+   "bytesDownloaded": 2269916,
+   "networkRequests": 148,
+   "agentTokens": 14821,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-8",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 655,
+   "browserLaunches": 0,
+   "politenessWaitMs": 588,
+   "bytesDownloaded": 186932,
+   "networkRequests": 1,
+   "agentTokens": 904,
+   "threw": false,
+   "items": 20,
+   "reasons": [
+    "2 golden item(s) missing from the result",
+    "2 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2771,
+   "threw": false,
+   "bytesDownloaded": 1701831,
+   "networkRequests": 107,
+   "agentTokens": 13822,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-9",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 982,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 185205,
+   "networkRequests": 1,
+   "agentTokens": 875,
+   "threw": false,
+   "items": 20,
+   "reasons": [
+    "1 golden item(s) missing from the result",
+    "1 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 3641,
+   "threw": false,
+   "bytesDownloaded": 1694332,
+   "networkRequests": 109,
+   "agentTokens": 13534,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-10",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 12605,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 179003,
+   "networkRequests": 1,
+   "agentTokens": 844,
+   "threw": false,
+   "items": 20,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 3391,
+   "threw": false,
+   "bytesDownloaded": 3318899,
+   "networkRequests": 109,
+   "agentTokens": 12384,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

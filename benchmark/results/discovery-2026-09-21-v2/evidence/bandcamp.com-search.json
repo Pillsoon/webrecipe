@@ -1,0 +1,95 @@
+{
+  "baseline": "7f51ca0",
+  "site": "bandcamp.com",
+  "intent": "search",
+  "taughtUrl": "https://bandcamp.com/tag/ambient",
+  "plan": {
+    "origin": "https://bandcamp.com",
+    "urlTemplate": "/tag/{{query}}",
+    "itemSelector": "li.card-item",
+    "fields": {
+      "title": "a.stretch-link",
+      "url": "a.stretch-link@href"
+    },
+    "verification": {
+      "contract": {
+        "required": [
+          "non_empty",
+          "required_fields",
+          "query_honored",
+          "lexical_query_consistency"
+        ]
+      },
+      "evidence": {
+        "non_empty": {
+          "status": "passed"
+        },
+        "required_fields": {
+          "status": "passed"
+        },
+        "query_honored": {
+          "status": "passed",
+          "at": "2026-09-22T00:51:55.540Z",
+          "method": "active-probe/v1",
+          "parameter": "query",
+          "probes": [
+            {
+              "role": "taught",
+              "value": "ambient",
+              "items": 60
+            },
+            {
+              "role": "repeat",
+              "value": "ambient",
+              "items": 60
+            },
+            {
+              "role": "nonce",
+              "value": "dbfc5fdc99a8",
+              "items": 0
+            },
+            {
+              "role": "contrast",
+              "value": "above",
+              "items": 23
+            }
+          ],
+          "signals": {
+            "stable": true,
+            "nonce_rejected": true,
+            "responsive": true,
+            "agreed": true
+          }
+        },
+        "lexical_query_consistency": {
+          "status": "not_tested",
+          "at": "2026-09-22T00:51:55.540Z",
+          "method": "active-probe/lexical-consistency-v1",
+          "parameter": "query",
+          "shares": {
+            "taught": 0
+          },
+          "signals": {
+            "applicable": false
+          },
+          "reason": "only 0% of the taught result carries the query in a field this plan extracts, so this site does not match on text we can read"
+        }
+      }
+    }
+  },
+  "refused": null,
+  "sample": [
+    {
+      "title": "Desert Solitaire by Steve Roach - Kevin Braheny - Michael Stearns",
+      "url": "https://steveroach.bandcamp.com/album/desert-solitaire?from=discover_page&ui_context=results_grid"
+    },
+    {
+      "title": "Western Spaces by Steve Roach.  Kevin Braheny",
+      "url": "https://steveroach.bandcamp.com/album/western-spaces?from=discover_page&ui_context=results_grid"
+    },
+    {
+      "title": "TRANQUILITY by S1gns Of L1fe",
+      "url": "https://material.bandcamp.com/album/tranquility?from=discover_page&ui_context=results_grid"
+    }
+  ]
+}

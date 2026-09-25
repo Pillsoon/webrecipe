@@ -1,0 +1,210 @@
+[
+ {
+  "taskId": "loc-detail-1",
+  "site": "loc.gov",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 11999,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 1646416,
+   "networkRequests": 18,
+   "agentTokens": 177,
+   "threw": false,
+   "items": 0,
+   "reasons": [
+    "status 403 !== expected 200",
+    "item count 0 < minItems 1",
+    "fingerprint drift: expected 0dbe430eadc7f2f0, got 57b452042505ecd9",
+    "blocked: status 403",
+    "1 golden item(s) missing from the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 12049,
+   "threw": false,
+   "bytesDownloaded": 1653628,
+   "networkRequests": 18,
+   "agentTokens": 178,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": false,
+   "query": null,
+   "ordering": null,
+   "reasons": [
+    "1 golden item(s) missing from the result"
+   ]
+  },
+  "aging": null
+ },
+ {
+  "taskId": "loc-detail-2",
+  "site": "loc.gov",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 11868,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 1633775,
+   "networkRequests": 18,
+   "agentTokens": 178,
+   "threw": false,
+   "items": 0,
+   "reasons": [
+    "blocked: cooling down for loc.gov",
+    "1 golden item(s) missing from the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 12015,
+   "threw": false,
+   "bytesDownloaded": 1641324,
+   "networkRequests": 18,
+   "agentTokens": 180,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": false,
+   "query": null,
+   "ordering": null,
+   "reasons": [
+    "1 golden item(s) missing from the result"
+   ]
+  },
+  "aging": null
+ },
+ {
+  "taskId": "loc-detail-3",
+  "site": "loc.gov",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 11852,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 1639554,
+   "networkRequests": 18,
+   "agentTokens": 179,
+   "threw": false,
+   "items": 0,
+   "reasons": [
+    "blocked: cooling down for loc.gov",
+    "1 golden item(s) missing from the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 12089,
+   "threw": false,
+   "bytesDownloaded": 1670876,
+   "networkRequests": 18,
+   "agentTokens": 179,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": false,
+   "query": null,
+   "ordering": null,
+   "reasons": [
+    "1 golden item(s) missing from the result"
+   ]
+  },
+  "aging": null
+ },
+ {
+  "taskId": "loc-detail-4",
+  "site": "loc.gov",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 11871,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 1651981,
+   "networkRequests": 18,
+   "agentTokens": 178,
+   "threw": false,
+   "items": 0,
+   "reasons": [
+    "blocked: cooling down for loc.gov",
+    "1 golden item(s) missing from the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 12009,
+   "threw": false,
+   "bytesDownloaded": 1663940,
+   "networkRequests": 18,
+   "agentTokens": 179,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": false,
+   "query": null,
+   "ordering": null,
+   "reasons": [
+    "1 golden item(s) missing from the result"
+   ]
+  },
+  "aging": null
+ },
+ {
+  "taskId": "loc-detail-5",
+  "site": "loc.gov",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 11858,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 1670693,
+   "networkRequests": 18,
+   "agentTokens": 177,
+   "threw": false,
+   "items": 0,
+   "reasons": [
+    "blocked: cooling down for loc.gov",
+    "1 golden item(s) missing from the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 11974,
+   "threw": false,
+   "bytesDownloaded": 1634706,
+   "networkRequests": 18,
+   "agentTokens": 178,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": false,
+   "query": null,
+   "ordering": null,
+   "reasons": [
+    "1 golden item(s) missing from the result"
+   ]
+  },
+  "aging": null
+ }
+]

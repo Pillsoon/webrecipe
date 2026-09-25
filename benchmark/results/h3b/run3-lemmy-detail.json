@@ -1,0 +1,182 @@
+[
+ {
+  "taskId": "lemmy-detail-1",
+  "site": "lemmy.world",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 1282,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 764336,
+   "networkRequests": 1,
+   "agentTokens": 37,
+   "threw": false,
+   "items": 1,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 4100,
+   "threw": false,
+   "bytesDownloaded": 5103818,
+   "networkRequests": 36,
+   "agentTokens": 17086,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "lemmy-detail-2",
+  "site": "lemmy.world",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 1340,
+   "browserLaunches": 0,
+   "politenessWaitMs": 58717,
+   "bytesDownloaded": 628556,
+   "networkRequests": 1,
+   "agentTokens": 74,
+   "threw": false,
+   "items": 1,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 3701,
+   "threw": false,
+   "bytesDownloaded": 4569580,
+   "networkRequests": 20,
+   "agentTokens": 11744,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "lemmy-detail-3",
+  "site": "lemmy.world",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 426,
+   "browserLaunches": 0,
+   "politenessWaitMs": 52168,
+   "bytesDownloaded": 57221,
+   "networkRequests": 1,
+   "agentTokens": 48,
+   "threw": false,
+   "items": 1,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2510,
+   "threw": false,
+   "bytesDownloaded": 2243171,
+   "networkRequests": 12,
+   "agentTokens": 1322,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "lemmy-detail-4",
+  "site": "lemmy.world",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 901,
+   "browserLaunches": 0,
+   "politenessWaitMs": 59531,
+   "bytesDownloaded": 171012,
+   "networkRequests": 1,
+   "agentTokens": 72,
+   "threw": false,
+   "items": 1,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 3647,
+   "threw": false,
+   "bytesDownloaded": 4367353,
+   "networkRequests": 21,
+   "agentTokens": 4550,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "lemmy-detail-5",
+  "site": "lemmy.world",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 1276,
+   "browserLaunches": 0,
+   "politenessWaitMs": 51606,
+   "bytesDownloaded": 803305,
+   "networkRequests": 1,
+   "agentTokens": 83,
+   "threw": false,
+   "items": 1,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 3588,
+   "threw": false,
+   "bytesDownloaded": 3076772,
+   "networkRequests": 19,
+   "agentTokens": 18491,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

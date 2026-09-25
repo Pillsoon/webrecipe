@@ -1,0 +1,1098 @@
+{
+ "url": "file://hn",
+ "items": [
+  {
+   "candidate": {
+    "selector": "td",
+    "count": 159,
+    "samples": [
+     "Hacker Newsnew | past | comments | ask | show | jobs | submitlogin",
+     "",
+     "Hacker Newsnew | past | comments | ask | show | jobs | submit"
+    ],
+    "scoped": false
+   },
+   "fields": [
+    {
+     "spec": "a@href",
+     "coverage": 0.610062893081761,
+     "distinct": 0.5974842767295597,
+     "samples": [
+      "https://news.ycombinator.com",
+      "https://news.ycombinator.com",
+      "news"
+     ]
+    },
+    {
+     "spec": "",
+     "coverage": 0.6037735849056604,
+     "distinct": 0.6037735849056604,
+     "samples": [
+      "Hacker Newsnew | past | comments | ask | show | jobs | submitlogin",
+      "Hacker Newsnew | past | comments | ask | show | jobs | submit",
+      "login"
+     ]
+    },
+    {
+     "spec": "a",
+     "coverage": 0.4025157232704403,
+     "distinct": 0.4025157232704403,
+     "samples": [
+      "Hacker News",
+      "login",
+      "tRNA Therapy"
+     ]
+    },
+    {
+     "spec": "a@id",
+     "coverage": 0.1949685534591195,
+     "distinct": 0.18867924528301888,
+     "samples": [
+      "up_49808749",
+      "up_49808749",
+      "up_49808743"
+     ]
+    },
+    {
+     "spec": "a.hnuser",
+     "coverage": 0.1949685534591195,
+     "distinct": 0.18867924528301888,
+     "samples": [
+      "EA-3167",
+      "EA-3167",
+      "vitalnodo"
+     ]
+    },
+    {
+     "spec": "span.rank",
+     "coverage": 0.1949685534591195,
+     "distinct": 0.18867924528301888,
+     "samples": [
+      "1.",
+      "1.",
+      "2."
+     ]
+    },
+    {
+     "spec": "span.sitestr",
+     "coverage": 0.1949685534591195,
+     "distinct": 0.18867924528301888,
+     "samples": [
+      "science.org",
+      "science.org",
+      "epoch.ai"
+     ]
+    },
+    {
+     "spec": "span.subline",
+     "coverage": 0.1949685534591195,
+     "distinct": 0.18867924528301888,
+     "samples": [
+      "1 point by EA-3167 0 minutes ago | hide | past | discuss",
+      "1 point by EA-3167 0 minutes ago | hide | past | discuss",
+      "1 point by vitalnodo 0 minutes ago | hide | past | discuss"
+     ]
+    },
+    {
+     "spec": "span.score@id",
+     "coverage": 0.1949685534591195,
+     "distinct": 0.18867924528301888,
+     "samples": [
+      "score_49808749",
+      "score_49808749",
+      "score_49808743"
+     ]
+    },
+    {
+     "spec": "a.hnuser@href",
+     "coverage": 0.1949685534591195,
+     "distinct": 0.18867924528301888,
+     "samples": [
+      "user?id=EA-3167",
+      "user?id=EA-3167",
+      "user?id=vitalnodo"
+     ]
+    },
+    {
+     "spec": "a.hnpast@href",
+     "coverage": 0.1949685534591195,
+     "distinct": 0.18867924528301888,
+     "samples": [
+      "https://hn.algolia.com/?query=tRNA%20Therapy&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0",
+      "https://hn.algolia.com/?query=tRNA%20Therapy&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0",
+      "https://hn.algolia.com/?query=AI%20is%20getting%20cheaper%20more%20quickly%20than%20any%20other%20transformative%20tech%20in%20history&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0"
+     ]
+    },
+    {
+     "spec": "span.titleline",
+     "coverage": 0.1949685534591195,
+     "distinct": 0.18867924528301888,
+     "samples": [
+      "tRNA Therapy (science.org)",
+      "tRNA Therapy (science.org)",
+      "AI is getting cheaper more quickly than any other transformative tech in history (epoch.ai)"
+     ]
+    }
+   ]
+  },
+  {
+   "candidate": {
+    "selector": "tr",
+    "count": 98,
+    "samples": [
+     "Hacker Newsnew | past | comments | ask | show | jobs | submitlogin",
+     "Hacker Newsnew | past | comments | ask | show | jobs | submitlogin",
+     ""
+    ],
+    "scoped": false
+   },
+   "fields": [
+    {
+     "spec": "",
+     "coverage": 0.6632653061224489,
+     "distinct": 0.6530612244897959,
+     "samples": [
+      "Hacker Newsnew | past | comments | ask | show | jobs | submitlogin",
+      "Hacker Newsnew | past | comments | ask | show | jobs | submitlogin",
+      "1.tRNA Therapy (science.org)1 point by EA-3167 0 minutes ago | hide | past | discuss2.AI is getting cheaper more quickly than any other transformative tech in history (epoch.ai)1 point by vitalnodo 0 minutes ago | hide | past | discuss3.The strange death of libertarianism (spectator.com)1 point by Fricken 1 minute ago | hide | past | discuss4.Eating Alone (longreads.com)1 point by gmays 2 minutes ago | hide | past | discuss5.Evaluating smolvm as a sandbox for untrusted Python and JavaScript (simonwillison.net)1 point by binsquare 2 minutes ago | hide | past | discuss6.AI Abundance Requires a 4-Hour Workweek (elnahla.com)2 points by notfried 3 minutes ago | hide | past | discuss7.DuckDB supports a new SQL IDE (duckdb.org)4 points by abdullahk0634 6 minutes ago | hide | past | discuss8.MariaDB's official docs now list LibreDB Studio as a graphical client (mariadb.com)3 points by devgundogdu 7 minutes ago | hide | past | discuss9.Dragonfly and LibreDB Studio: Redis-compatible database management (dragonflydb.io)3 points by cevheribozoglan 9 minutes ago | hide | past | discuss10.Show HN: LinearSolveBench, interesting new benchmark to discover linear solvers (autodidakt.ai)1 point by hgarud 10 minutes ago | hide | past | discuss11.Show HN: Jade Email. Unlimited emails for your domain plus AI Agent support (jade.email)1 point by piesupplies 11 minutes ago | hide | past | discuss12.Gadgetbridge: A FOSS alternative to your fitness watch's app (manualdousuario.net)2 points by rpgbr 12 minutes ago | hide | past | discuss13.UmbrelOS 2.0: Your cloud, at home [video] (youtube.com)1 point by sashazykov 14 minutes ago | hide | past | discuss14.Fat Bear Week (explore.org)2 points by skogstokig 14 minutes ago | hide | past | discuss15.Meta's New Muse AI Agent Read My Private Messages. I Never Asked It To (inc.com)2 points by frizlab 15 minutes ago | hide | past | discuss16.Analyzing Jev Outcomes with a Validator (gonzo.engineer)2 points by Dowwie 16 minutes ago | hide | past | discuss17.My Claude Code setup (11 commands, 3 agents) + shared Meta \"design third brain\" (johnmaartifacts.substack.com)1 point by mingyukma88 16 minutes ago | hide | past | discuss18.Jevlish: A JavaScript front end for Jev (jacobgoldfarb.github.io)2 points by jacobjr23 17 minutes ago | hide | past | 2 comments19.Comrade – A P2P Alternative to Tmate (github.com/dangowrt)1 point by aparcar 19 minutes ago | hide | past | discuss20.Orbital's Sam Brovda and Bill Ackman get pro-Palestinan woman fired from KPMG (twitter.com/redpillsayian)5 points by 1832764323 23 minutes ago | hide | past | 1 comment21.Aetheria – a local-first agent harness that works online or offline (github.com/denisrigsby)2 points by denisrigsby 23 minutes ago | hide | past | discuss22.When the Debugger Lies (danielmangum.com)1 point by hasheddan 24 minutes ago | hide | past | discuss23.The HUGS Stack – Hypermedia, Unix, Go, SQLite (housecat.com)2 points by theanonymousone 25 minutes ago | hide | past | discuss24.Voxiferi introduces VoxWall as an 'AI ingress firewall' for bad data (opensourcewatch.beehiiv.com)1 point by CrankyBear 28 minutes ago | hide | past | discuss25.Why Beyond Traditional RAG? (medium.com/nikozero11)2 points by Natashiiy 28 minutes ago | hide | past | 2 comments26.E-commerce compliance scores range from 13 to 97 across major US retailers (stem-education.medium.com)1 point by complyyio 29 minutes ago | hide | past | discuss27.Making Gasoline from Plastic Waste (sciencedaily.com)2 points by silver92bullet 29 minutes ago | hide | past | discuss28.GitHub Actions leaking secrets when Miri output is cached (rust-lang.org)1 point by metrofun 35 minutes ago | hide | past | discuss29.Show HN: CatQueue-A zero-dependency PostgreSQL job queue for Node and TypeScript (github.com/karanrajsurya)1 point by karanrajsurya 35 minutes ago | hide | past | discuss30.A modern, cross-platform font editor built with TypeScript and Rust (github.com/shift-editor)2 points by wg0 35 minutes ago | hide | past | discussMore"
+     ]
+    },
+    {
+     "spec": "td",
+     "coverage": 0.336734693877551,
+     "distinct": 0.336734693877551,
+     "samples": [
+      "Hacker Newsnew | past | comments | ask | show | jobs | submitlogin",
+      "1.tRNA Therapy (science.org)1 point by EA-3167 0 minutes ago | hide | past | discuss2.AI is getting cheaper more quickly than any other transformative tech in history (epoch.ai)1 point by vitalnodo 0 minutes ago | hide | past | discuss3.The strange death of libertarianism (spectator.com)1 point by Fricken 1 minute ago | hide | past | discuss4.Eating Alone (longreads.com)1 point by gmays 2 minutes ago | hide | past | discuss5.Evaluating smolvm as a sandbox for untrusted Python and JavaScript (simonwillison.net)1 point by binsquare 2 minutes ago | hide | past | discuss6.AI Abundance Requires a 4-Hour Workweek (elnahla.com)2 points by notfried 3 minutes ago | hide | past | discuss7.DuckDB supports a new SQL IDE (duckdb.org)4 points by abdullahk0634 6 minutes ago | hide | past | discuss8.MariaDB's official docs now list LibreDB Studio as a graphical client (mariadb.com)3 points by devgundogdu 7 minutes ago | hide | past | discuss9.Dragonfly and LibreDB Studio: Redis-compatible database management (dragonflydb.io)3 points by cevheribozoglan 9 minutes ago | hide | past | discuss10.Show HN: LinearSolveBench, interesting new benchmark to discover linear solvers (autodidakt.ai)1 point by hgarud 10 minutes ago | hide | past | discuss11.Show HN: Jade Email. Unlimited emails for your domain plus AI Agent support (jade.email)1 point by piesupplies 11 minutes ago | hide | past | discuss12.Gadgetbridge: A FOSS alternative to your fitness watch's app (manualdousuario.net)2 points by rpgbr 12 minutes ago | hide | past | discuss13.UmbrelOS 2.0: Your cloud, at home [video] (youtube.com)1 point by sashazykov 14 minutes ago | hide | past | discuss14.Fat Bear Week (explore.org)2 points by skogstokig 14 minutes ago | hide | past | discuss15.Meta's New Muse AI Agent Read My Private Messages. I Never Asked It To (inc.com)2 points by frizlab 15 minutes ago | hide | past | discuss16.Analyzing Jev Outcomes with a Validator (gonzo.engineer)2 points by Dowwie 16 minutes ago | hide | past | discuss17.My Claude Code setup (11 commands, 3 agents) + shared Meta \"design third brain\" (johnmaartifacts.substack.com)1 point by mingyukma88 16 minutes ago | hide | past | discuss18.Jevlish: A JavaScript front end for Jev (jacobgoldfarb.github.io)2 points by jacobjr23 17 minutes ago | hide | past | 2 comments19.Comrade – A P2P Alternative to Tmate (github.com/dangowrt)1 point by aparcar 19 minutes ago | hide | past | discuss20.Orbital's Sam Brovda and Bill Ackman get pro-Palestinan woman fired from KPMG (twitter.com/redpillsayian)5 points by 1832764323 23 minutes ago | hide | past | 1 comment21.Aetheria – a local-first agent harness that works online or offline (github.com/denisrigsby)2 points by denisrigsby 23 minutes ago | hide | past | discuss22.When the Debugger Lies (danielmangum.com)1 point by hasheddan 24 minutes ago | hide | past | discuss23.The HUGS Stack – Hypermedia, Unix, Go, SQLite (housecat.com)2 points by theanonymousone 25 minutes ago | hide | past | discuss24.Voxiferi introduces VoxWall as an 'AI ingress firewall' for bad data (opensourcewatch.beehiiv.com)1 point by CrankyBear 28 minutes ago | hide | past | discuss25.Why Beyond Traditional RAG? (medium.com/nikozero11)2 points by Natashiiy 28 minutes ago | hide | past | 2 comments26.E-commerce compliance scores range from 13 to 97 across major US retailers (stem-education.medium.com)1 point by complyyio 29 minutes ago | hide | past | discuss27.Making Gasoline from Plastic Waste (sciencedaily.com)2 points by silver92bullet 29 minutes ago | hide | past | discuss28.GitHub Actions leaking secrets when Miri output is cached (rust-lang.org)1 point by metrofun 35 minutes ago | hide | past | discuss29.Show HN: CatQueue-A zero-dependency PostgreSQL job queue for Node and TypeScript (github.com/karanrajsurya)1 point by karanrajsurya 35 minutes ago | hide | past | discuss30.A modern, cross-platform font editor built with TypeScript and Rust (github.com/shift-editor)2 points by wg0 35 minutes ago | hide | past | discussMore",
+      "1."
+     ]
+    },
+    {
+     "spec": "td.title",
+     "coverage": 0.32653061224489793,
+     "distinct": 0.3163265306122449,
+     "samples": [
+      "1.",
+      "1.",
+      "2."
+     ]
+    },
+    {
+     "spec": "@id",
+     "coverage": 0.3163265306122449,
+     "distinct": 0.3163265306122449,
+     "samples": [
+      "bigbox",
+      "49808749",
+      "49808743"
+     ]
+    },
+    {
+     "spec": "a.hnuser",
+     "coverage": 0.3163265306122449,
+     "distinct": 0.30612244897959184,
+     "samples": [
+      "EA-3167",
+      "EA-3167",
+      "vitalnodo"
+     ]
+    },
+    {
+     "spec": "span.rank",
+     "coverage": 0.3163265306122449,
+     "distinct": 0.30612244897959184,
+     "samples": [
+      "1.",
+      "1.",
+      "2."
+     ]
+    },
+    {
+     "spec": "td.subtext",
+     "coverage": 0.3163265306122449,
+     "distinct": 0.30612244897959184,
+     "samples": [
+      "1 point by EA-3167 0 minutes ago | hide | past | discuss",
+      "1 point by EA-3167 0 minutes ago | hide | past | discuss",
+      "1 point by vitalnodo 0 minutes ago | hide | past | discuss"
+     ]
+    },
+    {
+     "spec": "span.sitestr",
+     "coverage": 0.3163265306122449,
+     "distinct": 0.30612244897959184,
+     "samples": [
+      "science.org",
+      "science.org",
+      "epoch.ai"
+     ]
+    },
+    {
+     "spec": "span.subline",
+     "coverage": 0.3163265306122449,
+     "distinct": 0.30612244897959184,
+     "samples": [
+      "1 point by EA-3167 0 minutes ago | hide | past | discuss",
+      "1 point by EA-3167 0 minutes ago | hide | past | discuss",
+      "1 point by vitalnodo 0 minutes ago | hide | past | discuss"
+     ]
+    },
+    {
+     "spec": "center > a@id",
+     "coverage": 0.3163265306122449,
+     "distinct": 0.30612244897959184,
+     "samples": [
+      "up_49808749",
+      "up_49808749",
+      "up_49808743"
+     ]
+    },
+    {
+     "spec": "span.score@id",
+     "coverage": 0.3163265306122449,
+     "distinct": 0.30612244897959184,
+     "samples": [
+      "score_49808749",
+      "score_49808749",
+      "score_49808743"
+     ]
+    },
+    {
+     "spec": "a.hnuser@href",
+     "coverage": 0.3163265306122449,
+     "distinct": 0.30612244897959184,
+     "samples": [
+      "user?id=EA-3167",
+      "user?id=EA-3167",
+      "user?id=vitalnodo"
+     ]
+    }
+   ]
+  },
+  {
+   "candidate": {
+    "selector": "#hnmain > tbody:nth-of-type(1) > tr",
+    "count": 4,
+    "samples": [
+     "Hacker Newsnew | past | comments | ask | show | jobs | submitlogin",
+     "",
+     "1.tRNA Therapy (science.org)1 point by EA-3167 0 minutes ago | hide | past | discuss2.AI is getting cheaper more quickly than any other transformative tech in history (epoch.ai)1 point by vitalnodo 0 minutes ago | hide | past | discuss3.The strange death of libertarianism (spectator.com)1 point by Fricken 1 minute ago | hide | past | discuss4.Eating Alone (longreads.com)1 point by gmays 2 minutes ago | hide | past | discuss5.Evaluating smolvm as a sandbox for untrusted Python and JavaScript (simonwillison.net)1 point by binsquare 2 minutes ago | hide | past | discuss6.AI Abundance Requires a 4-Hour Workweek (elnahla.com)2 points by notfried 3 minutes ago | hide | past | discuss7.DuckDB supports a new SQL IDE (duckdb.org)4 points by abdullahk0634 6 minutes ago | hide | past | discuss8.MariaDB's official docs now list LibreDB Studio as a graphical client (mariadb.com)3 points by devgundogdu 7 minutes ago | hide | past | discuss9.Dragonfly and LibreDB Studio: Redis-compatible database management (dragonflydb.io)3 points by cevheribozoglan 9 minutes ago | hide | past | discuss10.Show HN: LinearSolveBench, interesting new benchmark to discover linear solvers (autodidakt.ai)1 point by hgarud 10 minutes ago | hide | past | discuss11.Show HN: Jade Email. Unlimited emails for your domain plus AI Agent support (jade.email)1 point by piesupplies 11 minutes ago | hide | past | discuss12.Gadgetbridge: A FOSS alternative to your fitness watch's app (manualdousuario.net)2 points by rpgbr 12 minutes ago | hide | past | discuss13.UmbrelOS 2.0: Your cloud, at home [video] (youtube.com)1 point by sashazykov 14 minutes ago | hide | past | discuss14.Fat Bear Week (explore.org)2 points by skogstokig 14 minutes ago | hide | past | discuss15.Meta's New Muse AI Agent Read My Private Messages. I Never Asked It To (inc.com)2 points by frizlab 15 minutes ago | hide | past | discuss16.Analyzing Jev Outcomes with a Validator (gonzo.engineer)2 points by Dowwie 16 minutes ago | hide | past | discuss17.My Claude Code setup (11 commands, 3 agents) + shared Meta \"design third brain\" (johnmaartifacts.substack.com)1 point by mingyukma88 16 minutes ago | hide | past | discuss18.Jevlish: A JavaScript front end for Jev (jacobgoldfarb.github.io)2 points by jacobjr23 17 minutes ago | hide | past | 2 comments19.Comrade – A P2P Alternative to Tmate (github.com/dangowrt)1 point by aparcar 19 minutes ago | hide | past | discuss20.Orbital's Sam Brovda and Bill Ackman get pro-Palestinan woman fired from KPMG (twitter.com/redpillsayian)5 points by 1832764323 23 minutes ago | hide | past | 1 comment21.Aetheria – a local-first agent harness that works online or offline (github.com/denisrigsby)2 points by denisrigsby 23 minutes ago | hide | past | discuss22.When the Debugger Lies (danielmangum.com)1 point by hasheddan 24 minutes ago | hide | past | discuss23.The HUGS Stack – Hypermedia, Unix, Go, SQLite (housecat.com)2 points by theanonymousone 25 minutes ago | hide | past | discuss24.Voxiferi introduces VoxWall as an 'AI ingress firewall' for bad data (opensourcewatch.beehiiv.com)1 point by CrankyBear 28 minutes ago | hide | past | discuss25.Why Beyond Traditional RAG? (medium.com/nikozero11)2 points by Natashiiy 28 minutes ago | hide | past | 2 comments26.E-commerce compliance scores range from 13 to 97 across major US retailers (stem-education.medium.com)1 point by complyyio 29 minutes ago | hide | past | discuss27.Making Gasoline from Plastic Waste (sciencedaily.com)2 points by silver92bullet 29 minutes ago | hide | past | discuss28.GitHub Actions leaking secrets when Miri output is cached (rust-lang.org)1 point by metrofun 35 minutes ago | hide | past | discuss29.Show HN: CatQueue-A zero-dependency PostgreSQL job queue for Node and TypeScript (github.com/karanrajsurya)1 point by karanrajsurya 35 minutes ago | hide | past | discuss30.A modern, cross-platform font editor built with TypeScript and Rust (github.com/shift-editor)2 points by wg0 35 minutes ago | hide | past | discussMore"
+    ],
+    "scoped": true
+   },
+   "fields": [
+    {
+     "spec": "",
+     "coverage": 0.75,
+     "distinct": 0.75,
+     "samples": [
+      "Hacker Newsnew | past | comments | ask | show | jobs | submitlogin",
+      "1.tRNA Therapy (science.org)1 point by EA-3167 0 minutes ago | hide | past | discuss2.AI is getting cheaper more quickly than any other transformative tech in history (epoch.ai)1 point by vitalnodo 0 minutes ago | hide | past | discuss3.The strange death of libertarianism (spectator.com)1 point by Fricken 1 minute ago | hide | past | discuss4.Eating Alone (longreads.com)1 point by gmays 2 minutes ago | hide | past | discuss5.Evaluating smolvm as a sandbox for untrusted Python and JavaScript (simonwillison.net)1 point by binsquare 2 minutes ago | hide | past | discuss6.AI Abundance Requires a 4-Hour Workweek (elnahla.com)2 points by notfried 3 minutes ago | hide | past | discuss7.DuckDB supports a new SQL IDE (duckdb.org)4 points by abdullahk0634 6 minutes ago | hide | past | discuss8.MariaDB's official docs now list LibreDB Studio as a graphical client (mariadb.com)3 points by devgundogdu 7 minutes ago | hide | past | discuss9.Dragonfly and LibreDB Studio: Redis-compatible database management (dragonflydb.io)3 points by cevheribozoglan 9 minutes ago | hide | past | discuss10.Show HN: LinearSolveBench, interesting new benchmark to discover linear solvers (autodidakt.ai)1 point by hgarud 10 minutes ago | hide | past | discuss11.Show HN: Jade Email. Unlimited emails for your domain plus AI Agent support (jade.email)1 point by piesupplies 11 minutes ago | hide | past | discuss12.Gadgetbridge: A FOSS alternative to your fitness watch's app (manualdousuario.net)2 points by rpgbr 12 minutes ago | hide | past | discuss13.UmbrelOS 2.0: Your cloud, at home [video] (youtube.com)1 point by sashazykov 14 minutes ago | hide | past | discuss14.Fat Bear Week (explore.org)2 points by skogstokig 14 minutes ago | hide | past | discuss15.Meta's New Muse AI Agent Read My Private Messages. I Never Asked It To (inc.com)2 points by frizlab 15 minutes ago | hide | past | discuss16.Analyzing Jev Outcomes with a Validator (gonzo.engineer)2 points by Dowwie 16 minutes ago | hide | past | discuss17.My Claude Code setup (11 commands, 3 agents) + shared Meta \"design third brain\" (johnmaartifacts.substack.com)1 point by mingyukma88 16 minutes ago | hide | past | discuss18.Jevlish: A JavaScript front end for Jev (jacobgoldfarb.github.io)2 points by jacobjr23 17 minutes ago | hide | past | 2 comments19.Comrade – A P2P Alternative to Tmate (github.com/dangowrt)1 point by aparcar 19 minutes ago | hide | past | discuss20.Orbital's Sam Brovda and Bill Ackman get pro-Palestinan woman fired from KPMG (twitter.com/redpillsayian)5 points by 1832764323 23 minutes ago | hide | past | 1 comment21.Aetheria – a local-first agent harness that works online or offline (github.com/denisrigsby)2 points by denisrigsby 23 minutes ago | hide | past | discuss22.When the Debugger Lies (danielmangum.com)1 point by hasheddan 24 minutes ago | hide | past | discuss23.The HUGS Stack – Hypermedia, Unix, Go, SQLite (housecat.com)2 points by theanonymousone 25 minutes ago | hide | past | discuss24.Voxiferi introduces VoxWall as an 'AI ingress firewall' for bad data (opensourcewatch.beehiiv.com)1 point by CrankyBear 28 minutes ago | hide | past | discuss25.Why Beyond Traditional RAG? (medium.com/nikozero11)2 points by Natashiiy 28 minutes ago | hide | past | 2 comments26.E-commerce compliance scores range from 13 to 97 across major US retailers (stem-education.medium.com)1 point by complyyio 29 minutes ago | hide | past | discuss27.Making Gasoline from Plastic Waste (sciencedaily.com)2 points by silver92bullet 29 minutes ago | hide | past | discuss28.GitHub Actions leaking secrets when Miri output is cached (rust-lang.org)1 point by metrofun 35 minutes ago | hide | past | discuss29.Show HN: CatQueue-A zero-dependency PostgreSQL job queue for Node and TypeScript (github.com/karanrajsurya)1 point by karanrajsurya 35 minutes ago | hide | past | discuss30.A modern, cross-platform font editor built with TypeScript and Rust (github.com/shift-editor)2 points by wg0 35 minutes ago | hide | past | discussMore",
+      "Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC | Contact Search:"
+     ]
+    },
+    {
+     "spec": "tr",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "Hacker Newsnew | past | comments | ask | show | jobs | submitlogin",
+      "1.tRNA Therapy (science.org)"
+     ]
+    },
+    {
+     "spec": "table",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "Hacker Newsnew | past | comments | ask | show | jobs | submitlogin",
+      "1.tRNA Therapy (science.org)1 point by EA-3167 0 minutes ago | hide | past | discuss2.AI is getting cheaper more quickly than any other transformative tech in history (epoch.ai)1 point by vitalnodo 0 minutes ago | hide | past | discuss3.The strange death of libertarianism (spectator.com)1 point by Fricken 1 minute ago | hide | past | discuss4.Eating Alone (longreads.com)1 point by gmays 2 minutes ago | hide | past | discuss5.Evaluating smolvm as a sandbox for untrusted Python and JavaScript (simonwillison.net)1 point by binsquare 2 minutes ago | hide | past | discuss6.AI Abundance Requires a 4-Hour Workweek (elnahla.com)2 points by notfried 3 minutes ago | hide | past | discuss7.DuckDB supports a new SQL IDE (duckdb.org)4 points by abdullahk0634 6 minutes ago | hide | past | discuss8.MariaDB's official docs now list LibreDB Studio as a graphical client (mariadb.com)3 points by devgundogdu 7 minutes ago | hide | past | discuss9.Dragonfly and LibreDB Studio: Redis-compatible database management (dragonflydb.io)3 points by cevheribozoglan 9 minutes ago | hide | past | discuss10.Show HN: LinearSolveBench, interesting new benchmark to discover linear solvers (autodidakt.ai)1 point by hgarud 10 minutes ago | hide | past | discuss11.Show HN: Jade Email. Unlimited emails for your domain plus AI Agent support (jade.email)1 point by piesupplies 11 minutes ago | hide | past | discuss12.Gadgetbridge: A FOSS alternative to your fitness watch's app (manualdousuario.net)2 points by rpgbr 12 minutes ago | hide | past | discuss13.UmbrelOS 2.0: Your cloud, at home [video] (youtube.com)1 point by sashazykov 14 minutes ago | hide | past | discuss14.Fat Bear Week (explore.org)2 points by skogstokig 14 minutes ago | hide | past | discuss15.Meta's New Muse AI Agent Read My Private Messages. I Never Asked It To (inc.com)2 points by frizlab 15 minutes ago | hide | past | discuss16.Analyzing Jev Outcomes with a Validator (gonzo.engineer)2 points by Dowwie 16 minutes ago | hide | past | discuss17.My Claude Code setup (11 commands, 3 agents) + shared Meta \"design third brain\" (johnmaartifacts.substack.com)1 point by mingyukma88 16 minutes ago | hide | past | discuss18.Jevlish: A JavaScript front end for Jev (jacobgoldfarb.github.io)2 points by jacobjr23 17 minutes ago | hide | past | 2 comments19.Comrade – A P2P Alternative to Tmate (github.com/dangowrt)1 point by aparcar 19 minutes ago | hide | past | discuss20.Orbital's Sam Brovda and Bill Ackman get pro-Palestinan woman fired from KPMG (twitter.com/redpillsayian)5 points by 1832764323 23 minutes ago | hide | past | 1 comment21.Aetheria – a local-first agent harness that works online or offline (github.com/denisrigsby)2 points by denisrigsby 23 minutes ago | hide | past | discuss22.When the Debugger Lies (danielmangum.com)1 point by hasheddan 24 minutes ago | hide | past | discuss23.The HUGS Stack – Hypermedia, Unix, Go, SQLite (housecat.com)2 points by theanonymousone 25 minutes ago | hide | past | discuss24.Voxiferi introduces VoxWall as an 'AI ingress firewall' for bad data (opensourcewatch.beehiiv.com)1 point by CrankyBear 28 minutes ago | hide | past | discuss25.Why Beyond Traditional RAG? (medium.com/nikozero11)2 points by Natashiiy 28 minutes ago | hide | past | 2 comments26.E-commerce compliance scores range from 13 to 97 across major US retailers (stem-education.medium.com)1 point by complyyio 29 minutes ago | hide | past | discuss27.Making Gasoline from Plastic Waste (sciencedaily.com)2 points by silver92bullet 29 minutes ago | hide | past | discuss28.GitHub Actions leaking secrets when Miri output is cached (rust-lang.org)1 point by metrofun 35 minutes ago | hide | past | discuss29.Show HN: CatQueue-A zero-dependency PostgreSQL job queue for Node and TypeScript (github.com/karanrajsurya)1 point by karanrajsurya 35 minutes ago | hide | past | discuss30.A modern, cross-platform font editor built with TypeScript and Rust (github.com/shift-editor)2 points by wg0 35 minutes ago | hide | past | discussMore"
+     ]
+    },
+    {
+     "spec": "tbody",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "Hacker Newsnew | past | comments | ask | show | jobs | submitlogin",
+      "1.tRNA Therapy (science.org)1 point by EA-3167 0 minutes ago | hide | past | discuss2.AI is getting cheaper more quickly than any other transformative tech in history (epoch.ai)1 point by vitalnodo 0 minutes ago | hide | past | discuss3.The strange death of libertarianism (spectator.com)1 point by Fricken 1 minute ago | hide | past | discuss4.Eating Alone (longreads.com)1 point by gmays 2 minutes ago | hide | past | discuss5.Evaluating smolvm as a sandbox for untrusted Python and JavaScript (simonwillison.net)1 point by binsquare 2 minutes ago | hide | past | discuss6.AI Abundance Requires a 4-Hour Workweek (elnahla.com)2 points by notfried 3 minutes ago | hide | past | discuss7.DuckDB supports a new SQL IDE (duckdb.org)4 points by abdullahk0634 6 minutes ago | hide | past | discuss8.MariaDB's official docs now list LibreDB Studio as a graphical client (mariadb.com)3 points by devgundogdu 7 minutes ago | hide | past | discuss9.Dragonfly and LibreDB Studio: Redis-compatible database management (dragonflydb.io)3 points by cevheribozoglan 9 minutes ago | hide | past | discuss10.Show HN: LinearSolveBench, interesting new benchmark to discover linear solvers (autodidakt.ai)1 point by hgarud 10 minutes ago | hide | past | discuss11.Show HN: Jade Email. Unlimited emails for your domain plus AI Agent support (jade.email)1 point by piesupplies 11 minutes ago | hide | past | discuss12.Gadgetbridge: A FOSS alternative to your fitness watch's app (manualdousuario.net)2 points by rpgbr 12 minutes ago | hide | past | discuss13.UmbrelOS 2.0: Your cloud, at home [video] (youtube.com)1 point by sashazykov 14 minutes ago | hide | past | discuss14.Fat Bear Week (explore.org)2 points by skogstokig 14 minutes ago | hide | past | discuss15.Meta's New Muse AI Agent Read My Private Messages. I Never Asked It To (inc.com)2 points by frizlab 15 minutes ago | hide | past | discuss16.Analyzing Jev Outcomes with a Validator (gonzo.engineer)2 points by Dowwie 16 minutes ago | hide | past | discuss17.My Claude Code setup (11 commands, 3 agents) + shared Meta \"design third brain\" (johnmaartifacts.substack.com)1 point by mingyukma88 16 minutes ago | hide | past | discuss18.Jevlish: A JavaScript front end for Jev (jacobgoldfarb.github.io)2 points by jacobjr23 17 minutes ago | hide | past | 2 comments19.Comrade – A P2P Alternative to Tmate (github.com/dangowrt)1 point by aparcar 19 minutes ago | hide | past | discuss20.Orbital's Sam Brovda and Bill Ackman get pro-Palestinan woman fired from KPMG (twitter.com/redpillsayian)5 points by 1832764323 23 minutes ago | hide | past | 1 comment21.Aetheria – a local-first agent harness that works online or offline (github.com/denisrigsby)2 points by denisrigsby 23 minutes ago | hide | past | discuss22.When the Debugger Lies (danielmangum.com)1 point by hasheddan 24 minutes ago | hide | past | discuss23.The HUGS Stack – Hypermedia, Unix, Go, SQLite (housecat.com)2 points by theanonymousone 25 minutes ago | hide | past | discuss24.Voxiferi introduces VoxWall as an 'AI ingress firewall' for bad data (opensourcewatch.beehiiv.com)1 point by CrankyBear 28 minutes ago | hide | past | discuss25.Why Beyond Traditional RAG? (medium.com/nikozero11)2 points by Natashiiy 28 minutes ago | hide | past | 2 comments26.E-commerce compliance scores range from 13 to 97 across major US retailers (stem-education.medium.com)1 point by complyyio 29 minutes ago | hide | past | discuss27.Making Gasoline from Plastic Waste (sciencedaily.com)2 points by silver92bullet 29 minutes ago | hide | past | discuss28.GitHub Actions leaking secrets when Miri output is cached (rust-lang.org)1 point by metrofun 35 minutes ago | hide | past | discuss29.Show HN: CatQueue-A zero-dependency PostgreSQL job queue for Node and TypeScript (github.com/karanrajsurya)1 point by karanrajsurya 35 minutes ago | hide | past | discuss30.A modern, cross-platform font editor built with TypeScript and Rust (github.com/shift-editor)2 points by wg0 35 minutes ago | hide | past | discussMore"
+     ]
+    },
+    {
+     "spec": "img@src",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "y18.svg",
+      "s.gif"
+     ]
+    },
+    {
+     "spec": "td > a@href",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "https://news.ycombinator.com",
+      "newest?next=49808290&n=31"
+     ]
+    },
+    {
+     "spec": "@id",
+     "coverage": 0.25,
+     "distinct": 0.25,
+     "samples": [
+      "bigbox"
+     ]
+    },
+    {
+     "spec": "form",
+     "coverage": 0.25,
+     "distinct": 0.25,
+     "samples": [
+      "Search:"
+     ]
+    },
+    {
+     "spec": "td > a",
+     "coverage": 0.25,
+     "distinct": 0.25,
+     "samples": [
+      "More"
+     ]
+    },
+    {
+     "spec": "center",
+     "coverage": 0.25,
+     "distinct": 0.25,
+     "samples": [
+      "Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC | Contact Search:"
+     ]
+    },
+    {
+     "spec": "b.hnname",
+     "coverage": 0.25,
+     "distinct": 0.25,
+     "samples": [
+      "Hacker News"
+     ]
+    },
+    {
+     "spec": "a.morelink",
+     "coverage": 0.25,
+     "distinct": 0.25,
+     "samples": [
+      "More"
+     ]
+    }
+   ]
+  },
+  {
+   "candidate": {
+    "selector": "#bigbox > td:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr",
+    "count": 92,
+    "samples": [
+     "1.tRNA Therapy (science.org)",
+     "1 point by EA-3167 0 minutes ago | hide | past | discuss",
+     ""
+    ],
+    "scoped": true
+   },
+   "fields": [
+    {
+     "spec": "",
+     "coverage": 0.6630434782608695,
+     "distinct": 0.6630434782608695,
+     "samples": [
+      "1.tRNA Therapy (science.org)",
+      "1 point by EA-3167 0 minutes ago | hide | past | discuss",
+      "2.AI is getting cheaper more quickly than any other transformative tech in history (epoch.ai)"
+     ]
+    },
+    {
+     "spec": "td.title",
+     "coverage": 0.33695652173913043,
+     "distinct": 0.33695652173913043,
+     "samples": [
+      "1.",
+      "2.",
+      "3."
+     ]
+    },
+    {
+     "spec": "@id",
+     "coverage": 0.32608695652173914,
+     "distinct": 0.32608695652173914,
+     "samples": [
+      "49808749",
+      "49808743",
+      "49808729"
+     ]
+    },
+    {
+     "spec": "a.hnuser",
+     "coverage": 0.32608695652173914,
+     "distinct": 0.32608695652173914,
+     "samples": [
+      "EA-3167",
+      "vitalnodo",
+      "Fricken"
+     ]
+    },
+    {
+     "spec": "span.rank",
+     "coverage": 0.32608695652173914,
+     "distinct": 0.32608695652173914,
+     "samples": [
+      "1.",
+      "2.",
+      "3."
+     ]
+    },
+    {
+     "spec": "td.subtext",
+     "coverage": 0.32608695652173914,
+     "distinct": 0.32608695652173914,
+     "samples": [
+      "1 point by EA-3167 0 minutes ago | hide | past | discuss",
+      "1 point by vitalnodo 0 minutes ago | hide | past | discuss",
+      "1 point by Fricken 1 minute ago | hide | past | discuss"
+     ]
+    },
+    {
+     "spec": "span.sitestr",
+     "coverage": 0.32608695652173914,
+     "distinct": 0.32608695652173914,
+     "samples": [
+      "science.org",
+      "epoch.ai",
+      "spectator.com"
+     ]
+    },
+    {
+     "spec": "span.subline",
+     "coverage": 0.32608695652173914,
+     "distinct": 0.32608695652173914,
+     "samples": [
+      "1 point by EA-3167 0 minutes ago | hide | past | discuss",
+      "1 point by vitalnodo 0 minutes ago | hide | past | discuss",
+      "1 point by Fricken 1 minute ago | hide | past | discuss"
+     ]
+    },
+    {
+     "spec": "center > a@id",
+     "coverage": 0.32608695652173914,
+     "distinct": 0.32608695652173914,
+     "samples": [
+      "up_49808749",
+      "up_49808743",
+      "up_49808729"
+     ]
+    },
+    {
+     "spec": "span.score@id",
+     "coverage": 0.32608695652173914,
+     "distinct": 0.32608695652173914,
+     "samples": [
+      "score_49808749",
+      "score_49808743",
+      "score_49808729"
+     ]
+    },
+    {
+     "spec": "a.hnuser@href",
+     "coverage": 0.32608695652173914,
+     "distinct": 0.32608695652173914,
+     "samples": [
+      "user?id=EA-3167",
+      "user?id=vitalnodo",
+      "user?id=Fricken"
+     ]
+    },
+    {
+     "spec": "a.hnpast@href",
+     "coverage": 0.32608695652173914,
+     "distinct": 0.32608695652173914,
+     "samples": [
+      "https://hn.algolia.com/?query=tRNA%20Therapy&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0",
+      "https://hn.algolia.com/?query=AI%20is%20getting%20cheaper%20more%20quickly%20than%20any%20other%20transformative%20tech%20in%20history&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0",
+      "https://hn.algolia.com/?query=The%20strange%20death%20of%20libertarianism&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0"
+     ]
+    }
+   ]
+  },
+  {
+   "candidate": {
+    "selector": "a",
+    "count": 259,
+    "samples": [
+     "",
+     "Hacker News",
+     "new"
+    ],
+    "scoped": false
+   },
+   "fields": [
+    {
+     "spec": "@href",
+     "coverage": 1,
+     "distinct": 0.8841698841698842,
+     "samples": [
+      "https://news.ycombinator.com",
+      "news",
+      "newest"
+     ]
+    },
+    {
+     "spec": "",
+     "coverage": 0.8803088803088803,
+     "distinct": 0.5135135135135135,
+     "samples": [
+      "Hacker News",
+      "new",
+      "past"
+     ]
+    },
+    {
+     "spec": "@id",
+     "coverage": 0.11583011583011583,
+     "distinct": 0.11583011583011583,
+     "samples": [
+      "up_49808749",
+      "up_49808743",
+      "up_49808729"
+     ]
+    },
+    {
+     "spec": "span.sitestr",
+     "coverage": 0.11583011583011583,
+     "distinct": 0.11583011583011583,
+     "samples": [
+      "science.org",
+      "epoch.ai",
+      "spectator.com"
+     ]
+    },
+    {
+     "spec": "img@src",
+     "coverage": 0.003861003861003861,
+     "distinct": 0.003861003861003861,
+     "samples": [
+      "y18.svg"
+     ]
+    }
+   ]
+  },
+  {
+   "candidate": {
+    "selector": "td.title",
+    "count": 61,
+    "samples": [
+     "1.",
+     "tRNA Therapy (science.org)",
+     "2."
+    ],
+    "scoped": false
+   },
+   "fields": [
+    {
+     "spec": "",
+     "coverage": 1,
+     "distinct": 1,
+     "samples": [
+      "1.",
+      "tRNA Therapy (science.org)",
+      "2."
+     ]
+    },
+    {
+     "spec": "span.rank",
+     "coverage": 0.4918032786885246,
+     "distinct": 0.4918032786885246,
+     "samples": [
+      "1.",
+      "2.",
+      "3."
+     ]
+    },
+    {
+     "spec": "span.sitestr",
+     "coverage": 0.4918032786885246,
+     "distinct": 0.4918032786885246,
+     "samples": [
+      "science.org",
+      "epoch.ai",
+      "spectator.com"
+     ]
+    },
+    {
+     "spec": "span.titleline",
+     "coverage": 0.4918032786885246,
+     "distinct": 0.4918032786885246,
+     "samples": [
+      "tRNA Therapy (science.org)",
+      "AI is getting cheaper more quickly than any other transformative tech in history (epoch.ai)",
+      "The strange death of libertarianism (spectator.com)"
+     ]
+    },
+    {
+     "spec": "span.titleline > a",
+     "coverage": 0.4918032786885246,
+     "distinct": 0.4918032786885246,
+     "samples": [
+      "tRNA Therapy",
+      "AI is getting cheaper more quickly than any other transformative tech in history",
+      "The strange death of libertarianism"
+     ]
+    },
+    {
+     "spec": "span.sitebit.comhead",
+     "coverage": 0.4918032786885246,
+     "distinct": 0.4918032786885246,
+     "samples": [
+      "(science.org)",
+      "(epoch.ai)",
+      "(spectator.com)"
+     ]
+    },
+    {
+     "spec": "span.titleline > a@href",
+     "coverage": 0.4918032786885246,
+     "distinct": 0.4918032786885246,
+     "samples": [
+      "https://www.science.org/content/blog-post/trna-therapy",
+      "https://epoch.ai/publications/the-plunging-price-of-thought",
+      "https://spectator.com/article/the-strange-death-of-libertarianism/"
+     ]
+    },
+    {
+     "spec": "span.sitebit.comhead > a",
+     "coverage": 0.4918032786885246,
+     "distinct": 0.4918032786885246,
+     "samples": [
+      "science.org",
+      "epoch.ai",
+      "spectator.com"
+     ]
+    },
+    {
+     "spec": "span.sitebit.comhead > a@href",
+     "coverage": 0.4918032786885246,
+     "distinct": 0.4918032786885246,
+     "samples": [
+      "from?site=science.org",
+      "from?site=epoch.ai",
+      "from?site=spectator.com"
+     ]
+    },
+    {
+     "spec": "a.morelink",
+     "coverage": 0.01639344262295082,
+     "distinct": 0.01639344262295082,
+     "samples": [
+      "More"
+     ]
+    },
+    {
+     "spec": "a.morelink@href",
+     "coverage": 0.01639344262295082,
+     "distinct": 0.01639344262295082,
+     "samples": [
+      "newest?next=49808290&n=31"
+     ]
+    }
+   ]
+  },
+  {
+   "candidate": {
+    "selector": "tr.athing.submission",
+    "count": 30,
+    "samples": [
+     "1.tRNA Therapy (science.org)",
+     "2.AI is getting cheaper more quickly than any other transformative tech in history (epoch.ai)",
+     "3.The strange death of libertarianism (spectator.com)"
+    ],
+    "scoped": false
+   },
+   "fields": [
+    {
+     "spec": "",
+     "coverage": 1,
+     "distinct": 1,
+     "samples": [
+      "1.tRNA Therapy (science.org)",
+      "2.AI is getting cheaper more quickly than any other transformative tech in history (epoch.ai)",
+      "3.The strange death of libertarianism (spectator.com)"
+     ]
+    },
+    {
+     "spec": "@id",
+     "coverage": 1,
+     "distinct": 1,
+     "samples": [
+      "49808749",
+      "49808743",
+      "49808729"
+     ]
+    },
+    {
+     "spec": "span.rank",
+     "coverage": 1,
+     "distinct": 1,
+     "samples": [
+      "1.",
+      "2.",
+      "3."
+     ]
+    },
+    {
+     "spec": "span.sitestr",
+     "coverage": 1,
+     "distinct": 1,
+     "samples": [
+      "science.org",
+      "epoch.ai",
+      "spectator.com"
+     ]
+    },
+    {
+     "spec": "center > a@id",
+     "coverage": 1,
+     "distinct": 1,
+     "samples": [
+      "up_49808749",
+      "up_49808743",
+      "up_49808729"
+     ]
+    },
+    {
+     "spec": "span.titleline",
+     "coverage": 1,
+     "distinct": 1,
+     "samples": [
+      "tRNA Therapy (science.org)",
+      "AI is getting cheaper more quickly than any other transformative tech in history (epoch.ai)",
+      "The strange death of libertarianism (spectator.com)"
+     ]
+    },
+    {
+     "spec": "center > a@href",
+     "coverage": 1,
+     "distinct": 1,
+     "samples": [
+      "vote?id=49808749&how=up&goto=newest",
+      "vote?id=49808743&how=up&goto=newest",
+      "vote?id=49808729&how=up&goto=newest"
+     ]
+    },
+    {
+     "spec": "span.titleline > a",
+     "coverage": 1,
+     "distinct": 1,
+     "samples": [
+      "tRNA Therapy",
+      "AI is getting cheaper more quickly than any other transformative tech in history",
+      "The strange death of libertarianism"
+     ]
+    },
+    {
+     "spec": "span.sitebit.comhead",
+     "coverage": 1,
+     "distinct": 1,
+     "samples": [
+      "(science.org)",
+      "(epoch.ai)",
+      "(spectator.com)"
+     ]
+    },
+    {
+     "spec": "span.titleline > a@href",
+     "coverage": 1,
+     "distinct": 1,
+     "samples": [
+      "https://www.science.org/content/blog-post/trna-therapy",
+      "https://epoch.ai/publications/the-plunging-price-of-thought",
+      "https://spectator.com/article/the-strange-death-of-libertarianism/"
+     ]
+    },
+    {
+     "spec": "span.sitebit.comhead > a",
+     "coverage": 1,
+     "distinct": 1,
+     "samples": [
+      "science.org",
+      "epoch.ai",
+      "spectator.com"
+     ]
+    },
+    {
+     "spec": "span.sitebit.comhead > a@href",
+     "coverage": 1,
+     "distinct": 1,
+     "samples": [
+      "from?site=science.org",
+      "from?site=epoch.ai",
+      "from?site=spectator.com"
+     ]
+    }
+   ]
+  },
+  {
+   "candidate": {
+    "selector": "#49808554 > td.title",
+    "count": 2,
+    "samples": [
+     "17.",
+     "My Claude Code setup (11 commands, 3 agents) + shared Meta \"design third brain\" (johnmaartifacts.substack.com)"
+    ],
+    "scoped": true
+   },
+   "fields": [
+    {
+     "spec": "",
+     "coverage": 1,
+     "distinct": 1,
+     "samples": [
+      "17.",
+      "My Claude Code setup (11 commands, 3 agents) + shared Meta \"design third brain\" (johnmaartifacts.substack.com)"
+     ]
+    },
+    {
+     "spec": "span.rank",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "17."
+     ]
+    },
+    {
+     "spec": "span.sitestr",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "johnmaartifacts.substack.com"
+     ]
+    },
+    {
+     "spec": "span.titleline",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "My Claude Code setup (11 commands, 3 agents) + shared Meta \"design third brain\" (johnmaartifacts.substack.com)"
+     ]
+    },
+    {
+     "spec": "span.titleline > a",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "My Claude Code setup (11 commands, 3 agents) + shared Meta \"design third brain\""
+     ]
+    },
+    {
+     "spec": "span.sitebit.comhead",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "(johnmaartifacts.substack.com)"
+     ]
+    },
+    {
+     "spec": "span.titleline > a@href",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "https://johnmaartifacts.substack.com/"
+     ]
+    },
+    {
+     "spec": "span.sitebit.comhead > a",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "johnmaartifacts.substack.com"
+     ]
+    },
+    {
+     "spec": "span.sitebit.comhead > a@href",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "from?site=johnmaartifacts.substack.com"
+     ]
+    }
+   ]
+  },
+  {
+   "candidate": {
+    "selector": "#49808302 > td.title",
+    "count": 2,
+    "samples": [
+     "29.",
+     "Show HN: CatQueue-A zero-dependency PostgreSQL job queue for Node and TypeScript (github.com/karanrajsurya)"
+    ],
+    "scoped": true
+   },
+   "fields": [
+    {
+     "spec": "",
+     "coverage": 1,
+     "distinct": 1,
+     "samples": [
+      "29.",
+      "Show HN: CatQueue-A zero-dependency PostgreSQL job queue for Node and TypeScript (github.com/karanrajsurya)"
+     ]
+    },
+    {
+     "spec": "span.rank",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "29."
+     ]
+    },
+    {
+     "spec": "span.sitestr",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "github.com/karanrajsurya"
+     ]
+    },
+    {
+     "spec": "span.titleline",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "Show HN: CatQueue-A zero-dependency PostgreSQL job queue for Node and TypeScript (github.com/karanrajsurya)"
+     ]
+    },
+    {
+     "spec": "span.titleline > a",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "Show HN: CatQueue-A zero-dependency PostgreSQL job queue for Node and TypeScript"
+     ]
+    },
+    {
+     "spec": "span.sitebit.comhead",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "(github.com/karanrajsurya)"
+     ]
+    },
+    {
+     "spec": "span.titleline > a@href",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "https://github.com/karanrajsurya/CatQueue"
+     ]
+    },
+    {
+     "spec": "span.sitebit.comhead > a",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "github.com/karanrajsurya"
+     ]
+    },
+    {
+     "spec": "span.sitebit.comhead > a@href",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "from?site=github.com/karanrajsurya"
+     ]
+    }
+   ]
+  },
+  {
+   "candidate": {
+    "selector": "#49808470 > td.title",
+    "count": 2,
+    "samples": [
+     "20.",
+     "Orbital's Sam Brovda and Bill Ackman get pro-Palestinan woman fired from KPMG (twitter.com/redpillsayian)"
+    ],
+    "scoped": true
+   },
+   "fields": [
+    {
+     "spec": "",
+     "coverage": 1,
+     "distinct": 1,
+     "samples": [
+      "20.",
+      "Orbital's Sam Brovda and Bill Ackman get pro-Palestinan woman fired from KPMG (twitter.com/redpillsayian)"
+     ]
+    },
+    {
+     "spec": "span.rank",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "20."
+     ]
+    },
+    {
+     "spec": "span.sitestr",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "twitter.com/redpillsayian"
+     ]
+    },
+    {
+     "spec": "span.titleline",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "Orbital's Sam Brovda and Bill Ackman get pro-Palestinan woman fired from KPMG (twitter.com/redpillsayian)"
+     ]
+    },
+    {
+     "spec": "span.titleline > a",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "Orbital's Sam Brovda and Bill Ackman get pro-Palestinan woman fired from KPMG"
+     ]
+    },
+    {
+     "spec": "span.sitebit.comhead",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "(twitter.com/redpillsayian)"
+     ]
+    },
+    {
+     "spec": "span.titleline > a@href",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "https://twitter.com/RedPillSayian/status/2102195063530938584"
+     ]
+    },
+    {
+     "spec": "span.sitebit.comhead > a",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "twitter.com/redpillsayian"
+     ]
+    },
+    {
+     "spec": "span.sitebit.comhead > a@href",
+     "coverage": 0.5,
+     "distinct": 0.5,
+     "samples": [
+      "from?site=twitter.com/redpillsayian"
+     ]
+    }
+   ]
+  }
+ ]
+}

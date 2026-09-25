@@ -1,0 +1,95 @@
+{
+  "baseline": "7f51ca0",
+  "site": "hex.pm",
+  "intent": "search",
+  "taughtUrl": "https://hex.pm/packages?search=phoenix",
+  "plan": {
+    "origin": "https://hex.pm",
+    "urlTemplate": "/packages?search={{query}}",
+    "itemSelector": "li:has(a[href^=\"/packages/\"])",
+    "fields": {
+      "title": "a[href^=\"/packages/\"]",
+      "url": "a[href^=\"/packages/\"]@href"
+    },
+    "verification": {
+      "contract": {
+        "required": [
+          "non_empty",
+          "required_fields",
+          "query_honored",
+          "lexical_query_consistency"
+        ]
+      },
+      "evidence": {
+        "non_empty": {
+          "status": "passed"
+        },
+        "required_fields": {
+          "status": "passed"
+        },
+        "query_honored": {
+          "status": "passed",
+          "at": "2026-09-21T22:35:00.881Z",
+          "method": "active-probe/v1",
+          "parameter": "query",
+          "probes": [
+            {
+              "role": "taught",
+              "value": "phoenix",
+              "items": 30
+            },
+            {
+              "role": "repeat",
+              "value": "phoenix",
+              "items": 30
+            },
+            {
+              "role": "nonce",
+              "value": "b78e58fd62bc",
+              "items": 0
+            },
+            {
+              "role": "contrast",
+              "value": "absinthe",
+              "items": 30
+            }
+          ],
+          "signals": {
+            "stable": true,
+            "nonce_rejected": true,
+            "responsive": true,
+            "agreed": true
+          }
+        },
+        "lexical_query_consistency": {
+          "status": "not_tested",
+          "at": "2026-09-21T22:35:00.882Z",
+          "method": "active-probe/lexical-consistency-v1",
+          "parameter": "query",
+          "shares": {
+            "taught": 0.7
+          },
+          "signals": {
+            "applicable": false
+          },
+          "reason": "only 70% of the taught result carries the query in a field this plan extracts, so this site does not match on text we can read"
+        }
+      }
+    }
+  },
+  "refused": null,
+  "sample": [
+    {
+      "title": "phoenix",
+      "url": "/packages/phoenix"
+    },
+    {
+      "title": "phoenix_pubsub",
+      "url": "/packages/phoenix_pubsub"
+    },
+    {
+      "title": "phoenix_template",
+      "url": "/packages/phoenix_template"
+    }
+  ]
+}

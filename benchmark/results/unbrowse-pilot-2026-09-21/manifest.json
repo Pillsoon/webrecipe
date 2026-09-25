@@ -1,0 +1,36 @@
+{
+  "frozen_at": "2026-09-21T16:12:45.618953+00:00",
+  "fastweb_head": "9c5898e7589b3651171c4cdbbafda6e767adcc62",
+  "dirty": true,
+  "source_manifest_sha256": "33ece4565063851556539f8dc2d0bfc3c8be5ef5ad9db78b21fb6da793c665e1",
+  "tasks_sha256": "92df06cdbebb0ccc33352c74a686367675013939b238f7cc2163242c2ce1a0f0",
+  "unbrowse_version": "11.4.4",
+  "unbrowse_tar_sha256": "7fa71db4205c229caaa732da916ec4da8d84178e41a44dfbd1a520911cdb6037",
+  "unbrowse_runtime_sha256": "71a6eb7ce82e6f1da7c684ba17994c6437021c81843671f0044bed83139e953a",
+  "os": "macOS-26.5.2-x86_64-i386-64bit-Mach-O",
+  "node": "v22.14.0",
+  "agent": "Codex current thread; model identity and agent token counters unavailable",
+  "isolation": "fresh tool-specific paths, sanitized environment, sandbox home read/write denied except runtime and project/browser binaries",
+  "unbrowse_adjustments": [
+    "optional keytar omitted",
+    "install scripts disabled after static inspection",
+    "cookie import off",
+    "wallet pairing skipped; no funded wallet; keychain disabled",
+    "telemetry and auto update off",
+    "sharing and auto review false"
+  ],
+  "limitations": [
+    "not a fresh OS: Node and Playwright already installed",
+    "known pilot sites and selectors in prior context; not blinded first-use or holdout",
+    "global registry state unknown",
+    "manual document/security review time not fully instrumented",
+    "install pack/dependency commands occurred before timed harness; npm reported dependencies added in 5s",
+    "shared source dependencies resolved at install; package-lock retained in temp"
+  ],
+  "protocol_corrections": [
+    "Initial setup and HN invocation excluded: runner omitted host NODE_EXTRA_CA_CERTS. Certificate copied to temporary path and passed equally to both products; fresh Unbrowse v2 state before restarting.",
+    "Unbrowse adapter=none and credits disabled after static payment-path verification; paid capabilities outside scope.",
+    "setup --no-skill --opencode off avoids altering agent host; equivalent Agent Skill was read as product documentation."
+  ],
+  "node_arch": "arm64"
+}

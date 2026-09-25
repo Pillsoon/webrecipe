@@ -1,0 +1,192 @@
+[
+ {
+  "taskId": "npm-detail-1",
+  "site": "npmjs.com",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 245,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 73919,
+   "networkRequests": 1,
+   "agentTokens": 11,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 3211,
+   "threw": false,
+   "bytesDownloaded": 4997543,
+   "networkRequests": 21,
+   "agentTokens": 2328,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "npm-detail-2",
+  "site": "npmjs.com",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 67,
+   "browserLaunches": 0,
+   "politenessWaitMs": 901,
+   "bytesDownloaded": 84818,
+   "networkRequests": 1,
+   "agentTokens": 11,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2568,
+   "threw": false,
+   "bytesDownloaded": 4994068,
+   "networkRequests": 22,
+   "agentTokens": 5170,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "npm-detail-3",
+  "site": "npmjs.com",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 133,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 142359,
+   "networkRequests": 1,
+   "agentTokens": 12,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 12099,
+   "threw": false,
+   "bytesDownloaded": 1676452,
+   "networkRequests": 18,
+   "agentTokens": 171,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "npm-detail-4",
+  "site": "npmjs.com",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 108,
+   "browserLaunches": 0,
+   "politenessWaitMs": 847,
+   "bytesDownloaded": 230223,
+   "networkRequests": 1,
+   "agentTokens": 13,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2727,
+   "threw": false,
+   "bytesDownloaded": 5184628,
+   "networkRequests": 21,
+   "agentTokens": 21058,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "npm-detail-5",
+  "site": "npmjs.com",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2346,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 840636,
+   "networkRequests": 20,
+   "agentTokens": 2912,
+   "threw": false,
+   "blocked": true,
+   "items": 1,
+   "reasons": [
+    "status 429 !== expected 200",
+    "item count 0 < minItems 1",
+    "fingerprint drift: expected 725e91674016b801, got 6f13f8e2c72c63b3",
+    "blocked: status 429"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2606,
+   "threw": false,
+   "bytesDownloaded": 5004814,
+   "networkRequests": 23,
+   "agentTokens": 3145,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

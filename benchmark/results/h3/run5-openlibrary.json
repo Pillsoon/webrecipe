@@ -1,0 +1,382 @@
+[
+ {
+  "taskId": "openlibrary-search-1",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 426,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 176238,
+   "networkRequests": 1,
+   "agentTokens": 951,
+   "threw": false,
+   "items": 20,
+   "reasons": [
+    "20 golden item(s) missing from the result",
+    "20 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 3100,
+   "threw": false,
+   "bytesDownloaded": 2848694,
+   "networkRequests": 108,
+   "agentTokens": 1212,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-2",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 515,
+   "browserLaunches": 0,
+   "politenessWaitMs": 637,
+   "bytesDownloaded": 195100,
+   "networkRequests": 1,
+   "agentTokens": 999,
+   "threw": false,
+   "items": 20,
+   "reasons": [
+    "3 golden item(s) missing from the result",
+    "3 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2819,
+   "threw": false,
+   "bytesDownloaded": 3090097,
+   "networkRequests": 131,
+   "agentTokens": 1187,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-3",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 913,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 193007,
+   "networkRequests": 1,
+   "agentTokens": 951,
+   "threw": false,
+   "items": 20,
+   "reasons": [
+    "same items, different order"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2539,
+   "threw": false,
+   "bytesDownloaded": 1644987,
+   "networkRequests": 106,
+   "agentTokens": 1180,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-4",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 298,
+   "browserLaunches": 0,
+   "politenessWaitMs": 62,
+   "bytesDownloaded": 194115,
+   "networkRequests": 1,
+   "agentTokens": 968,
+   "threw": false,
+   "items": 20,
+   "reasons": [
+    "1 golden item(s) missing from the result",
+    "1 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2593,
+   "threw": false,
+   "bytesDownloaded": 2073546,
+   "networkRequests": 119,
+   "agentTokens": 1174,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-5",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 310,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 184256,
+   "networkRequests": 1,
+   "agentTokens": 976,
+   "threw": false,
+   "items": 20,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2518,
+   "threw": false,
+   "bytesDownloaded": 1677575,
+   "networkRequests": 104,
+   "agentTokens": 1192,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-6",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 1001,
+   "browserLaunches": 0,
+   "politenessWaitMs": 668,
+   "bytesDownloaded": 176940,
+   "networkRequests": 1,
+   "agentTokens": 978,
+   "threw": false,
+   "items": 20,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2599,
+   "threw": false,
+   "bytesDownloaded": 1962426,
+   "networkRequests": 108,
+   "agentTokens": 1229,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-7",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 757,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 195172,
+   "networkRequests": 1,
+   "agentTokens": 931,
+   "threw": false,
+   "items": 20,
+   "reasons": [
+    "9 golden item(s) missing from the result",
+    "9 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2891,
+   "threw": false,
+   "bytesDownloaded": 1639928,
+   "networkRequests": 122,
+   "agentTokens": 1204,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-8",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 240,
+   "browserLaunches": 0,
+   "politenessWaitMs": 216,
+   "bytesDownloaded": 187697,
+   "networkRequests": 1,
+   "agentTokens": 1020,
+   "threw": false,
+   "items": 20,
+   "reasons": [
+    "1 golden item(s) missing from the result",
+    "1 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2594,
+   "threw": false,
+   "bytesDownloaded": 1681829,
+   "networkRequests": 102,
+   "agentTokens": 1279,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-9",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 366,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 184181,
+   "networkRequests": 1,
+   "agentTokens": 979,
+   "threw": false,
+   "items": 20,
+   "reasons": [
+    "1 golden item(s) missing from the result",
+    "1 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2973,
+   "threw": false,
+   "bytesDownloaded": 1662612,
+   "networkRequests": 105,
+   "agentTokens": 1274,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "openlibrary-search-10",
+  "site": "openlibrary.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 906,
+   "browserLaunches": 0,
+   "politenessWaitMs": 610,
+   "bytesDownloaded": 176931,
+   "networkRequests": 1,
+   "agentTokens": 949,
+   "threw": false,
+   "items": 20,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2655,
+   "threw": false,
+   "bytesDownloaded": 1869013,
+   "networkRequests": 107,
+   "agentTokens": 1268,
+   "items": 20
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

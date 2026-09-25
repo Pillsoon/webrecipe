@@ -1,0 +1,86 @@
+{
+  "fixture": "siteB",
+  "input": {
+    "query": "rust"
+  },
+  "rows": [
+    {
+      "phase": "first-learn",
+      "wallMs": 3938,
+      "actualRequests": 16,
+      "matchesFirst": true,
+      "items": 8,
+      "meta": {
+        "strategy": "warm-browser",
+        "latencyMs": 3730,
+        "browserLaunches": 2,
+        "pageNavigations": 2,
+        "networkRequests": 16,
+        "bytesDownloaded": 3055,
+        "llmTokens": 224,
+        "politenessWaitMs": 0
+      },
+      "reasons": [
+        "no recipe registered"
+      ]
+    },
+    {
+      "phase": "repeat-http",
+      "wallMs": 22,
+      "actualRequests": 1,
+      "matchesFirst": true,
+      "items": 8,
+      "meta": {
+        "strategy": "http-json",
+        "latencyMs": 9,
+        "browserLaunches": 0,
+        "pageNavigations": 0,
+        "networkRequests": 1,
+        "bytesDownloaded": 586,
+        "llmTokens": 107,
+        "politenessWaitMs": 0
+      },
+      "reasons": []
+    },
+    {
+      "phase": "endpoint-drift",
+      "wallMs": 3202,
+      "actualRequests": 17,
+      "matchesFirst": true,
+      "items": 8,
+      "meta": {
+        "strategy": "warm-browser",
+        "latencyMs": 3170,
+        "browserLaunches": 1,
+        "pageNavigations": 2,
+        "networkRequests": 17,
+        "bytesDownloaded": 3082,
+        "llmTokens": 224,
+        "politenessWaitMs": 0
+      },
+      "reasons": [
+        "status 404 !== expected 200",
+        "item count 0 < minItems 1",
+        "fingerprint drift: expected 94c49fefa806a779, got 2ed3e42dded99f5d"
+      ]
+    },
+    {
+      "phase": "repeat-after-healing",
+      "wallMs": 8,
+      "actualRequests": 1,
+      "matchesFirst": true,
+      "items": 8,
+      "meta": {
+        "strategy": "http-json",
+        "latencyMs": 2,
+        "browserLaunches": 0,
+        "pageNavigations": 0,
+        "networkRequests": 1,
+        "bytesDownloaded": 586,
+        "llmTokens": 107,
+        "politenessWaitMs": 0
+      },
+      "reasons": []
+    }
+  ]
+}

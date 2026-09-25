@@ -1,0 +1,304 @@
+[
+ {
+  "taskId": "discourse-search-1",
+  "site": "meta.discourse.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 715,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 30,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2817,
+   "threw": false,
+   "items": 30
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "discourse-search-2",
+  "site": "meta.discourse.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 249,
+   "browserLaunches": 0,
+   "politenessWaitMs": 487,
+   "threw": false,
+   "items": 21,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2520,
+   "threw": false,
+   "items": 21
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "discourse-search-3",
+  "site": "meta.discourse.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 543,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 30,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2474,
+   "threw": false,
+   "items": 30
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "discourse-search-4",
+  "site": "meta.discourse.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 273,
+   "browserLaunches": 0,
+   "politenessWaitMs": 436,
+   "threw": false,
+   "items": 30,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2401,
+   "threw": false,
+   "items": 30
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "discourse-search-5",
+  "site": "meta.discourse.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 540,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 30,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2295,
+   "threw": false,
+   "items": 30
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "discourse-search-6",
+  "site": "meta.discourse.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 272,
+   "browserLaunches": 0,
+   "politenessWaitMs": 440,
+   "threw": false,
+   "items": 30,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2375,
+   "threw": false,
+   "items": 30
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "discourse-search-7",
+  "site": "meta.discourse.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 645,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 30,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2501,
+   "threw": false,
+   "items": 30
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "discourse-search-8",
+  "site": "meta.discourse.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 329,
+   "browserLaunches": 0,
+   "politenessWaitMs": 343,
+   "threw": false,
+   "items": 30,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2488,
+   "threw": false,
+   "items": 30
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "discourse-search-9",
+  "site": "meta.discourse.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 565,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 4,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2413,
+   "threw": false,
+   "items": 4
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "discourse-search-10",
+  "site": "meta.discourse.org",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 11792,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "threw": false,
+   "items": 0,
+   "reasons": [
+    "http-html: expected status 200, got 404"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 11734,
+   "threw": false,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

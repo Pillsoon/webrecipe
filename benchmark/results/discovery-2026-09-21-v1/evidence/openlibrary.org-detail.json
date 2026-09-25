@@ -1,0 +1,40 @@
+{
+  "baseline": "7f51ca0",
+  "site": "openlibrary.org",
+  "intent": "detail",
+  "taughtUrl": "https://openlibrary.org/works/OL1063267W",
+  "plan": {
+    "origin": "https://openlibrary.org",
+    "urlTemplate": "/works/{{id}}",
+    "itemSelector": "div.workDetails",
+    "fields": {
+      "title": "h1.work-title",
+      "url": "a[href^=\"/works/OL\"]@href",
+      "author": "h2.edition-byline a"
+    },
+    "verification": {
+      "contract": {
+        "required": [
+          "non_empty",
+          "required_fields"
+        ]
+      },
+      "evidence": {
+        "non_empty": {
+          "status": "passed"
+        },
+        "required_fields": {
+          "status": "passed"
+        }
+      }
+    }
+  },
+  "refused": null,
+  "sample": [
+    {
+      "title": "How to Win Friends and Influence People",
+      "url": "/works/OL1063267W?edition=bwb_KS-365-216",
+      "author": "Dale Carnegie"
+    }
+  ]
+}

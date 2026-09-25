@@ -1,0 +1,32 @@
+site: steam-factorio-us
+intent: detail
+inputs: {}
+strategy:
+  type: http-html
+request:
+  method: GET
+  path: /app/427520/Factorio/
+  query:
+    cc: us
+    l: english
+output:
+  type: html
+  items:
+    selector: "#game_area_purchase_section_add_to_cart_88199"
+    fields:
+      product: h2.title
+      displayedPrice: .game_purchase_price, .discount_final_price
+validation:
+  status: 200
+  required:
+    - product
+    - displayedPrice
+  minItems: 1
+fingerprint:
+  endpoint: /app/427520/Factorio/
+  hash: ec3591741a88079b
+  responseFields:
+    - displayedPrice
+    - product
+fallback:
+  type: browser

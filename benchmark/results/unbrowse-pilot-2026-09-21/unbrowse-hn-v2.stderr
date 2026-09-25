@@ -1,0 +1,28 @@
+[unbrowse] ToS check skipped (non-interactive/server mode)
+
+[unbrowse] Client attestation mismatch (client_verification_failed). Local paths still run.
+[unbrowse] To refresh the shipped binary: npm install -g unbrowse@latest
+[unbrowse] (set UNBROWSE_AUTO_UPDATE=1 to auto-apply once; source checkouts often hit this)
+[09:16:39] [probe] HEAD https://news.ycombinator.com/newest returned 405; trying ranged GET
+[09:16:39] [auth] direct-document: browser cookie import disabled — sending no cookies for news.ycombinator.com
+[09:16:40] [curl-impersonate] TLS-impersonation rung unavailable: no python interpreter with curl_cffi (tried UNBROWSE_PYTHON, a local venv, python3, python). Anti-bot hosts that need a Chrome TLS fingerprint will fall through to the browser ladder. Fix: pip install curl_cffi (or set UNBROWSE_PYTHON to an interpreter that has it).
+[direct-document] https://news.ycombinator.com/newest probe said HTML but direct-document rejected — falling through to exa
+[unbrowse] Still working. Searching cached routes...
+[exa] domain-anchor (#840): kept 4/5 hit(s) on news.ycombinator.com; dropped 1 off-domain
+[exa] probe-fallback: 4 candidate(s), rich=https://news.ycombinator.com/
+[09:16:45] [probe] HEAD https://news.ycombinator.com/news returned 405; trying ranged GET
+[09:16:45] [auth] direct-document: browser cookie import disabled — sending no cookies for news.ycombinator.com
+[direct-document] https://news.ycombinator.com/news probe said HTML but direct-document rejected — falling through to exa
+[marketplace] timeout after 800ms — returning cache miss
+[marketplace] search: 0 domain + 0 global results (806ms)
+[marketplace] viable=0/0 candidates (threshold=0.3), top=n/a skill=n/a
+[direct-document] https://news.ycombinator.com/news REJECTED reason=intent_mismatch evidence={"intent_tokens":["newest","hacker","news","stories","displayed","order","return","story","title","destination","url","each","not"],"response_token_hits":["hacker","news","stories"],"response_token_hit_rate":0.23076923076923078,"html_bytes":34169}; handing off to browser ladder
+[ddg] $0 fallback: 5 keyless web result(s) for "ycombinator.com newest hacker news stories displayed order return story title destination url each not top"
+[unbrowse] obscura not installed; falling through to CDP (kuri).
+[09:16:48] [auth] no vault cookies for news.ycombinator.com — auto-extracting from browser
+[exa→walk] candidate https://news.ycombinator.com/news produced no ladder rung — candidate leaf
+[perf] exa: 10085ms (time_saved=0% tokens_saved=0%)
+[lifecycle] discover=10085ms
+[unbrowse] browser avoided
+[unbrowse] No payout wallet — you won't earn when others reuse your routes. Run: npx @crossmint/lobster-cli setup
+contract: resolution terminal (interpret/verify/adjudicate)

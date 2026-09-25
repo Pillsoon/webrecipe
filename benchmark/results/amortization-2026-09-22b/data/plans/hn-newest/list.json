@@ -1,0 +1,26 @@
+{
+  "origin": "https://news.ycombinator.com",
+  "urlTemplate": "/newest",
+  "itemSelector": "tr.athing",
+  "fields": {
+    "id": "@id",
+    "title": "span.titleline > a",
+    "url": "span.titleline > a@href"
+  },
+  "verification": {
+    "contract": {
+      "required": [
+        "non_empty",
+        "required_fields"
+      ]
+    },
+    "evidence": {
+      "non_empty": {
+        "status": "passed"
+      },
+      "required_fields": {
+        "status": "passed"
+      }
+    }
+  }
+}

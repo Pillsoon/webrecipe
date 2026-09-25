@@ -1,0 +1,129 @@
+{
+  "baseline": "7f51ca0",
+  "site": "openlibrary.org",
+  "intent": "search",
+  "taughtUrl": "https://openlibrary.org/trending/now?page=1",
+  "plan": {
+    "origin": "https://openlibrary.org",
+    "urlTemplate": "/trending/{{query}}?page={{page}}",
+    "itemSelector": "li.searchResultItem",
+    "fields": {
+      "title": "h3.booktitle a.results",
+      "url": "h3.booktitle a.results@href",
+      "author": "span.bookauthor a"
+    },
+    "verification": {
+      "contract": {
+        "required": [
+          "non_empty",
+          "required_fields",
+          "query_honored",
+          "lexical_query_consistency",
+          "pagination_honored"
+        ]
+      },
+      "evidence": {
+        "non_empty": {
+          "status": "passed"
+        },
+        "required_fields": {
+          "status": "passed"
+        },
+        "query_honored": {
+          "status": "not_tested",
+          "at": "2026-09-22T06:00:44.215Z",
+          "method": "active-probe/v1",
+          "parameter": "query",
+          "probes": [
+            {
+              "role": "taught",
+              "value": "now",
+              "items": 20
+            },
+            {
+              "role": "repeat",
+              "value": "now",
+              "items": 20
+            },
+            {
+              "role": "nonce",
+              "value": "2c3ff3defab0",
+              "items": null,
+              "unavailable": "unexpected status 500"
+            },
+            {
+              "role": "contrast",
+              "value": "accidentally",
+              "items": null,
+              "unavailable": "unexpected status 500"
+            }
+          ],
+          "signals": {},
+          "reason": "nonce probe unavailable: unexpected status 500"
+        },
+        "lexical_query_consistency": {
+          "status": "not_tested",
+          "at": "2026-09-22T06:00:44.216Z",
+          "method": "active-probe/lexical-consistency-v1",
+          "parameter": "query",
+          "shares": {
+            "taught": 0
+          },
+          "signals": {
+            "applicable": false
+          },
+          "reason": "only 0% of the taught result carries the query in a field this plan extracts, so this site does not match on text we can read"
+        },
+        "pagination_honored": {
+          "status": "passed",
+          "at": "2026-09-22T06:00:49.125Z",
+          "method": "active-probe/pagination-v1",
+          "parameter": "page",
+          "probes": [
+            {
+              "role": "taught",
+              "value": "1",
+              "items": 20
+            },
+            {
+              "role": "repeat",
+              "value": "1",
+              "items": 20
+            },
+            {
+              "role": "alternate",
+              "value": "2",
+              "items": 20
+            }
+          ],
+          "signals": {
+            "stable": true,
+            "moved": true,
+            "agreed": true
+          },
+          "shares": {
+            "overlap": 0
+          }
+        }
+      }
+    }
+  },
+  "refused": null,
+  "sample": [
+    {
+      "title": "Dump Trucks (Mighty Movers)",
+      "url": "/works/OL5839359W/Dump_Trucks_(Mighty_Movers)?edition=key%3A/books/OL12375948M",
+      "author": "Sarah Tieck"
+    },
+    {
+      "title": "The scarecrows.",
+      "url": "/works/OL11314910W/The_scarecrows?edition=key%3A/books/OL17529094M",
+      "author": "Robert Westall"
+    },
+    {
+      "title": "Deadhouse gates: a tale of the Malazan book of the fallen",
+      "url": "/works/OL5734770W/Deadhouse_Gates_(The_Malazan_Book_of_the_Fallen_Book_2)?edition=key%3A/books/OL18875863M",
+      "author": "Steven Erikson"
+    }
+  ]
+}

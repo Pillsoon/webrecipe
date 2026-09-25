@@ -1,0 +1,53 @@
+$ tsx src/cli.ts bench run --tasks benchmark/heldout4.json --only pixelfed-list --json benchmark/results/h4/run3-pixelfed-list.json
+Wild
+  Tasks:             3
+  Browser-free:      0%   (L0 + L1)
+  Full-browser avoidance: 100%   (L0 + L1 + L2)
+  Levels:            L0 0%  L1 0%  L2 100%  L3 0%
+  Blocked:           0 (site refused the recipe; ran on the browser)
+  Median latency:    12568ms (baseline 12663ms)
+  Median speedup:    1.0x
+  Median site speedup: 1.0x
+  Politeness wait:   0ms median (excluded from latency above)
+  Data fetched:      4636KB median (baseline 4636KB)  1.0x less
+  Requests:          13 median (baseline 13)
+  Agent reads:       236 tokens median (baseline 236)  1.0x less
+  Correctness
+    Baseline validity:  1/3 usable          (2 excluded)
+    No stored golden:   0 excluded
+    Entity equivalence: 0%
+    Query semantics:    not declared
+    Ordering:           not judgeable
+
+robots.txt status of wild sites
+  pkg.go.dev: disallowed for crawlers (user-agent posture, see spec section 6)
+  crates.io: allowed
+  hn.algolia.com: allowed
+  hex.pm: allowed
+  docs.rs: allowed
+  flathub.org: allowed
+  jsr.io: allowed
+  tildes.net: allowed
+  remoteok.com: allowed
+  itch.io: allowed
+  arbeitnow.com: allowed
+  archive.org: allowed
+  meta.discourse.org: allowed
+  loc.gov: allowed
+  bandcamp.com: allowed
+  lemmy.world: allowed
+  openlibrary.org: allowed
+  mastodon.social: allowed
+  pixelfed.social: allowed
+  musicbrainz.org: allowed
+  dev.to: allowed
+  npmjs.com: allowed
+
+excluded (baseline unusable): 2
+  pixelfed-list-1: baseline returned no items
+  pixelfed-list-3: baseline returned no items
+plan aging (2):
+  pixelfed-list-1: possible plan aging: item count changed 9 -> 0
+  pixelfed-list-3: possible plan aging: item count changed 9 -> 0
+failed tasks (1/1)
+  pixelfed-list-2: 8 baseline item(s) missing from the result; no recipe registered; 7 golden item(s) missing from the result

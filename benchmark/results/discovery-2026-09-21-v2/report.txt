@@ -1,0 +1,56 @@
+baseline: 7f51ca0   cached: false (every request hit the origin)
+domains: 8   learned tasks: 17   evaluated inputs: 79
+skipped: 1 (teach_failed 1)
+
+                  correct   wrong   indeterminate
+  verified               11       0            23
+  partially_verified      0       0            39
+  unverified              1       0             0
+  error                   0       0             5
+
+false success (verified + wrong): 0
+
+correct but not verified, by reason:
+  no_visible_lexical_match   1
+
+awaiting manual judgement: 62
+  [partially_verified] hex.pm hex-search-1 {"query":"phoenix"} items=30
+  [partially_verified] hex.pm hex-search-2 {"query":"ecto"} items=30
+  [partially_verified] hex.pm hex-search-3 {"query":"plug"} items=30
+  [partially_verified] hex.pm hex-search-4 {"query":"jason"} items=13
+  [partially_verified] hex.pm hex-search-5 {"query":"telemetry"} items=30
+  [verified] hex.pm hex-detail-1 {"id":"phoenix"} items=1
+  [partially_verified] docs.rs docsrs-search-1 {"query":"serde"} items=30
+  [partially_verified] docs.rs docsrs-search-2 {"query":"tokio"} items=30
+  [partially_verified] docs.rs docsrs-search-3 {"query":"clap"} items=30
+  [partially_verified] docs.rs docsrs-search-4 {"query":"regex"} items=30
+  [partially_verified] docs.rs docsrs-search-5 {"query":"rand"} items=30
+  [partially_verified] jsr.io jsr-search-1 {"query":"oak"} items=20
+  [partially_verified] jsr.io jsr-search-2 {"query":"hono"} items=20
+  [partially_verified] jsr.io jsr-search-3 {"query":"zod"} items=20
+  [partially_verified] jsr.io jsr-search-4 {"query":"std"} items=20
+  [partially_verified] jsr.io jsr-search-5 {"query":"fresh"} items=20
+  [partially_verified] meta.discourse.org discourse-search-1 {"query":"ux"} items=30
+  [partially_verified] meta.discourse.org discourse-search-2 {"query":"performance"} items=21
+  [partially_verified] meta.discourse.org discourse-search-3 {"query":"webhooks"} items=30
+  [partially_verified] meta.discourse.org discourse-search-4 {"query":"sso"} items=30
+  [partially_verified] bandcamp.com bandcamp-search-1 {"query":"ambient"} items=60
+  [partially_verified] bandcamp.com bandcamp-search-2 {"query":"jazz"} items=60
+  [partially_verified] bandcamp.com bandcamp-search-3 {"query":"techno"} items=60
+  [partially_verified] bandcamp.com bandcamp-search-4 {"query":"folk"} items=60
+  [partially_verified] lemmy.world lemmy-search-2 {"query":"asklemmy","page":1} items=40
+  [partially_verified] lemmy.world lemmy-search-3 {"query":"world","page":1} items=40
+  [partially_verified] lemmy.world lemmy-search-4 {"query":"news","page":1} items=40
+  [partially_verified] openlibrary.org openlibrary-search-1 {"query":"now","page":1} items=20
+  [partially_verified] openlibrary.org openlibrary-search-2 {"query":"daily","page":1} items=20
+  [partially_verified] openlibrary.org openlibrary-search-3 {"query":"weekly","page":1} items=20
+  [partially_verified] openlibrary.org openlibrary-search-4 {"query":"monthly","page":1} items=20
+  [verified] meta.discourse.org discourse-list-1 {"query":"ux","page":1} items=30
+  [verified] meta.discourse.org discourse-list-2 {"query":"ux","page":2} items=24
+  [verified] meta.discourse.org discourse-list-3 {"query":"email","page":1} items=30
+  [verified] meta.discourse.org discourse-list-4 {"query":"docker","page":2} items=30
+  [verified] meta.discourse.org discourse-list-5 {"query":"mobile","page":3} items=30
+  [partially_verified] lemmy.world lemmy-list-1 {"query":"technology","page":1} items=40
+  [partially_verified] lemmy.world lemmy-list-2 {"query":"asklemmy","page":2} items=40
+  [partially_verified] lemmy.world lemmy-list-3 {"query":"world","page":2} items=40
+  [partially_verified] lemmy.world lemmy-list-4 {"query":"news","page":3} items=40

@@ -1,0 +1,25 @@
+{
+  "origin": "https://store.steampowered.com",
+  "urlTemplate": "/app/427520/Factorio/?cc=us&l=english",
+  "itemSelector": "#game_area_purchase_section_add_to_cart_88199",
+  "fields": {
+    "product": "h2.title",
+    "displayedPrice": ".game_purchase_price, .discount_final_price"
+  },
+  "verification": {
+    "contract": {
+      "required": [
+        "non_empty",
+        "required_fields"
+      ]
+    },
+    "evidence": {
+      "non_empty": {
+        "status": "passed"
+      },
+      "required_fields": {
+        "status": "passed"
+      }
+    }
+  }
+}

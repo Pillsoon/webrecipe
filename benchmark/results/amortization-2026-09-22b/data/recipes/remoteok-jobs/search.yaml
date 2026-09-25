@@ -1,0 +1,38 @@
+site: remoteok-jobs
+intent: search
+inputs:
+  query:
+    type: string
+strategy:
+  type: http-html
+request:
+  method: GET
+  path: /
+  query:
+    tags: "{{query}}"
+    action: get_jobs
+    premium: "0"
+    offset: ""
+output:
+  type: html
+  items:
+    selector: tr.job[data-url]
+    fields:
+      title: h2
+      company: h3
+      url: "@data-url"
+validation:
+  status: 200
+  required:
+    - title
+    - company
+  minItems: 1
+fingerprint:
+  endpoint: /
+  hash: 4079795fd33f7f7a
+  responseFields:
+    - company
+    - title
+    - url
+fallback:
+  type: browser

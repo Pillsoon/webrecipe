@@ -1,0 +1,62 @@
+$ tsx src/cli.ts bench run --tasks benchmark/heldout4.json --only musicbrainz-list --json benchmark/results/h4/run2-musicbrainz-list.json
+Wild
+  Tasks:             5
+  Browser-free:      0%   (L0 + L1)
+  Full-browser avoidance: 20%   (L0 + L1 + L2)
+  Levels:            L0 0%  L1 0%  L2 20%  L3 80%
+  Blocked:           0 (site refused the recipe; ran on the browser)
+  Median latency:    0ms (baseline 8646ms)
+  Median speedup:    0.0x
+  Median site speedup: 0.0x
+  Politeness wait:   0ms median (excluded from latency above)
+  Data fetched:      0KB median (baseline 2753KB)  —
+  Requests:          0 median (baseline 22)
+  Agent reads:       0 tokens median (baseline 23358)  —
+  Correctness
+    Baseline validity:  5/5 usable          (0 excluded)
+    No stored golden:   0 excluded
+    Entity equivalence: 20%
+    Query semantics:    not declared
+    Ordering:           not judgeable
+
+robots.txt status of wild sites
+  pkg.go.dev: disallowed for crawlers (user-agent posture, see spec section 6)
+  crates.io: allowed
+  hn.algolia.com: allowed
+  hex.pm: allowed
+  docs.rs: allowed
+  flathub.org: allowed
+  jsr.io: allowed
+  tildes.net: allowed
+  remoteok.com: allowed
+  itch.io: allowed
+  arbeitnow.com: allowed
+  archive.org: allowed
+  meta.discourse.org: allowed
+  loc.gov: allowed
+  bandcamp.com: allowed
+  lemmy.world: allowed
+  openlibrary.org: allowed
+  mastodon.social: allowed
+  pixelfed.social: allowed
+  musicbrainz.org: allowed
+  dev.to: allowed
+  npmjs.com: allowed
+
+failed tasks (4/5)
+  musicbrainz-list-1: page.goto: Timeout 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://musicbrainz.org/artist/a74b1b7f-71a5-4011-9441-d0b5e4122711?page=1", waiting until "domcontentloaded"[22m
+
+  musicbrainz-list-2: page.goto: Timeout 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://musicbrainz.org/artist/a74b1b7f-71a5-4011-9441-d0b5e4122711?page=2", waiting until "domcontentloaded"[22m
+
+  musicbrainz-list-3: page.goto: Timeout 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://musicbrainz.org/artist/e6de1f3b-6484-491c-88dd-6d619f142abc?page=2", waiting until "domcontentloaded"[22m
+
+  musicbrainz-list-5: page.goto: Timeout 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://musicbrainz.org/artist/efa2c11a-1a35-4b60-bc1b-66d37de88511?page=1", waiting until "domcontentloaded"[22m
+

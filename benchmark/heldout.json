@@ -1,0 +1,362 @@
+[
+  {
+    "id": "hex-search-1",
+    "set": "wild",
+    "site": "hex.pm",
+    "intent": "search",
+    "input": {
+      "query": "phoenix"
+    }
+  },
+  {
+    "id": "hex-search-2",
+    "set": "wild",
+    "site": "hex.pm",
+    "intent": "search",
+    "input": {
+      "query": "ecto"
+    }
+  },
+  {
+    "id": "hex-search-3",
+    "set": "wild",
+    "site": "hex.pm",
+    "intent": "search",
+    "input": {
+      "query": "plug"
+    }
+  },
+  {
+    "id": "hex-search-4",
+    "set": "wild",
+    "site": "hex.pm",
+    "intent": "search",
+    "input": {
+      "query": "jason"
+    }
+  },
+  {
+    "id": "hex-search-5",
+    "set": "wild",
+    "site": "hex.pm",
+    "intent": "search",
+    "input": {
+      "query": "telemetry"
+    }
+  },
+  {
+    "id": "hex-search-6",
+    "set": "wild",
+    "site": "hex.pm",
+    "intent": "search",
+    "input": {
+      "query": "oban"
+    }
+  },
+  {
+    "id": "hex-detail-1",
+    "set": "wild",
+    "site": "hex.pm",
+    "intent": "detail",
+    "input": {
+      "id": "phoenix"
+    }
+  },
+  {
+    "id": "hex-detail-2",
+    "set": "wild",
+    "site": "hex.pm",
+    "intent": "detail",
+    "input": {
+      "id": "ecto"
+    }
+  },
+  {
+    "id": "hex-detail-3",
+    "set": "wild",
+    "site": "hex.pm",
+    "intent": "detail",
+    "input": {
+      "id": "jason"
+    }
+  },
+  {
+    "id": "hex-detail-4",
+    "set": "wild",
+    "site": "hex.pm",
+    "intent": "detail",
+    "input": {
+      "id": "plug"
+    }
+  },
+  {
+    "id": "docsrs-search-1",
+    "set": "wild",
+    "site": "docs.rs",
+    "intent": "search",
+    "input": {
+      "query": "serde"
+    }
+  },
+  {
+    "id": "docsrs-search-2",
+    "set": "wild",
+    "site": "docs.rs",
+    "intent": "search",
+    "input": {
+      "query": "tokio"
+    }
+  },
+  {
+    "id": "docsrs-search-3",
+    "set": "wild",
+    "site": "docs.rs",
+    "intent": "search",
+    "input": {
+      "query": "clap"
+    }
+  },
+  {
+    "id": "docsrs-search-4",
+    "set": "wild",
+    "site": "docs.rs",
+    "intent": "search",
+    "input": {
+      "query": "regex"
+    }
+  },
+  {
+    "id": "docsrs-search-5",
+    "set": "wild",
+    "site": "docs.rs",
+    "intent": "search",
+    "input": {
+      "query": "rand"
+    }
+  },
+  {
+    "id": "docsrs-search-6",
+    "set": "wild",
+    "site": "docs.rs",
+    "intent": "search",
+    "input": {
+      "query": "anyhow"
+    }
+  },
+  {
+    "id": "docsrs-search-7",
+    "set": "wild",
+    "site": "docs.rs",
+    "intent": "search",
+    "input": {
+      "query": "thiserror"
+    }
+  },
+  {
+    "id": "docsrs-search-8",
+    "set": "wild",
+    "site": "docs.rs",
+    "intent": "search",
+    "input": {
+      "query": "reqwest"
+    }
+  },
+  {
+    "id": "docsrs-search-9",
+    "set": "wild",
+    "site": "docs.rs",
+    "intent": "search",
+    "input": {
+      "query": "tracing"
+    }
+  },
+  {
+    "id": "docsrs-search-10",
+    "set": "wild",
+    "site": "docs.rs",
+    "intent": "search",
+    "input": {
+      "query": "itertools"
+    }
+  },
+  {
+    "id": "flathub-search-1",
+    "set": "wild",
+    "site": "flathub.org",
+    "intent": "search",
+    "input": {
+      "query": "gimp"
+    }
+  },
+  {
+    "id": "flathub-search-2",
+    "set": "wild",
+    "site": "flathub.org",
+    "intent": "search",
+    "input": {
+      "query": "inkscape"
+    }
+  },
+  {
+    "id": "flathub-search-3",
+    "set": "wild",
+    "site": "flathub.org",
+    "intent": "search",
+    "input": {
+      "query": "blender"
+    }
+  },
+  {
+    "id": "flathub-search-4",
+    "set": "wild",
+    "site": "flathub.org",
+    "intent": "search",
+    "input": {
+      "query": "krita"
+    }
+  },
+  {
+    "id": "flathub-search-5",
+    "set": "wild",
+    "site": "flathub.org",
+    "intent": "search",
+    "input": {
+      "query": "audacity"
+    }
+  },
+  {
+    "id": "flathub-search-6",
+    "set": "wild",
+    "site": "flathub.org",
+    "intent": "search",
+    "input": {
+      "query": "vlc"
+    }
+  },
+  {
+    "id": "flathub-detail-1",
+    "set": "wild",
+    "site": "flathub.org",
+    "intent": "detail",
+    "input": {
+      "id": "org.gimp.GIMP"
+    }
+  },
+  {
+    "id": "flathub-detail-2",
+    "set": "wild",
+    "site": "flathub.org",
+    "intent": "detail",
+    "input": {
+      "id": "org.inkscape.Inkscape"
+    }
+  },
+  {
+    "id": "flathub-detail-3",
+    "set": "wild",
+    "site": "flathub.org",
+    "intent": "detail",
+    "input": {
+      "id": "org.blender.Blender"
+    }
+  },
+  {
+    "id": "flathub-detail-4",
+    "set": "wild",
+    "site": "flathub.org",
+    "intent": "detail",
+    "input": {
+      "id": "org.kde.krita"
+    }
+  },
+  {
+    "id": "jsr-search-1",
+    "set": "wild",
+    "site": "jsr.io",
+    "intent": "search",
+    "input": {
+      "query": "oak"
+    }
+  },
+  {
+    "id": "jsr-search-2",
+    "set": "wild",
+    "site": "jsr.io",
+    "intent": "search",
+    "input": {
+      "query": "hono"
+    }
+  },
+  {
+    "id": "jsr-search-3",
+    "set": "wild",
+    "site": "jsr.io",
+    "intent": "search",
+    "input": {
+      "query": "zod"
+    }
+  },
+  {
+    "id": "jsr-search-4",
+    "set": "wild",
+    "site": "jsr.io",
+    "intent": "search",
+    "input": {
+      "query": "std"
+    }
+  },
+  {
+    "id": "jsr-search-5",
+    "set": "wild",
+    "site": "jsr.io",
+    "intent": "search",
+    "input": {
+      "query": "fresh"
+    }
+  },
+  {
+    "id": "jsr-search-6",
+    "set": "wild",
+    "site": "jsr.io",
+    "intent": "search",
+    "input": {
+      "query": "cors"
+    }
+  },
+  {
+    "id": "jsr-search-7",
+    "set": "wild",
+    "site": "jsr.io",
+    "intent": "search",
+    "input": {
+      "query": "cache"
+    }
+  },
+  {
+    "id": "jsr-search-8",
+    "set": "wild",
+    "site": "jsr.io",
+    "intent": "search",
+    "input": {
+      "query": "http"
+    }
+  },
+  {
+    "id": "jsr-search-9",
+    "set": "wild",
+    "site": "jsr.io",
+    "intent": "search",
+    "input": {
+      "query": "json"
+    }
+  },
+  {
+    "id": "jsr-search-10",
+    "set": "wild",
+    "site": "jsr.io",
+    "intent": "search",
+    "input": {
+      "query": "test"
+    }
+  }
+]

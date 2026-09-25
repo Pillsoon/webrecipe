@@ -1,0 +1,374 @@
+[
+ {
+  "taskId": "bandcamp-search-1",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2700,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 6210061,
+   "networkRequests": 130,
+   "threw": false,
+   "items": 60,
+   "reasons": [
+    "no recipe registered"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2872,
+   "threw": false,
+   "bytesDownloaded": 6276887,
+   "networkRequests": 132,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-2",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2526,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 6784999,
+   "networkRequests": 142,
+   "threw": false,
+   "items": 60,
+   "reasons": [
+    "no recipe registered",
+    "10 golden item(s) missing from the result",
+    "10 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2658,
+   "threw": false,
+   "bytesDownloaded": 6628350,
+   "networkRequests": 138,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-3",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2764,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 5941809,
+   "networkRequests": 120,
+   "threw": false,
+   "items": 60,
+   "reasons": [
+    "no recipe registered",
+    "8 golden item(s) missing from the result",
+    "8 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2835,
+   "threw": false,
+   "bytesDownloaded": 5941965,
+   "networkRequests": 120,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-4",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2592,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 6912032,
+   "networkRequests": 145,
+   "threw": false,
+   "items": 60,
+   "reasons": [
+    "no recipe registered",
+    "11 golden item(s) missing from the result",
+    "11 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2733,
+   "threw": false,
+   "bytesDownloaded": 6912032,
+   "networkRequests": 145,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-5",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2451,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 7350284,
+   "networkRequests": 141,
+   "threw": false,
+   "items": 60,
+   "reasons": [
+    "no recipe registered",
+    "5 golden item(s) missing from the result",
+    "5 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2690,
+   "threw": false,
+   "bytesDownloaded": 7350284,
+   "networkRequests": 141,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-6",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2968,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 6484348,
+   "networkRequests": 129,
+   "threw": false,
+   "items": 60,
+   "reasons": [
+    "no recipe registered",
+    "5 golden item(s) missing from the result",
+    "5 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 3127,
+   "threw": false,
+   "bytesDownloaded": 6327543,
+   "networkRequests": 125,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-7",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2495,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 6638852,
+   "networkRequests": 145,
+   "threw": false,
+   "items": 60,
+   "reasons": [
+    "no recipe registered"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2577,
+   "threw": false,
+   "bytesDownloaded": 6638852,
+   "networkRequests": 145,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-8",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2587,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 7034866,
+   "networkRequests": 137,
+   "threw": false,
+   "items": 60,
+   "reasons": [
+    "no recipe registered",
+    "6 golden item(s) missing from the result",
+    "6 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2646,
+   "threw": false,
+   "bytesDownloaded": 7034859,
+   "networkRequests": 137,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-9",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2494,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 6608411,
+   "networkRequests": 133,
+   "threw": false,
+   "items": 60,
+   "reasons": [
+    "no recipe registered"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2595,
+   "threw": false,
+   "bytesDownloaded": 6608411,
+   "networkRequests": 133,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-10",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 11338,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 3866081,
+   "networkRequests": 30,
+   "threw": false,
+   "items": 0,
+   "reasons": [
+    "no recipe registered"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 11517,
+   "threw": false,
+   "bytesDownloaded": 3866081,
+   "networkRequests": 30,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

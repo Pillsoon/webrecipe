@@ -1,0 +1,92 @@
+{
+  "baseline": "7f51ca0",
+  "site": "dev.to",
+  "intent": "search",
+  "taughtUrl": "https://dev.to/t/typescript",
+  "plan": {
+    "origin": "https://dev.to",
+    "urlTemplate": "/t/{{query}}",
+    "itemSelector": "div.crayons-story",
+    "fields": {
+      "title": "h2.crayons-story__title a",
+      "url": "h2.crayons-story__title a@href"
+    },
+    "verification": {
+      "contract": {
+        "required": [
+          "non_empty",
+          "required_fields",
+          "query_honored",
+          "lexical_query_consistency"
+        ]
+      },
+      "evidence": {
+        "non_empty": {
+          "status": "passed"
+        },
+        "required_fields": {
+          "status": "passed"
+        },
+        "query_honored": {
+          "status": "not_tested",
+          "at": "2026-09-21T23:15:57.702Z",
+          "method": "active-probe/v1",
+          "parameter": "query",
+          "probes": [
+            {
+              "role": "taught",
+              "value": "typescript",
+              "items": 15
+            },
+            {
+              "role": "repeat",
+              "value": "typescript",
+              "items": 15
+            },
+            {
+              "role": "nonce",
+              "value": "447cfb17ae8d",
+              "items": null,
+              "unavailable": "unexpected status 404"
+            },
+            {
+              "role": "contrast",
+              "value": "action",
+              "items": 0
+            }
+          ],
+          "signals": {},
+          "reason": "nonce probe unavailable: unexpected status 404"
+        },
+        "lexical_query_consistency": {
+          "status": "not_tested",
+          "at": "2026-09-21T23:15:57.703Z",
+          "method": "active-probe/lexical-consistency-v1",
+          "parameter": "query",
+          "shares": {
+            "taught": 0.13333333333333333
+          },
+          "signals": {
+            "applicable": false
+          },
+          "reason": "only 13% of the taught result carries the query in a field this plan extracts, so this site does not match on text we can read"
+        }
+      }
+    }
+  },
+  "refused": null,
+  "sample": [
+    {
+      "title": "What If Your AI Agent Never Had to Leave the Browser? (Demo 🚀)",
+      "url": "https://dev.to/sylwia-lask/what-if-your-ai-agent-never-had-to-leave-the-browser-demo--5g"
+    },
+    {
+      "title": "I stopped rewriting the same Electron boilerplate — so I packaged it",
+      "url": "https://dev.to/hubert_larosesurprenant_/i-stopped-rewriting-the-same-electron-boilerplate-so-i-packaged-it-3i8n"
+    },
+    {
+      "title": "Aprendendo Angular através de um diálogo",
+      "url": "https://dev.to/freitasmp/aprendendo-angular-atraves-de-um-dialogo-11i0"
+    }
+  ]
+}

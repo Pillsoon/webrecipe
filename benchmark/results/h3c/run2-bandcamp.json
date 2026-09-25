@@ -1,0 +1,401 @@
+[
+ {
+  "taskId": "bandcamp-search-1",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-json",
+   "latencyMs": 225,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 86026,
+   "networkRequests": 1,
+   "agentTokens": 2451,
+   "threw": false,
+   "blocked": false,
+   "items": 60,
+   "reasons": [
+    "24 golden item(s) missing from the result",
+    "24 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2678,
+   "threw": false,
+   "bytesDownloaded": 6338166,
+   "networkRequests": 137,
+   "agentTokens": 10781,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-2",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-json",
+   "latencyMs": 172,
+   "browserLaunches": 0,
+   "politenessWaitMs": 825,
+   "bytesDownloaded": 87315,
+   "networkRequests": 1,
+   "agentTokens": 2507,
+   "threw": false,
+   "blocked": false,
+   "items": 60,
+   "reasons": [
+    "33 golden item(s) missing from the result",
+    "33 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2655,
+   "threw": false,
+   "bytesDownloaded": 6741051,
+   "networkRequests": 136,
+   "agentTokens": 10836,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-3",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-json",
+   "latencyMs": 184,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 80439,
+   "networkRequests": 1,
+   "agentTokens": 2407,
+   "threw": false,
+   "blocked": false,
+   "items": 60,
+   "reasons": [
+    "26 golden item(s) missing from the result",
+    "26 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2887,
+   "threw": false,
+   "bytesDownloaded": 6177781,
+   "networkRequests": 124,
+   "agentTokens": 10683,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-4",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-json",
+   "latencyMs": 148,
+   "browserLaunches": 0,
+   "politenessWaitMs": 795,
+   "bytesDownloaded": 86109,
+   "networkRequests": 1,
+   "agentTokens": 2504,
+   "threw": false,
+   "blocked": false,
+   "items": 60,
+   "reasons": [
+    "29 golden item(s) missing from the result",
+    "29 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2544,
+   "threw": false,
+   "bytesDownloaded": 7119501,
+   "networkRequests": 152,
+   "agentTokens": 11387,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-5",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-json",
+   "latencyMs": 173,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 94128,
+   "networkRequests": 1,
+   "agentTokens": 2280,
+   "threw": false,
+   "blocked": false,
+   "items": 60,
+   "reasons": [
+    "27 golden item(s) missing from the result",
+    "27 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2583,
+   "threw": false,
+   "bytesDownloaded": 7358657,
+   "networkRequests": 148,
+   "agentTokens": 10957,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-6",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-json",
+   "latencyMs": 160,
+   "browserLaunches": 0,
+   "politenessWaitMs": 813,
+   "bytesDownloaded": 85514,
+   "networkRequests": 1,
+   "agentTokens": 2473,
+   "threw": false,
+   "blocked": false,
+   "items": 60,
+   "reasons": [
+    "18 golden item(s) missing from the result",
+    "18 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2960,
+   "threw": false,
+   "bytesDownloaded": 6583245,
+   "networkRequests": 140,
+   "agentTokens": 10855,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-7",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-json",
+   "latencyMs": 175,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 85515,
+   "networkRequests": 1,
+   "agentTokens": 2623,
+   "threw": false,
+   "blocked": false,
+   "items": 60,
+   "reasons": [
+    "23 golden item(s) missing from the result",
+    "23 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2547,
+   "threw": false,
+   "bytesDownloaded": 6074463,
+   "networkRequests": 135,
+   "agentTokens": 10428,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-8",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-json",
+   "latencyMs": 163,
+   "browserLaunches": 0,
+   "politenessWaitMs": 808,
+   "bytesDownloaded": 93019,
+   "networkRequests": 1,
+   "agentTokens": 2382,
+   "threw": false,
+   "blocked": false,
+   "items": 60,
+   "reasons": [
+    "26 golden item(s) missing from the result",
+    "26 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2622,
+   "threw": false,
+   "bytesDownloaded": 7623666,
+   "networkRequests": 153,
+   "agentTokens": 11756,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-9",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-json",
+   "latencyMs": 154,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 87614,
+   "networkRequests": 1,
+   "agentTokens": 2423,
+   "threw": false,
+   "blocked": false,
+   "items": 60,
+   "reasons": [
+    "27 golden item(s) missing from the result",
+    "27 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2545,
+   "threw": false,
+   "bytesDownloaded": 6483588,
+   "networkRequests": 144,
+   "agentTokens": 11201,
+   "items": 60
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "bandcamp-search-10",
+  "site": "bandcamp.com",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 11516,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 3864478,
+   "networkRequests": 30,
+   "agentTokens": 1906,
+   "threw": false,
+   "blocked": false,
+   "items": 0,
+   "reasons": [
+    "item count 0 < minItems 1"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 11527,
+   "threw": false,
+   "bytesDownloaded": 3864478,
+   "networkRequests": 30,
+   "agentTokens": 1906,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

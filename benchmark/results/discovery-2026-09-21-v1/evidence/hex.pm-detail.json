@@ -1,0 +1,36 @@
+{
+  "baseline": "7f51ca0",
+  "site": "hex.pm",
+  "intent": "detail",
+  "taughtUrl": "https://hex.pm/packages/phoenix",
+  "plan": {
+    "origin": "https://hex.pm",
+    "urlTemplate": "/packages/{{id}}",
+    "itemSelector": "h1",
+    "fields": {
+      "title": ""
+    },
+    "verification": {
+      "contract": {
+        "required": [
+          "non_empty",
+          "required_fields"
+        ]
+      },
+      "evidence": {
+        "non_empty": {
+          "status": "passed"
+        },
+        "required_fields": {
+          "status": "passed"
+        }
+      }
+    }
+  },
+  "refused": null,
+  "sample": [
+    {
+      "title": "phoenix"
+    }
+  ]
+}

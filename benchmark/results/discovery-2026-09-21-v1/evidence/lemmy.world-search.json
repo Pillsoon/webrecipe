@@ -1,0 +1,121 @@
+{
+  "baseline": "7f51ca0",
+  "site": "lemmy.world",
+  "intent": "search",
+  "taughtUrl": "https://lemmy.world/c/technology?page=1",
+  "plan": {
+    "origin": "https://lemmy.world",
+    "urlTemplate": "/c/{{query}}?page={{page}}",
+    "itemSelector": "article.post-container",
+    "fields": {
+      "title": "a.link-dark",
+      "url": "a.link-dark@href"
+    },
+    "verification": {
+      "contract": {
+        "required": [
+          "non_empty",
+          "required_fields",
+          "query_honored",
+          "lexical_query_consistency",
+          "pagination_honored"
+        ]
+      },
+      "evidence": {
+        "non_empty": {
+          "status": "passed"
+        },
+        "required_fields": {
+          "status": "passed"
+        },
+        "query_honored": {
+          "status": "not_tested",
+          "at": "2026-09-21T22:40:00.375Z",
+          "method": "active-probe/v1",
+          "parameter": "query",
+          "probes": [
+            {
+              "role": "taught",
+              "value": "technology",
+              "items": 40
+            },
+            {
+              "role": "repeat",
+              "value": "technology",
+              "items": 40
+            },
+            {
+              "role": "nonce",
+              "value": "a09671decab6",
+              "items": null,
+              "unavailable": "unexpected status 500"
+            },
+            {
+              "role": "contrast",
+              "value": "accountable",
+              "items": null,
+              "unavailable": "unexpected status 500"
+            }
+          ],
+          "signals": {},
+          "reason": "nonce probe unavailable: unexpected status 500"
+        },
+        "lexical_query_consistency": {
+          "status": "not_tested",
+          "at": "2026-09-21T22:40:00.380Z",
+          "method": "active-probe/lexical-consistency-v1",
+          "parameter": "query",
+          "shares": {
+            "taught": 0
+          },
+          "signals": {
+            "applicable": false
+          },
+          "reason": "only 0% of the taught result carries the query in a field this plan extracts, so this site does not match on text we can read"
+        },
+        "pagination_honored": {
+          "status": "not_tested",
+          "at": "2026-09-21T22:41:14.363Z",
+          "method": "active-probe/pagination-v1",
+          "parameter": "page",
+          "probes": [
+            {
+              "role": "taught",
+              "value": "1",
+              "items": 40
+            },
+            {
+              "role": "repeat",
+              "value": "1",
+              "items": 40
+            },
+            {
+              "role": "alternate",
+              "value": "2",
+              "items": 40
+            }
+          ],
+          "signals": {
+            "stable": false
+          },
+          "reason": "two identical requests returned different results; one page cannot be compared against another here"
+        }
+      }
+    }
+  },
+  "refused": null,
+  "sample": [
+    {
+      "title": "Compsci grads facing recession-like job prospects thanks to AI - Slinging coffee and waiting tables ain't just for liberal arts grads any more, say Census Bureau economists",
+      "url": "/post/52176437"
+    },
+    {
+      "title": "Compsci grads facing recession-like job prospects thanks to AI - Slinging coffee and waiting tables ain't just for liberal arts grads any more, say Census Bureau economists",
+      "url": "/post/52176437"
+    },
+    {
+      "title": "Putin casts online vote using unlicensed Windows on an American Dell PC",
+      "url": "/post/52147341"
+    }
+  ]
+}

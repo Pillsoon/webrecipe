@@ -1,0 +1,101 @@
+{
+  "baseline": "7f51ca0",
+  "site": "docs.rs",
+  "intent": "search",
+  "taughtUrl": "https://docs.rs/releases/search?query=serde",
+  "plan": {
+    "origin": "https://docs.rs",
+    "urlTemplate": "/releases/search?query={{query}}",
+    "itemSelector": "a.release",
+    "fields": {
+      "title": ".name",
+      "description": ".description",
+      "url": "@href"
+    },
+    "verification": {
+      "contract": {
+        "required": [
+          "non_empty",
+          "required_fields",
+          "query_honored",
+          "lexical_query_consistency"
+        ]
+      },
+      "evidence": {
+        "non_empty": {
+          "status": "passed"
+        },
+        "required_fields": {
+          "status": "passed"
+        },
+        "query_honored": {
+          "status": "passed",
+          "at": "2026-09-22T00:50:26.401Z",
+          "method": "active-probe/v1",
+          "parameter": "query",
+          "probes": [
+            {
+              "role": "taught",
+              "value": "serde",
+              "items": 30
+            },
+            {
+              "role": "repeat",
+              "value": "serde",
+              "items": 30
+            },
+            {
+              "role": "nonce",
+              "value": "c5be0be762a7",
+              "items": 0
+            },
+            {
+              "role": "contrast",
+              "value": "adapter",
+              "items": 30
+            }
+          ],
+          "signals": {
+            "stable": true,
+            "nonce_rejected": true,
+            "responsive": true,
+            "agreed": true
+          }
+        },
+        "lexical_query_consistency": {
+          "status": "not_tested",
+          "at": "2026-09-22T00:50:26.401Z",
+          "method": "active-probe/lexical-consistency-v1",
+          "parameter": "query",
+          "shares": {
+            "taught": 0.8,
+            "contrast": 0.5333333333333333
+          },
+          "signals": {
+            "applicable": true,
+            "consistent": false
+          },
+          "reason": "the taught query is visible in its result but \"adapter\" is in only 53% of its own, which one site matching on two different fields would also look like"
+        }
+      }
+    }
+  },
+  "refused": null,
+  "sample": [
+    {
+      "title": "serde-1.0.229",
+      "description": "A generic serialization/deserialization framework",
+      "url": "/serde/latest/serde/"
+    },
+    {
+      "title": "serde-saphyr-1.3.0",
+      "description": "YAML (de)serializer for Serde, emphasizing panic-free parsing, fast builds and good error reporting. Supports properties, include, tag and comment capture",
+      "url": "/serde-saphyr/latest/serde_saphyr/"
+    },
+    {
+      "title": "clickhouse-0.15.2",
+      "description": "Official Rust client for ClickHouse DB",
+      "url": "/clickhouse/latest/clickhouse/"
+    }
+  ]
+}

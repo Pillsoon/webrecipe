@@ -1,0 +1,187 @@
+[
+ {
+  "taskId": "devto-detail-1",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 287,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 89284,
+   "networkRequests": 1,
+   "agentTokens": 16,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 3210,
+   "threw": false,
+   "bytesDownloaded": 3498978,
+   "networkRequests": 46,
+   "agentTokens": 6005,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "devto-detail-2",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 51,
+   "browserLaunches": 0,
+   "politenessWaitMs": 864,
+   "bytesDownloaded": 86358,
+   "networkRequests": 1,
+   "agentTokens": 23,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2520,
+   "threw": false,
+   "bytesDownloaded": 3129131,
+   "networkRequests": 43,
+   "agentTokens": 4420,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "devto-detail-3",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 158,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 198067,
+   "networkRequests": 1,
+   "agentTokens": 24,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2471,
+   "threw": false,
+   "bytesDownloaded": 3351602,
+   "networkRequests": 44,
+   "agentTokens": 11933,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "devto-detail-4",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 42,
+   "browserLaunches": 0,
+   "politenessWaitMs": 818,
+   "bytesDownloaded": 88039,
+   "networkRequests": 1,
+   "agentTokens": 29,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2502,
+   "threw": false,
+   "bytesDownloaded": 3660121,
+   "networkRequests": 48,
+   "agentTokens": 5134,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "devto-detail-5",
+  "site": "dev.to",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 168,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 121822,
+   "networkRequests": 1,
+   "agentTokens": 28,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2565,
+   "threw": false,
+   "bytesDownloaded": 3221483,
+   "networkRequests": 46,
+   "agentTokens": 5204,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "siteA-order-1",
+    "set": "controlled",
+    "site": "siteA",
+    "intent": "search",
+    "input": {
+      "query": "rust"
+    }
+  },
+  {
+    "id": "siteA-order-2",
+    "set": "controlled",
+    "site": "siteA",
+    "intent": "search",
+    "input": {
+      "query": "engineer"
+    }
+  },
+  {
+    "id": "siteA-order-3",
+    "set": "controlled",
+    "site": "siteA",
+    "intent": "search",
+    "input": {
+      "query": "typescript"
+    }
+  },
+  {
+    "id": "siteB-order-1",
+    "set": "controlled",
+    "site": "siteB",
+    "intent": "search",
+    "input": {
+      "query": "rust"
+    }
+  },
+  {
+    "id": "siteB-order-2",
+    "set": "controlled",
+    "site": "siteB",
+    "intent": "search",
+    "input": {
+      "query": "engineer"
+    }
+  },
+  {
+    "id": "siteB-order-3",
+    "set": "controlled",
+    "site": "siteB",
+    "intent": "search",
+    "input": {
+      "query": "typescript"
+    }
+  },
+  {
+    "id": "siteC-order-1",
+    "set": "controlled",
+    "site": "siteC",
+    "intent": "search",
+    "input": {
+      "query": "rust"
+    }
+  },
+  {
+    "id": "siteC-order-2",
+    "set": "controlled",
+    "site": "siteC",
+    "intent": "search",
+    "input": {
+      "query": "engineer"
+    }
+  },
+  {
+    "id": "siteC-order-3",
+    "set": "controlled",
+    "site": "siteC",
+    "intent": "search",
+    "input": {
+      "query": "typescript"
+    }
+  },
+  {
+    "id": "broken-excluded-1",
+    "set": "controlled",
+    "site": "siteBroken",
+    "intent": "search",
+    "input": {
+      "query": "rust"
+    }
+  },
+  {
+    "id": "broken-excluded-2",
+    "set": "controlled",
+    "site": "siteBroken",
+    "intent": "search",
+    "input": {
+      "query": "engineer"
+    }
+  },
+  {
+    "id": "siteA-nogolden-1",
+    "set": "controlled",
+    "site": "siteA",
+    "intent": "search",
+    "input": {
+      "query": "designer"
+    }
+  },
+  {
+    "id": "ordered-paired-1",
+    "set": "controlled",
+    "site": "siteOrdered",
+    "intent": "search",
+    "input": {
+      "query": "rust"
+    }
+  },
+  {
+    "id": "ordered-paired-2",
+    "set": "controlled",
+    "site": "siteOrdered",
+    "intent": "search",
+    "input": {
+      "query": "engineer"
+    }
+  },
+  {
+    "id": "refused-1",
+    "set": "controlled",
+    "site": "siteRefusing",
+    "intent": "search",
+    "input": {
+      "query": "rust"
+    }
+  },
+  {
+    "id": "refused-2",
+    "set": "controlled",
+    "site": "siteRefusing",
+    "intent": "search",
+    "input": {
+      "query": "engineer"
+    }
+  },
+  {
+    "id": "siteCoalesce-1",
+    "set": "controlled",
+    "site": "siteCoalesce",
+    "intent": "search",
+    "input": {
+      "query": "rust"
+    }
+  },
+  {
+    "id": "siteCoalesce-2",
+    "set": "controlled",
+    "site": "siteCoalesce",
+    "intent": "search",
+    "input": {
+      "query": "engineer"
+    }
+  },
+  {
+    "id": "siteStub-1",
+    "set": "controlled",
+    "site": "siteStub",
+    "intent": "search",
+    "input": {
+      "query": "rust"
+    }
+  },
+  {
+    "id": "siteStub-2",
+    "set": "controlled",
+    "site": "siteStub",
+    "intent": "search",
+    "input": {
+      "query": "engineer"
+    }
+  }
+]

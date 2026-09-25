@@ -1,0 +1,78 @@
+{
+  "baseline": "7f51ca0",
+  "site": "lemmy.world",
+  "intent": "list",
+  "taughtUrl": "https://lemmy.world/c/technology?page=1",
+  "plan": {
+    "origin": "https://lemmy.world",
+    "urlTemplate": "/c/{{query}}?page={{page}}",
+    "itemSelector": "article.post-container",
+    "fields": {
+      "title": "a.link-dark",
+      "url": "a.link-dark@href"
+    },
+    "verification": {
+      "contract": {
+        "required": [
+          "non_empty",
+          "required_fields",
+          "pagination_honored"
+        ]
+      },
+      "evidence": {
+        "non_empty": {
+          "status": "passed"
+        },
+        "required_fields": {
+          "status": "passed"
+        },
+        "pagination_honored": {
+          "status": "not_tested",
+          "at": "2026-09-21T22:56:38.931Z",
+          "method": "active-probe/pagination-v1",
+          "parameter": "page",
+          "probes": [
+            {
+              "role": "taught",
+              "value": "1",
+              "items": 40
+            },
+            {
+              "role": "repeat",
+              "value": "1",
+              "items": 40
+            },
+            {
+              "role": "alternate",
+              "value": "2",
+              "items": 40
+            }
+          ],
+          "signals": {
+            "stable": true,
+            "moved": false
+          },
+          "shares": {
+            "overlap": 1
+          },
+          "reason": "page 2 returned the taught page again in the browser as well, so this site either clamps the page or has only one"
+        }
+      }
+    }
+  },
+  "refused": null,
+  "sample": [
+    {
+      "title": "FAA tees up $875M AI tool to help manage air traffic congestion",
+      "url": "/post/52168051"
+    },
+    {
+      "title": "FAA tees up $875M AI tool to help manage air traffic congestion",
+      "url": "/post/52168051"
+    },
+    {
+      "title": "Thanks FedEx, This is Why we Keep Getting Phished",
+      "url": "/post/52140672"
+    }
+  ]
+}

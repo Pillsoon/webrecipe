@@ -1,0 +1,40 @@
+{
+  "baseline": "7f51ca0",
+  "site": "meta.discourse.org",
+  "intent": "detail",
+  "taughtUrl": "https://meta.discourse.org/t/327484",
+  "plan": {
+    "origin": "https://meta.discourse.org",
+    "urlTemplate": "/t/{{id}}",
+    "itemSelector": "#topic-title",
+    "fields": {
+      "title": "h1 a",
+      "url": "h1 a@href",
+      "category": "span.category-name"
+    },
+    "verification": {
+      "contract": {
+        "required": [
+          "non_empty",
+          "required_fields"
+        ]
+      },
+      "evidence": {
+        "non_empty": {
+          "status": "passed"
+        },
+        "required_fields": {
+          "status": "passed"
+        }
+      }
+    }
+  },
+  "refused": null,
+  "sample": [
+    {
+      "title": "Ask username after validating e-mail",
+      "url": "/t/ask-username-after-validating-e-mail/327484",
+      "category": "Contribute"
+    }
+  ]
+}

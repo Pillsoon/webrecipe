@@ -1,0 +1,410 @@
+[
+ {
+  "taskId": "mastodon-search-1",
+  "site": "mastodon.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 3164,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 6751139,
+   "networkRequests": 210,
+   "agentTokens": 6485,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": [
+    "no recipe registered",
+    "1 golden item(s) missing from the result",
+    "1 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 4502,
+   "threw": false,
+   "bytesDownloaded": 6751139,
+   "networkRequests": 210,
+   "agentTokens": 6485,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "mastodon-search-2",
+  "site": "mastodon.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 3248,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 9760836,
+   "networkRequests": 223,
+   "agentTokens": 6505,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": [
+    "no recipe registered",
+    "1 golden item(s) missing from the result",
+    "1 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 2388,
+   "threw": false,
+   "bytesDownloaded": 9760836,
+   "networkRequests": 223,
+   "agentTokens": 6505,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "mastodon-search-3",
+  "site": "mastodon.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2323,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 11659856,
+   "networkRequests": 226,
+   "agentTokens": 6390,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": [
+    "no recipe registered",
+    "2 golden item(s) missing from the result",
+    "1 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 4045,
+   "threw": false,
+   "bytesDownloaded": 10969944,
+   "networkRequests": 224,
+   "agentTokens": 6390,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": "possible plan aging: item count changed 2 -> 1"
+ },
+ {
+  "taskId": "mastodon-search-4",
+  "site": "mastodon.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 3277,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 8129805,
+   "networkRequests": 220,
+   "agentTokens": 7938,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": [
+    "no recipe registered",
+    "1 golden item(s) missing from the result",
+    "1 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 3505,
+   "threw": false,
+   "bytesDownloaded": 8129805,
+   "networkRequests": 220,
+   "agentTokens": 7938,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "mastodon-search-5",
+  "site": "mastodon.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2030,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 5627291,
+   "networkRequests": 215,
+   "agentTokens": 10802,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": [
+    "no recipe registered",
+    "1 golden item(s) missing from the result",
+    "1 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 3374,
+   "threw": false,
+   "bytesDownloaded": 5627291,
+   "networkRequests": 215,
+   "agentTokens": 10802,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "mastodon-search-6",
+  "site": "mastodon.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 3079,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 23642933,
+   "networkRequests": 226,
+   "agentTokens": 12221,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": [
+    "no recipe registered",
+    "1 golden item(s) missing from the result",
+    "1 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 3258,
+   "threw": false,
+   "bytesDownloaded": 6241447,
+   "networkRequests": 206,
+   "agentTokens": 12221,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "mastodon-search-7",
+  "site": "mastodon.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2206,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 7248621,
+   "networkRequests": 237,
+   "agentTokens": 8185,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": [
+    "no recipe registered",
+    "1 golden item(s) missing from the result",
+    "1 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 6096,
+   "threw": false,
+   "bytesDownloaded": 7248621,
+   "networkRequests": 237,
+   "agentTokens": 8185,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "mastodon-search-8",
+  "site": "mastodon.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 3325,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 15227302,
+   "networkRequests": 227,
+   "agentTokens": 5945,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": [
+    "no recipe registered",
+    "2 golden item(s) missing from the result",
+    "1 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 3162,
+   "threw": false,
+   "bytesDownloaded": 15227302,
+   "networkRequests": 227,
+   "agentTokens": 5945,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": "possible plan aging: item count changed 2 -> 1"
+ },
+ {
+  "taskId": "mastodon-search-9",
+  "site": "mastodon.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 2205,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 8764395,
+   "networkRequests": 214,
+   "agentTokens": 5733,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": [
+    "no recipe registered",
+    "1 golden item(s) missing from the result",
+    "1 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 3453,
+   "threw": false,
+   "bytesDownloaded": 7254614,
+   "networkRequests": 208,
+   "agentTokens": 5733,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "mastodon-search-10",
+  "site": "mastodon.social",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 11794,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 794141,
+   "networkRequests": 9,
+   "agentTokens": 43,
+   "threw": false,
+   "blocked": false,
+   "items": 0,
+   "reasons": [
+    "no recipe registered"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 11641,
+   "threw": false,
+   "bytesDownloaded": 794141,
+   "networkRequests": 9,
+   "agentTokens": 43,
+   "items": 0
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

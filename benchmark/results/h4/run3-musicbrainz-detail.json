@@ -1,0 +1,207 @@
+[
+ {
+  "taskId": "musicbrainz-detail-1",
+  "site": "musicbrainz.org",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 29842,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 2760365,
+   "networkRequests": 27,
+   "agentTokens": 24536,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": [
+    "item count 0 < minItems 1"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 7556,
+   "threw": false,
+   "bytesDownloaded": 2760365,
+   "networkRequests": 27,
+   "agentTokens": 24536,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": false,
+   "query": null,
+   "ordering": null,
+   "reasons": [
+    "field \"artist\" absent from every item"
+   ]
+  },
+  "aging": null
+ },
+ {
+  "taskId": "musicbrainz-detail-2",
+  "site": "musicbrainz.org",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 5950,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 2738977,
+   "networkRequests": 26,
+   "agentTokens": 19272,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": [
+    "item count 0 < minItems 1"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 6196,
+   "threw": false,
+   "bytesDownloaded": 2768944,
+   "networkRequests": 27,
+   "agentTokens": 19272,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": false,
+   "query": null,
+   "ordering": null,
+   "reasons": [
+    "field \"artist\" absent from every item"
+   ]
+  },
+  "aging": null
+ },
+ {
+  "taskId": "musicbrainz-detail-3",
+  "site": "musicbrainz.org",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 7388,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 2718240,
+   "networkRequests": 27,
+   "agentTokens": 14270,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": [
+    "item count 0 < minItems 1"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 5927,
+   "threw": false,
+   "bytesDownloaded": 2756701,
+   "networkRequests": 27,
+   "agentTokens": 14270,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": false,
+   "query": null,
+   "ordering": null,
+   "reasons": [
+    "field \"artist\" absent from every item"
+   ]
+  },
+  "aging": null
+ },
+ {
+  "taskId": "musicbrainz-detail-4",
+  "site": "musicbrainz.org",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 5802,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 2744314,
+   "networkRequests": 27,
+   "agentTokens": 21130,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": [
+    "item count 0 < minItems 1"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 5849,
+   "threw": false,
+   "bytesDownloaded": 2744314,
+   "networkRequests": 27,
+   "agentTokens": 21130,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": false,
+   "query": null,
+   "ordering": null,
+   "reasons": [
+    "field \"artist\" absent from every item"
+   ]
+  },
+  "aging": null
+ },
+ {
+  "taskId": "musicbrainz-detail-5",
+  "site": "musicbrainz.org",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "warm-browser",
+   "latencyMs": 5675,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 2733992,
+   "networkRequests": 27,
+   "agentTokens": 15838,
+   "threw": false,
+   "blocked": false,
+   "items": 1,
+   "reasons": [
+    "item count 0 < minItems 1"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 7284,
+   "threw": false,
+   "bytesDownloaded": 2722268,
+   "networkRequests": 27,
+   "agentTokens": 15838,
+   "items": 1
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": false,
+   "query": null,
+   "ordering": null,
+   "reasons": [
+    "field \"artist\" absent from every item"
+   ]
+  },
+  "aging": null
+ }
+]

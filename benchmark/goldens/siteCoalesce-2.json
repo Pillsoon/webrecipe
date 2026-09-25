@@ -1,0 +1,56 @@
+{
+  "taskId": "siteCoalesce-2",
+  "capturedAt": "2026-09-18T17:10:34.997Z",
+  "items": [
+    {
+      "id": "100",
+      "title": "Senior rust engineer #0 by author-0",
+      "url": "/item/100"
+    },
+    {
+      "id": "104",
+      "title": "Senior elixir engineer #4 by editor-4",
+      "url": "/item/104"
+    },
+    {
+      "id": "108",
+      "title": "Senior python engineer #8 by author-1",
+      "url": "/item/108"
+    },
+    {
+      "id": "112",
+      "title": "Senior go engineer #12 by author-5",
+      "url": "/item/112"
+    },
+    {
+      "id": "116",
+      "title": "Senior typescript engineer #16 by editor-1",
+      "url": "/item/116"
+    },
+    {
+      "id": "120",
+      "title": "Senior rust engineer #20 by author-6",
+      "url": "/item/120"
+    },
+    {
+      "id": "124",
+      "title": "Senior elixir engineer #24 by author-3",
+      "url": "/item/124"
+    },
+    {
+      "id": "128",
+      "title": "Senior python engineer #28 by editor-3",
+      "url": "/item/128"
+    },
+    {
+      "id": "132",
+      "title": "Senior go engineer #32 by author-4",
+      "url": "/item/132"
+    },
+    {
+      "id": "136",
+      "title": "Senior typescript engineer #36 by author-1",
+      "url": "/item/136"
+    }
+  ]
+}

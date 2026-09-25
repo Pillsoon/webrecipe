@@ -1,0 +1,13 @@
+[domain-cache] loaded 1 entries from disk
+[domain-cache] loaded 1 entries from disk
+[unbrowse] ToS check skipped (non-interactive/server mode)
+[perf] marketplace: 69ms (time_saved=100% tokens_saved=100% [estimated])
+[lifecycle] discover=69ms
+[unbrowse] 22s saved (100% faster) • 29,999 tokens saved (100% less context) • $0.090 saved • browser avoided
+[unbrowse] No payout wallet — you won't earn when others reuse your routes. Run: npx @crossmint/lobster-cli setup
+contract: resolution terminal (interpret/verify/adjudicate)
+[09:17:45] [probe] HEAD https://news.ycombinator.com/newest returned 405; trying ranged GET
+
+[unbrowse] Client attestation mismatch (client_verification_failed). Local paths still run.
+[unbrowse] To refresh the shipped binary: npm install -g unbrowse@latest
+[unbrowse] (set UNBROWSE_AUTO_UPDATE=1 to auto-apply once; source checkouts often hit this)

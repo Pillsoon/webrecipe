@@ -1,0 +1,364 @@
+[
+  {
+    "id": "remoteok-search-1",
+    "set": "wild",
+    "site": "remoteok.com",
+    "intent": "search",
+    "input": {
+      "query": "python"
+    }
+  },
+  {
+    "id": "remoteok-search-2",
+    "set": "wild",
+    "site": "remoteok.com",
+    "intent": "search",
+    "input": {
+      "query": "javascript"
+    }
+  },
+  {
+    "id": "remoteok-search-3",
+    "set": "wild",
+    "site": "remoteok.com",
+    "intent": "search",
+    "input": {
+      "query": "golang"
+    }
+  },
+  {
+    "id": "remoteok-search-4",
+    "set": "wild",
+    "site": "remoteok.com",
+    "intent": "search",
+    "input": {
+      "query": "rust"
+    }
+  },
+  {
+    "id": "remoteok-search-5",
+    "set": "wild",
+    "site": "remoteok.com",
+    "intent": "search",
+    "input": {
+      "query": "design"
+    }
+  },
+  {
+    "id": "remoteok-search-6",
+    "set": "wild",
+    "site": "remoteok.com",
+    "intent": "search",
+    "input": {
+      "query": "devops"
+    }
+  },
+  {
+    "id": "remoteok-search-7",
+    "set": "wild",
+    "site": "remoteok.com",
+    "intent": "search",
+    "input": {
+      "query": "react"
+    }
+  },
+  {
+    "id": "remoteok-search-8",
+    "set": "wild",
+    "site": "remoteok.com",
+    "intent": "search",
+    "input": {
+      "query": "data"
+    }
+  },
+  {
+    "id": "remoteok-search-9",
+    "set": "wild",
+    "site": "remoteok.com",
+    "intent": "search",
+    "input": {
+      "query": "security"
+    }
+  },
+  {
+    "id": "remoteok-search-10",
+    "set": "wild",
+    "site": "remoteok.com",
+    "intent": "search",
+    "input": {
+      "query": "support"
+    }
+  },
+  {
+    "id": "itch-search-1",
+    "set": "wild",
+    "site": "itch.io",
+    "intent": "search",
+    "input": {
+      "query": "puzzle"
+    }
+  },
+  {
+    "id": "itch-search-2",
+    "set": "wild",
+    "site": "itch.io",
+    "intent": "search",
+    "input": {
+      "query": "platformer"
+    }
+  },
+  {
+    "id": "itch-search-3",
+    "set": "wild",
+    "site": "itch.io",
+    "intent": "search",
+    "input": {
+      "query": "horror"
+    }
+  },
+  {
+    "id": "itch-search-4",
+    "set": "wild",
+    "site": "itch.io",
+    "intent": "search",
+    "input": {
+      "query": "roguelike"
+    }
+  },
+  {
+    "id": "itch-search-5",
+    "set": "wild",
+    "site": "itch.io",
+    "intent": "search",
+    "input": {
+      "query": "strategy"
+    }
+  },
+  {
+    "id": "itch-search-6",
+    "set": "wild",
+    "site": "itch.io",
+    "intent": "search",
+    "input": {
+      "query": "rpg"
+    }
+  },
+  {
+    "id": "itch-search-7",
+    "set": "wild",
+    "site": "itch.io",
+    "intent": "search",
+    "input": {
+      "query": "shooter"
+    }
+  },
+  {
+    "id": "itch-search-8",
+    "set": "wild",
+    "site": "itch.io",
+    "intent": "search",
+    "input": {
+      "query": "simulation"
+    }
+  },
+  {
+    "id": "itch-search-9",
+    "set": "wild",
+    "site": "itch.io",
+    "intent": "search",
+    "input": {
+      "query": "racing"
+    }
+  },
+  {
+    "id": "itch-search-10",
+    "set": "wild",
+    "site": "itch.io",
+    "intent": "search",
+    "input": {
+      "query": "sports"
+    }
+  },
+  {
+    "id": "arbeitnow-search-1",
+    "set": "wild",
+    "site": "arbeitnow.com",
+    "intent": "search",
+    "input": {
+      "query": "python"
+    }
+  },
+  {
+    "id": "arbeitnow-search-2",
+    "set": "wild",
+    "site": "arbeitnow.com",
+    "intent": "search",
+    "input": {
+      "query": "rust developer"
+    }
+  },
+  {
+    "id": "arbeitnow-search-3",
+    "set": "wild",
+    "site": "arbeitnow.com",
+    "intent": "search",
+    "input": {
+      "query": "data engineer"
+    }
+  },
+  {
+    "id": "arbeitnow-search-4",
+    "set": "wild",
+    "site": "arbeitnow.com",
+    "intent": "search",
+    "input": {
+      "query": "devops"
+    }
+  },
+  {
+    "id": "arbeitnow-search-5",
+    "set": "wild",
+    "site": "arbeitnow.com",
+    "intent": "search",
+    "input": {
+      "query": "frontend"
+    }
+  },
+  {
+    "id": "arbeitnow-search-6",
+    "set": "wild",
+    "site": "arbeitnow.com",
+    "intent": "search",
+    "input": {
+      "query": "machine learning"
+    }
+  },
+  {
+    "id": "arbeitnow-search-7",
+    "set": "wild",
+    "site": "arbeitnow.com",
+    "intent": "search",
+    "input": {
+      "query": "golang"
+    }
+  },
+  {
+    "id": "arbeitnow-search-8",
+    "set": "wild",
+    "site": "arbeitnow.com",
+    "intent": "search",
+    "input": {
+      "query": "security engineer"
+    }
+  },
+  {
+    "id": "arbeitnow-search-9",
+    "set": "wild",
+    "site": "arbeitnow.com",
+    "intent": "search",
+    "input": {
+      "query": "kubernetes"
+    }
+  },
+  {
+    "id": "arbeitnow-search-10",
+    "set": "wild",
+    "site": "arbeitnow.com",
+    "intent": "search",
+    "input": {
+      "query": "zzqqxxnotarealjob"
+    },
+    "expectEmpty": true
+  },
+  {
+    "id": "tildes-search-1",
+    "set": "wild",
+    "site": "tildes.net",
+    "intent": "search",
+    "input": {
+      "query": "rust"
+    }
+  },
+  {
+    "id": "tildes-search-2",
+    "set": "wild",
+    "site": "tildes.net",
+    "intent": "search",
+    "input": {
+      "query": "climate change"
+    }
+  },
+  {
+    "id": "tildes-search-3",
+    "set": "wild",
+    "site": "tildes.net",
+    "intent": "search",
+    "input": {
+      "query": "self hosting"
+    }
+  },
+  {
+    "id": "tildes-search-4",
+    "set": "wild",
+    "site": "tildes.net",
+    "intent": "search",
+    "input": {
+      "query": "privacy"
+    }
+  },
+  {
+    "id": "tildes-search-5",
+    "set": "wild",
+    "site": "tildes.net",
+    "intent": "search",
+    "input": {
+      "query": "linux"
+    }
+  },
+  {
+    "id": "tildes-search-6",
+    "set": "wild",
+    "site": "tildes.net",
+    "intent": "search",
+    "input": {
+      "query": "programming languages"
+    }
+  },
+  {
+    "id": "tildes-search-7",
+    "set": "wild",
+    "site": "tildes.net",
+    "intent": "search",
+    "input": {
+      "query": "housing"
+    }
+  },
+  {
+    "id": "tildes-search-8",
+    "set": "wild",
+    "site": "tildes.net",
+    "intent": "search",
+    "input": {
+      "query": "nuclear"
+    }
+  },
+  {
+    "id": "tildes-search-9",
+    "set": "wild",
+    "site": "tildes.net",
+    "intent": "search",
+    "input": {
+      "query": "kubernetes"
+    }
+  },
+  {
+    "id": "tildes-search-10",
+    "set": "wild",
+    "site": "tildes.net",
+    "intent": "search",
+    "input": {
+      "query": "zzqqxxnotarealtopic"
+    },
+    "expectEmpty": true
+  }
+]

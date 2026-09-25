@@ -1,0 +1,182 @@
+[
+ {
+  "taskId": "loc-list-1",
+  "site": "loc.gov",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 290,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 287643,
+   "networkRequests": 1,
+   "agentTokens": 498,
+   "threw": false,
+   "items": 25,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 3374,
+   "threw": false,
+   "bytesDownloaded": 5403850,
+   "networkRequests": 48,
+   "agentTokens": 9147,
+   "items": 25
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "loc-list-2",
+  "site": "loc.gov",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 1524,
+   "browserLaunches": 0,
+   "politenessWaitMs": 4862,
+   "bytesDownloaded": 292778,
+   "networkRequests": 1,
+   "agentTokens": 679,
+   "threw": false,
+   "items": 25,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 7094,
+   "threw": false,
+   "bytesDownloaded": 5964132,
+   "networkRequests": 48,
+   "agentTokens": 9397,
+   "items": 25
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "loc-list-3",
+  "site": "loc.gov",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 402,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 289268,
+   "networkRequests": 1,
+   "agentTokens": 722,
+   "threw": false,
+   "items": 25,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 3247,
+   "threw": false,
+   "bytesDownloaded": 5128711,
+   "networkRequests": 48,
+   "agentTokens": 9811,
+   "items": 25
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "loc-list-4",
+  "site": "loc.gov",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 468,
+   "browserLaunches": 0,
+   "politenessWaitMs": 4553,
+   "bytesDownloaded": 293109,
+   "networkRequests": 1,
+   "agentTokens": 1026,
+   "threw": false,
+   "items": 25,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 3273,
+   "threw": false,
+   "bytesDownloaded": 5109133,
+   "networkRequests": 39,
+   "agentTokens": 11187,
+   "items": 25
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "loc-list-5",
+  "site": "loc.gov",
+  "set": "wild",
+  "oracleMode": "golden",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 253,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 288582,
+   "networkRequests": 1,
+   "agentTokens": 520,
+   "threw": false,
+   "items": 25,
+   "reasons": []
+  },
+  "baseline": {
+   "latencyMs": 2596,
+   "threw": false,
+   "bytesDownloaded": 4984362,
+   "networkRequests": 37,
+   "agentTokens": 10645,
+   "items": 25
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ }
+]

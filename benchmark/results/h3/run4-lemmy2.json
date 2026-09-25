@@ -1,0 +1,78 @@
+[
+ {
+  "taskId": "lemmy-search-3",
+  "site": "lemmy.world",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 1323,
+   "browserLaunches": 0,
+   "politenessWaitMs": 0,
+   "bytesDownloaded": 436853,
+   "networkRequests": 1,
+   "threw": false,
+   "items": 40,
+   "reasons": [
+    "6 golden item(s) missing from the result",
+    "6 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 13089,
+   "threw": false,
+   "bytesDownloaded": 2893536,
+   "networkRequests": 35,
+   "items": 40
+  },
+  "grade": {
+   "usable": true,
+   "validityReason": null,
+   "excludeReason": null,
+   "entities": true,
+   "query": null,
+   "ordering": null,
+   "reasons": []
+  },
+  "aging": null
+ },
+ {
+  "taskId": "lemmy-search-4",
+  "site": "lemmy.world",
+  "set": "wild",
+  "oracleMode": "paired-live",
+  "engine": {
+   "strategy": "http-html",
+   "latencyMs": 28820,
+   "browserLaunches": 0,
+   "politenessWaitMs": 58766,
+   "bytesDownloaded": 419613,
+   "networkRequests": 1,
+   "threw": false,
+   "items": 40,
+   "reasons": [
+    "4 golden item(s) missing from the result",
+    "4 unexpected item(s) in the result"
+   ]
+  },
+  "baseline": {
+   "latencyMs": 0,
+   "threw": true,
+   "bytesDownloaded": 0,
+   "networkRequests": 0,
+   "items": 0
+  },
+  "grade": {
+   "usable": false,
+   "validityReason": "baseline threw",
+   "excludeReason": "baseline",
+   "entities": null,
+   "query": null,
+   "ordering": null,
+   "reasons": [
+    "baseline threw"
+   ]
+  },
+  "aging": "possible plan aging: item count changed 40 -> 0"
+ }
+]

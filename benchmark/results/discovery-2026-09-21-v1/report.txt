@@ -1,0 +1,66 @@
+baseline: 7f51ca0   cached: false (every request hit the origin)
+domains: 8   learned tasks: 17   evaluated inputs: 84
+skipped: 0
+
+                  correct   wrong   indeterminate
+  verified               14      10            15
+  partially_verified      0       0            41
+  unverified              1       0             0
+  error                   0       0             3
+
+false success (verified + wrong): 10
+  lemmy.world lemmy-detail-1 {"id":"51987178"} — the requested id 51987178 appears nowhere in the answer
+  lemmy.world lemmy-detail-2 {"id":"51930264"} — the requested id 51930264 appears nowhere in the answer
+  lemmy.world lemmy-detail-3 {"id":"47506572"} — the requested id 47506572 appears nowhere in the answer
+  lemmy.world lemmy-detail-4 {"id":"51932662"} — the requested id 51932662 appears nowhere in the answer
+  lemmy.world lemmy-detail-5 {"id":"51997199"} — the requested id 51997199 appears nowhere in the answer
+  dev.to devto-detail-1 {"id":"bengreenberg/jev-vs-claude-who-wins-4mln"} — the requested id bengreenberg/jev-vs-claude-who-wins-4mln appears nowhere in the answer
+  dev.to devto-detail-2 {"id":"ankitpatel_qa/your-ci-runs-tests-in-parallel-your-test-data-doesnt-know-that-2oh"} — the requested id ankitpatel_qa/your-ci-runs-tests-in-parallel-your-test-data-doesnt-know-that-2oh appears nowhere in the answer
+  dev.to devto-detail-3 {"id":"parsajiravand/nestjs-testing-module-provider-overrides-with-cheat-sheet-1o79"} — the requested id parsajiravand/nestjs-testing-module-provider-overrides-with-cheat-sheet-1o79 appears nowhere in the answer
+  dev.to devto-detail-4 {"id":"acegikmo135/jsonparse-throws-on-every-token-your-llm-streams-heres-a-425-byte-fix-1cne"} — the requested id acegikmo135/jsonparse-throws-on-every-token-your-llm-streams-heres-a-425-byte-fix-1cne appears nowhere in the answer
+  dev.to devto-detail-5 {"id":"kostakurta/three-ways-i-miscounted-my-own-ai-agents-and-what-the-transcripts-actually-say-4kjg"} — the requested id kostakurta/three-ways-i-miscounted-my-own-ai-agents-and-what-the-transcripts-actually-say-4kjg appears nowhere in the answer
+
+correct but not verified, by reason:
+  no_visible_lexical_match   1
+
+awaiting manual judgement: 56
+  [partially_verified] hex.pm hex-search-1 {"query":"phoenix"} items=30
+  [partially_verified] hex.pm hex-search-2 {"query":"ecto"} items=30
+  [partially_verified] hex.pm hex-search-3 {"query":"plug"} items=30
+  [partially_verified] hex.pm hex-search-4 {"query":"jason"} items=13
+  [partially_verified] hex.pm hex-search-5 {"query":"telemetry"} items=30
+  [partially_verified] docs.rs docsrs-search-1 {"query":"serde"} items=30
+  [partially_verified] docs.rs docsrs-search-2 {"query":"tokio"} items=30
+  [partially_verified] docs.rs docsrs-search-3 {"query":"clap"} items=30
+  [partially_verified] docs.rs docsrs-search-4 {"query":"regex"} items=30
+  [partially_verified] docs.rs docsrs-search-5 {"query":"rand"} items=30
+  [partially_verified] jsr.io jsr-search-1 {"query":"oak"} items=20
+  [partially_verified] jsr.io jsr-search-2 {"query":"hono"} items=20
+  [partially_verified] jsr.io jsr-search-3 {"query":"zod"} items=20
+  [partially_verified] jsr.io jsr-search-4 {"query":"std"} items=20
+  [partially_verified] jsr.io jsr-search-5 {"query":"fresh"} items=20
+  [partially_verified] meta.discourse.org discourse-search-1 {"query":"ux"} items=30
+  [partially_verified] meta.discourse.org discourse-search-2 {"query":"performance"} items=21
+  [partially_verified] meta.discourse.org discourse-search-3 {"query":"webhooks"} items=30
+  [partially_verified] meta.discourse.org discourse-search-4 {"query":"sso"} items=30
+  [partially_verified] bandcamp.com bandcamp-search-1 {"query":"ambient"} items=60
+  [partially_verified] bandcamp.com bandcamp-search-2 {"query":"jazz"} items=60
+  [partially_verified] bandcamp.com bandcamp-search-3 {"query":"techno"} items=60
+  [partially_verified] bandcamp.com bandcamp-search-4 {"query":"folk"} items=60
+  [partially_verified] lemmy.world lemmy-search-1 {"query":"technology","page":1} items=40
+  [partially_verified] lemmy.world lemmy-search-2 {"query":"asklemmy","page":1} items=40
+  [partially_verified] lemmy.world lemmy-search-3 {"query":"world","page":1} items=40
+  [partially_verified] lemmy.world lemmy-search-4 {"query":"news","page":1} items=40
+  [partially_verified] openlibrary.org openlibrary-search-1 {"query":"now","page":1} items=20
+  [partially_verified] openlibrary.org openlibrary-search-2 {"query":"daily","page":1} items=20
+  [partially_verified] openlibrary.org openlibrary-search-3 {"query":"weekly","page":1} items=20
+  [partially_verified] openlibrary.org openlibrary-search-4 {"query":"monthly","page":1} items=20
+  [partially_verified] openlibrary.org openlibrary-search-5 {"query":"yearly","page":1} items=20
+  [verified] meta.discourse.org discourse-list-1 {"query":"ux","page":1} items=30
+  [verified] meta.discourse.org discourse-list-2 {"query":"ux","page":2} items=24
+  [verified] meta.discourse.org discourse-list-3 {"query":"email","page":1} items=30
+  [verified] meta.discourse.org discourse-list-4 {"query":"docker","page":2} items=30
+  [verified] meta.discourse.org discourse-list-5 {"query":"mobile","page":3} items=30
+  [partially_verified] lemmy.world lemmy-list-1 {"query":"technology","page":1} items=40
+  [partially_verified] lemmy.world lemmy-list-2 {"query":"asklemmy","page":2} items=40
+  [partially_verified] lemmy.world lemmy-list-3 {"query":"world","page":2} items=40

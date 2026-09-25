@@ -1,0 +1,45 @@
+$ tsx src/cli.ts bench run --tasks benchmark/heldout4.json --only devto-list --json benchmark/results/h4/run1-devto-list.json
+Wild
+  Tasks:             5
+  Browser-free:      0%   (L0 + L1)
+  Full-browser avoidance: 100%   (L0 + L1 + L2)
+  Levels:            L0 0%  L1 0%  L2 100%  L3 0%
+  Blocked:           0 (site refused the recipe; ran on the browser)
+  Median latency:    2193ms (baseline 2437ms)
+  Median speedup:    1.1x
+  Median site speedup: 1.1x
+  Politeness wait:   0ms median (excluded from latency above)
+  Data fetched:      3010KB median (baseline 3010KB)  1.0x less
+  Requests:          44 median (baseline 44)
+  Agent reads:       8347 tokens median (baseline 8347)  1.0x less
+  Correctness
+    Baseline validity:  5/5 usable          (0 excluded)
+    No stored golden:   0 excluded
+    Entity equivalence: 100%
+    Query semantics:    not declared
+    Ordering:           not judgeable
+
+robots.txt status of wild sites
+  pkg.go.dev: disallowed for crawlers (user-agent posture, see spec section 6)
+  crates.io: allowed
+  hn.algolia.com: allowed
+  hex.pm: allowed
+  docs.rs: allowed
+  flathub.org: allowed
+  jsr.io: allowed
+  tildes.net: allowed
+  remoteok.com: allowed
+  itch.io: allowed
+  arbeitnow.com: allowed
+  archive.org: allowed
+  meta.discourse.org: allowed
+  loc.gov: allowed
+  bandcamp.com: allowed
+  lemmy.world: allowed
+  openlibrary.org: allowed
+  mastodon.social: allowed
+  pixelfed.social: allowed
+  musicbrainz.org: allowed
+  dev.to: allowed
+  npmjs.com: allowed
+

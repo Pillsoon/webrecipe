@@ -1,0 +1,54 @@
+[unbrowse] Running setup checks
+[09:13:18] [setup] detected host environment: unknown
+[09:13:18] [setup] local identity wallet ready in ~/.unbrowse: EQpRaT1MsnbAKK2C6MQ8Qm35apTCQtMeVGcF7GJMvq6g
+
+[unbrowse setup] Flex escrow funding (required for paid calls)
+  Pre-deposit USDC into a Flex escrow PDA so the platform can
+  settle creator payments off-chain in batches.
+  Fund it via the web flow:
+    open https://unbrowse.ai/account/escrow
+  Server-side priced calls will return 402 with
+  X-Flex-Onboarding-Required: 1 until this step is done.
+
+[unbrowse setup] Flex session key registration
+  Register an Ed25519 session key against your escrow so the
+  SDK can sign payment authorizations off-chain.
+  Register it via the web flow:
+    open https://unbrowse.ai/account/session-key
+
+[unbrowse setup] ✓ Ready — runtime + Agent Skill installed.
+  Wallet is optional (sponsored usage works without one).
+  Pair later to earn: npx @crossmint/lobster-cli setup
+  Dashboard:         unbrowse dashboard
+[unbrowse] Wallet configured (unbrowse-local): linked
+[unbrowse] Email provider: Gmail (via GWS) — autonomous login enabled
+[unbrowse] Skill install skipped (--no-skill).
+[unbrowse] MCP host registration skipped — setup installs the Agent Skill/CLI only.
+[unbrowse] ToS check skipped (non-interactive/server mode)
+[unbrowse] Trying a quick first resolve (jsonplaceholder)...
+[unbrowse] ToS check skipped (non-interactive/server mode)
+[09:13:20] [probe] HEAD https://jsonplaceholder.typicode.com failed: fetch failed; trying ranged GET
+[marketplace] search: 0 domain + 0 global results (532ms)
+[marketplace] viable=0/0 candidates (threshold=0.3), top=n/a skill=n/a
+[direct-fetch] https://jsonplaceholder.typicode.com skipped: fetch failed
+[marketplace] timeout after 800ms — returning cache miss
+[09:13:21] [curl-impersonate] TLS-impersonation rung unavailable: no python interpreter with curl_cffi (tried UNBROWSE_PYTHON, a local venv, python3, python). Anti-bot hosts that need a Chrome TLS fingerprint will fall through to the browser ladder. Fix: pip install curl_cffi (or set UNBROWSE_PYTHON to an interpreter that has it).
+[ddg] $0 fallback failed: ddg failed: 502 
+[unbrowse] obscura not installed; falling through to CDP (kuri).
+[09:13:22] [auth] no vault cookies for jsonplaceholder.typicode.com — auto-extracting from browser
+[unbrowse] No reusable route found on the demo site yet.
+[unbrowse] Next step:
+[unbrowse]   unbrowse capture --url "https://jsonplaceholder.typicode.com" --intent "list all posts"
+[unbrowse] 
+[unbrowse] Setup complete. Try it now (one call — resolve + execute):
+[unbrowse]   unbrowse "top stories with point counts" --url https://news.ycombinator.com
+[unbrowse] 
+[unbrowse] Or any site:
+[unbrowse]   unbrowse "<what you want>" --url "https://example.com"
+[unbrowse] 
+[unbrowse] Check health anytime:
+[unbrowse]   unbrowse health
+[unbrowse] 
+[unbrowse] Optional — pair a dashboard account later:
+[unbrowse]   unbrowse register --email you@example.com
+[unbrowse]   unbrowse dashboard
