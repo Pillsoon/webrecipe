@@ -6,7 +6,7 @@
     "node": ">=22"
   },
   "bin": {
-    "webrecipe": "./dist/src/cli.js"
+    "webrecipe": "dist/src/cli.js"
   },
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
@@ -41,7 +41,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Pillsoon/webrecipe.git"
+    "url": "git+https://github.com/Pillsoon/webrecipe.git"
   },
   "keywords": [
     "web",
