@@ -58,7 +58,7 @@ export function summarizeUsage(events: UsageEvent[]) {
     medianRunWallMs: times.length ? (times[Math.floor((times.length-1)/2)]! + times[Math.floor(times.length/2)]!) / 2 : null,
     browserFreeRuns: runs.filter(e => e.ok === true && (e.meta as {browserLaunches?:number} | undefined)?.browserLaunches === 0).length,
     feedback: {correct: [...feedback.values()].filter(v => v === 'correct').length, wrong: [...feedback.values()].filter(v => v === 'wrong').length},
-    recent: finishes.slice(-10).map(({id,command,site,intent,ok,wallMs,error}) => ({id,command,site,intent,ok,wallMs,error})),
+    recent: finishes.slice(-10).map(({id,command,via,site,intent,ok,wallMs,error}) => ({id,command,via,site,intent,ok,wallMs,error})),
   }
 }
 

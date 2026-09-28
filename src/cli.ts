@@ -150,7 +150,7 @@ program.command('list').description('list saved recipes and where they are store
   })
 
 program.command('mcp').description('serve inspect, save, fetch and list as MCP tools over stdio')
-  .action(async () => { await serveMcp(program.opts().dataDir) })
+  .action(async () => { await serveMcp(program.opts().dataDir, { log: program.opts().log }) })
 
 program
   .command('read')
